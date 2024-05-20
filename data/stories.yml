@@ -1,0 +1,142 @@
+version: "3.1"
+
+stories:
+
+- story: no ayuda
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_ok
+  - action: utter_goodbye
+
+- story: ayuda path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_help
+  - action: utter_info
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: ayuda path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_help
+  - action: utter_info
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: informacion carrera
+  steps:
+  - intent: give_info
+    entities:
+    - career: derecho
+  - slot_was_set:
+    - career: derecho
+  - intent: confirm_career
+  - action: action_say_career
+
+- story: informacion trimestre
+  steps:
+  - intent: give_info
+    entities:
+    - trimester: "1"
+  - slot_was_set:
+    - trimester: "1"
+  - action: utter_goodbye
+
+- story: informacion status
+  steps:
+  - intent: give_info
+    entities:
+    - status: regular
+  - slot_was_set:
+    - status: regular
+  - action: utter_goodbye
+
+- story: informacion carrera y trimestre
+  steps:
+  - intent: give_info
+    entities:
+    - career: derecho
+    - trimester: "1"
+  - slot_was_set:
+    - career: derecho
+  - slot_was_set:
+    - trimester: "1"
+  - action: action_say_career
+
+- story: informacion carrera y solicitud requerimientos titulo
+  steps:
+  - intent: give_info
+    entities:
+    - career: derecho
+  - slot_was_set:
+    - career: derecho
+  - intent: info_requirements_degree
+  - action: action_say_requirements
+
+- story: solicitud requerimientos titulo
+  steps:
+  - intent: info_requirements_degree
+    entities:
+    - career: economia
+  - slot_was_set:
+    - career: economia
+  - action: action_say_requirements
+
+- story: uea por trimestre 1
+  steps:
+  - intent: info_uea_per_trimester
+    entities:
+    - trimester: '5'
+    - career: computacion
+  - slot_was_set:
+    - career: computacion
+  - slot_was_set:
+    - trimester: '5'
+  - action: action_say_uea_per_trimester
+  - action: utter_goodbye
+
+- story: uea por trimestre 2
+  steps:
+  - intent: give_info
+    entities:
+    - trimester: '5'
+    - career: computacion
+  - slot_was_set:
+    - career: computacion
+  - slot_was_set:
+    - trimester: '5'
+  - intent: info_uea_per_trimester
+  - action: action_say_uea_per_trimester
+
+- story: estatus regular
+  steps:
+  - intent: alumno_regular
+  - slot_was_set:
+    - status: true
+  - action: utter_alumno_regular
+
+- story: estatus irregular
+  steps:
+  - intent: alumno_irregular
+  - slot_was_set:
+    - status: false
+  - action: utter_alumno_irregular
+
+- story: informacion carrera y trimestre alumno regular
+  steps:
+  - intent: give_info+alumno_regular
+    entities:
+    - career: derecho
+    - trimester: '5'
+  - slot_was_set:
+    - career: derecho
+  - slot_was_set:
+    - trimester: '5'
+  - slot_was_set:
+    - status: true

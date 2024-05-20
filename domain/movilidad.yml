@@ -1,0 +1,113 @@
+version: "3.1"
+
+intents:
+  - movilidad
+  - movilidad_tiempo
+  - uea_para_movilidad
+
+responses:
+  utter_movilidad/requisitos:
+    - text: "Para realizar la movilidad se debe:\n
+    - Tener cubierto al menos el 50% de los créditos académicos del plan de estudios al que pertenecen.\n
+    - Estar inscrito al trimestre correspondiente con o sin carga académica.\n
+    - Contar con 8.0 un promedio mínimo para postular a la mayoría de universidades y para la unidad Azcapozalco.\n
+    - Para las licenciaturas en Administración, Derecho, Diseño, Ciencias de la Comunicación e Ingeniería en Computación, es necesario tener cubierto el nivel de formación básica."
+
+  utter_movilidad/convocatorias:
+    - text: "Las convocatorias vigentes se pueden consultar en la página de la UAM: https://www.cua.uam.mx/uam-cuajimalpa/coordinaciones-administrativas/coordinacion-de-extension-universitaria/intercambio-y-movilidad/convocatorias-de-movilidad"
+  
+  utter_movilidad_tiempo/trimestre:
+    - text: "La movilidad se puede hacer en cualquier momento una vez se cumplan los requisitos."
+  
+  utter_movilidad_tiempo/tiempo:
+    - text: "Si no se reprueban materias, la movilidad dura durante un periodo de la universidad receptora."
+
+  utter_advertencia:
+    - text: "Dependiendo del calendario de la UAM y el de la universidad receptora, es posible que no se tenga que perder un trimestre de la UAM."
+
+  utter_movilidad/destinos:
+    - text: "Para cumplir con los requisitos de movilidad, se tienen tres tipos de intercambios:
+    - Nacional: Se puede ir a universidades nacionales que tienen convenio con la UAM
+    - Internacional: Se puede ir a universidades internacionales que tienen convenio con la UAM
+    - Intra-UAM: Se puede ir a otra unidad de la UAM"
+
+  utter_movilidad/destinos_nacional:
+    - text: "Las universidades pueden cambiar de convocatoria a convocatoria, pero se pueden consultar los convenios activos en: https://vinculacion.uam.mx/documentos/convenios/MEXICO.pdf"
+
+  utter_movilidad/destinos_internacional:
+    - text: "Las universidades pueden cambiar de convocatoria a convocatoria, pero se pueden consultar los convenios activos de cada país en: https://vinculacion.uam.mx/convenios_general.html"
+  
+  utter_movilidad/creditos:
+    - text: "Ni importas los creditos de las materias que se cursaran en la universidad receptora. Una vez aprobadas, se les asignara los créditos necesarios segun el plan de estudios de la carrera."
+
+  utter_movilidad/becas_internacional:
+    - text: "La UAM ofrece dos tipos de becas para movilidad internacional:
+    - En caso de convenio de reciprocidad, la universidad receptora puede ofrecer estancia y alimento. Por su parte la UAM puede ofrecer apoyo para el transporte.
+    - De lo contrario, la UAM puede otorgar una beca de apoyo para el transporte, estancia y alimentación de acuerdo al país donde se encuentre la universidad receptora."
+
+  utter_movilidad/becas_nacional:
+    - text: "La UAM ofrece una beca de apoyo para el transporte, estancia y alimentación de acuerdo al estado donde se encuentre la universidad receptora."
+
+  utter_movilidad/beca_intraUAM:
+    - text: "La UAM no ofrece becas para movilidad Intra-UAM o Intra-Cuajimalpa."
+
+  utter_movilidad/beca_informacion:
+    - text: "Las becas se comparten con las démas unidades de la UAM. Para más información sobre las becas de movilidad, se puede consultar la página de la UAM: https://becas.uam.mx/becas-licenciatura/"
+
+  utter_movilidad/clases:
+    - text: "No es necesario que la las materias seleccionadas sean de la misma carrera que se cursa en Cuajimalpa. Solamente es necesario que el tutor académico y el coordinador de la carrera aprueben las materias."
+
+  utter_movilidad/cantidad_clases:
+    - text: "Para realizar la primera solicitud es necesario solicitar las cuatro UEAs de movilidad.
+    En caso de que no se acepten las solicitudes o se reprueben, se pueden cursar las materias faltantes en ciclos posteriores."
+
+  utter_movilidad/idioma:
+    - text: "El idioma que se necesita para solicitad una plaza es de acuerdo al idioma en el que se impartiran las clases, no a el idioma oficial del país."
+  
+  utter_movilidad/rfc:
+    - text: "Para el campo de RFC solo requieres registrar tu CURP hasta la fecha de nacimiento en la solicitud."
+
+  utter_movilidad/datos:
+    - text: "Todos los datos académicos necesarios para el llenado de la solicitud, pueden encontrarse en el combo movilidad, o en la constancia de estudios actualizada."
+
+  utter_movilidad/creditos_cubiertos:
+    - text: "En el módulo de información escolar, en el apartado de información académica se encuentra la pesteña de créditos cubiertos\n
+    Se recomienda que para rellenar la solicitud de movilidad se utilice el valor que aparece en el combo de movilidad."
+
+  utter_movilidad/trimestre_solicitud:
+    - text: "Para realizar la solicitud de movilidad, se hace referencia al número de trimestre académico en el que se ubica de acuerdo con los trimestres totales de la licenciatura a la que está inscrito.\n
+    Para estar seguro de en qué trimestre se encuentra, se puede consultar el combo de movilidad."
+
+  utter_movilidad/apartado_asignaturas:
+    - text: "Cómo debo llenar el apartado de asignaturas."
+
+  utter_movilidad/firmas:
+    - text: "Debes escribir en cada uno de los recuadros correspondientes el nombre del coordinador de estudios y tutor académico, así como recabar las firmas de cada uno.."
+  
+  utter_movilidad/problemas_tutor:
+    - text: "Si tienes problemas con tu tutor académico, puedes acudir con el coordinador de la carrera e indicarle tu situación."
+  
+  utter_movilidad/combo_movilidad:
+    - text: "El combo movilidad es un paquete de documentos emitidos por la Coordinación de Servicios Escolares.\n
+    Se conforma por la constancia de créditos y promedio, constancia de inscripción, comprobante de inscripción/reinscripción, historial y revisión académicos, todos ellos actualizados.\n
+    El combo movilidad es uno de los requisitos para el trámite de movilidad. Se puede solicitar directamente en las ventanillas de la Coordinación de Sistemas Escolares o al correo ccse@cua.uam.mx."
+
+  utter_movilidad/carta_motivos:
+    - text: "Es una carta en formato libre. Debes de expresar los motivos académicos por los cuales deseas realizar tu movilidad en esa institución o licenciatura.
+    Así como, el impacto benéfico que el intercambio y la experiencia traerá consigo a tu desarrollo académico, laboral y personal.\n
+    Debe llevar obligatoriamente la fecha de emisión, el nombre y la firma del solicitante."
+
+  utter_movilidad/promedio_bajo:
+    - text: "Las unidades de la UAM (a excepción de Azcapotzalco) no tienen restricción de promedio."
+
+  utter_movilidad/multiples_solicitudes:
+    - text: "Solo se puede hacer una solicitud por convocatoria. Es decir, no se pueden hacer solicitudes de respaldo.\n
+    También se tiene que tomar en cuenta que la movilidad nacional e internacional se abren en la misma convocatoria, por lo cual no se puede pedir una universidaad nacional y otra internacional al mismo tiempo."
+
+  utter_movilidad/formacion_basica:
+    - text: "Para las licenciaturas en Administración, Derecho, Diseño, Ciencias de la Comunicación e Ingeniería en Computación, es necesario tener cubierto el nivel de formación básica.\n
+    En caso de que solo falten materias de formación básica, se puede solicitar la movilidad, pero se debe de cursar se puede firmar una carta compromiso en la cual se afirme que se acreditaran todas las materias de4 formación básica antes de la movilidad
+    antes de iniciar la movilidad.\n
+    En caso de que no se acrediten las materias de formación básica, se cancelará la movilidad."
+
+  

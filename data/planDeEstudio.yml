@@ -1,0 +1,253 @@
+version: "3.1"
+
+nlu:
+
+- intent: info_uea_per_trimester
+  examples: |
+    - que materias debo cursar en el [1er]{"entity": "trimester", "value": "1"} trimestre?
+    - que ueas debo de tomar?
+    - que materias deberia de tomar este trimestre?
+    - que ueas me tocan este trimestre?
+    - que materias tengo que cursar en el [2do]{"entity": "trimester", "value": "2"} trimestre?
+    - que ueas se toman en [derecho](career) en el [3er]{"entity": "trimester", "value": "3"} trimestre?
+    - estoy en el [4to]{"entity": "trimester", "value": "4"} trimestre de [economia](career), que materias tengo que cursar?
+    - estudio la carrera de [computacion](career) y estoy en el [5to]{"entity": "trimester", "value": "5"} trimestre, que materias tengo que cursar?
+    - si estudio [ingenieria en computacion](career) en el trimestre [xi]{"entity": "trimester", "value": "11"}, que materias tengo que cursar?
+
+- intent: info_requirements_degree
+  examples: |
+    - que necesito cumplir para obtener mi titulo?
+    - que necesito para graduarme?
+    - que necesito para terminar mi carrera?
+    - que necesito para obtener mi titulo?
+    - que necesito para obtener el titulo de la carrera de [computacion](career)?
+    - que necesito para graduarme de [diseño](career)?
+    - que necesito para terminar la carrera de [derecho](career)?
+    - cuales son los requisitos para obtener mi titulo?
+    - cuales son los requisitos para graduarme?
+    - cuales son los requisitos para terminar mi carrera?
+    - estoy estudiando la carrera de [economia](career), que necesito para obtener mi titulo?
+
+- intent: serializacion_uea
+  examples: |
+    - que materias debo de aprobar para poder cursar [Programación Orientada a Objetos]{"entity": "uea", "value": "programacion orientado a objetos"}?
+    - [introducción al pensamiento matématico]{"entity": "uea", "value": "introduccion al pensamiento matematico"} tiene serializacion
+    - hay alguna materia que sea necesaria par cursar [sistemas distribuidos](uea)
+    - que materias debo de cursar antes de [Interfaces de Usuario]{"entity": "uea", "value": "interfaces de usuario"}
+    - que materias abre la uea [Computo concurrente]{"entity": "uea", "value": "computo concurrente"}
+    - que materias debo de cursar para cursar [temas selectos en computacion iii](uea)
+    - que materias debo de cursar para cursar [temas selectos en computacion ii](uea)
+    - que materias debo de cursar para cursar [Temas selectos en Computación I]{"entity": "uea", "value": "temas selectos en computacion i"}
+    - que materias debo de cursar para cursar [Seminario de Sustentabilidad]{"entity": "uea", "value": "seminario de sustentabilidad"}
+    - que materias debo aprobar para estudiar [calculo II]{"entity": "uea", "value": "calculo ii"}
+    - que materias debo aprobar para cursar [algebra superior i](uea)
+    - que materias debo aprobar para cursar [Algebra Superior ii](uea){"entity": "uea", "value": "algebra superior ii"}
+    - que materias abre [taller de algoritmos](uea)
+    - que materias abre [Taller de Algoritmos]{"entity": "uea", "value": "taller de algoritmos"}
+    - para que materias es necesario haber aprobado [Taller de algoritmos]{"entity": "uea", "value": "taller de algoritmos"}
+    - que materias debo de haber cursado para cursar [Traductores]{"entity": "uea", "value": "traductores"}
+    - en [computacioón]{"entity": "career", "value": "computacion"} que materias debo de cursar antes de [Sistemas operativos]{"entity": "uea", "value": "sistemas operativos"}
+    - que materias debo de cursar para cursara [Teoria de automatas y lenguajes]{"entity": "uea", "value": "teoria de automatas y lenguajes"}
+    - que uas debo de haber aprobado para cursar [calculo ii](uea)
+    - que uas debo de haber aprobado para cursar [Seguridad]{"entity": "uea", "value": "seguridad"}
+    - estudio [computacion](career) y quiero saber que uas debo cursar antes de [Minería de Datos]{"entity": "uea", "value": "mineria de datos"}
+
+- lookup: career
+  examples: |
+    - computacion
+    - diseño
+    - derecho
+    - economia
+    - comunicacion
+    - tecnologias
+    - administracion
+    - humanidades
+    - socioterritoriales
+    - molecular
+    - biologica
+    - matematicas
+
+- lookup: trimester
+  examples: |
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+    - "11"
+    - "12"
+
+- synonym: computacion
+  examples: |
+    - ingenieria en computacion
+    - ingenieria en computación
+    - ingenieria computacion
+    - ingenieria computación
+    - computacion
+    - computación
+
+- synonym: comunicacion
+  examples: |
+    - ciencias de la comunicacion
+    - ciencias de la comunicación
+    - comunicacion
+    - comunicación
+
+- synonym: tecnologias
+  examples: |
+    - tecnologias
+    - sistemas
+    - sistemas de informacion
+    - tecnologias y sistemas de informacion
+    - tecnologías
+    - sistemas de información
+    - tecnologías y sistemas de información
+
+- synonym: socioterritoriales
+  examples: |
+    - ciencias socioterritoriales
+    - socioterritoriales
+
+- synonym: molecular
+  examples: |
+    - biologia molecular
+    - biología molecular
+    - molecular
+
+- synonym: biologica
+  examples: |
+    - biologia
+    - ingenieria biologica
+    - ingenieria biológica
+    - biológica
+    - biologica
+
+- synonym: matematicas
+  examples: |
+    - matematicas
+    - matemáticas
+    - matematica
+    - matemática
+    - matematicas aplicadas
+    - matemáticas aplicadas
+
+- synonym: "1"
+  examples: |
+    - un
+    - uno
+    - primer
+    - primero
+    - 1er
+    - i
+
+- synonym: "2"
+  examples: |
+    - dos
+    - segundo
+    - 2do
+    - ii
+
+- synonym: "3"
+  examples: |
+    - tres
+    - tercer
+    - tercero
+    - 3er
+    - iii
+
+- synonym: "4"
+  examples: |
+    - cuatro
+    - cuarto
+    - 4to
+    - iv
+
+- synonym: "5"
+  examples: |
+    - cinco
+    - quinto
+    - 5to
+    - v
+
+- synonym: "6"
+  examples: |
+    - seis
+    - sexto
+    - 6to
+    - vi
+
+- synonym: "7"
+  examples: |
+    - siete
+    - septimo
+    - 7mo
+    - vii
+
+- synonym: "8"
+  examples: |
+    - ocho
+    - octavo
+    - 8vo
+    - viii
+
+- synonym: "9"
+  examples: |
+    - nueve
+    - noveno
+    - 9no
+    - ix
+
+- synonym: "10"
+  examples: |
+    - diez
+    - decimo
+    - 10mo
+    - x
+
+- synonym: "11"
+  examples: |
+    - once
+    - onceavo
+    - 11vo
+    - xi
+
+- synonym: "12"
+  examples: |
+    - doce
+    - doceavo
+    - 12vo
+    - xii
+
+stories:
+
+- story: serializacion
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "programacion orientado a objetos"
+  - action: action_say_serializacion
+
+- story: serializacion 2
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "introduccion al pensamiento matematico"
+  - slot_was_set:
+    - career: "matematicas"
+  - action: action_say_serializacion
+
+- story: serializacion 3
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "sistemas distribuidos"
+  - action: action_say_serializacion
+  - intent: give_info
+  - slot_was_set:
+    - career: "computacion"
+  - action: action_say_serializacion

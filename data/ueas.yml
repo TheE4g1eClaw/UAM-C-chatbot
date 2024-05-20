@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+  - lookup: uea
+    examples: |
+      - introduccion al pensamiento matematico
+      - taller de literacidad academica
+      - taller de matematicas
+      - seminario de sustentabilida
+      - algebra superior i
+      - algebra superior ii
+      - introduccion al calculo
+      - calculo i
+      - calculo ii
+      - taller de algoritmos
+      - programacion estructurada
+      - estructuras de datos lineales
+      - estructuras de datos no lineale
+      - algebra lineal i
+      - programacion orientada a objetos
+      - arquitectura de computadoras
+      - fundamentos de ingenieria de software
+      - proyecto de ingenieria de software i
+      - analisis y diseno de algoritmos
+      - sistemas digitales
+      - probabilidad y estadistic
+      - analisis de requerimientos
+      - calidad y pruebas
+      - administracion de proyectos
+      - microcontroladores
+      - sistemas operativos
+      - analisis y diseno orientado a objetos
+      - bases de datos
+      - introduccion a las redes de computadoras
+      - sistemas distribuidos
+      - desarrollo de software a gran escala
+      - interfaces de usuario
+      - proyecto de ingenieria de software ii
+      - computo concurrente
+      - teoria de automatas y lenguajes
+      - traductores
+      - proyecto terminal i
+      - proyecto terminal ii
+      - proyecto terminal iii
+      - optativas de orientacion
+      - optativas divisionales e interdivisionales
+      - optativas de movilidad de intercambi
+      - computacion evolutiva
+      - inteligencia de enjambre
+      - aprendizaje automatico
+      - seguridad
+      - administracion y configuracion de redes de computadoras
+      - algoritmos distribuidos
+      - programacion para moviles
+      - bases de datos avanzadas
+      - datos a gran escala
+      - mineria de datos
+      - visualizacion y graficacion
+      - visualizacion y dispositivos sensoriales
+      - diseno de interfaces avanzadas
+      - graficacion por computadora
+      - procesamiento de imagenes
+      - vision computacional
+      - ingenieria de pruebas
+      - metodologias agiles de desarrollo de software
+      - patrones de diseno y arquitectura de software
+      - desarrollo de aplicaciones web
+      - temas selectos en computacion i
+      - temas selectos en computacion ii
+      - temas selectos en computacion iii
