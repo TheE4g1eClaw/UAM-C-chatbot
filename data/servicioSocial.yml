@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+
+- intent: servicio/requisitos
+  examples: |
+    - cuales son los requisitos para hacer servicio social
+    - que necesito para hacer servicio social
+    - cuando puedo hacer el servicio social
+    - cuales son los requisitos para hacer el servicio social
+    -
+
+- intent: servicio/periodo
+  examples: |
+    - cuanto dura el servicio social
+    - puedo hacer el servicio social en 3 meses
+    - en cuanto tiempo debo hacer el servicio social
+    - cuanto tiempo dura el servicio social
+    - en cuanto tiempo debo hacer el servicio social
+
+- intent: servicio/instituciones
+  examples: |
+    - en que instituciones puedo hacer el servicio social
+    - cuales son las instituciones donde puedo hacer el servicio social
+    - que instituciones aceptan servicio social
+    - cuales son las instituciones que aceptan servicio social
+    - cuales son las instituciones donde puedo hacer servicio social
+
+- intent: servicio/institucion_privada
+  examples: |
+    - puedo hacer el servicio social en una institucion privada
+    - en una institucion privada puedo hacer servicio social
+    - que instituciones privadas aceptan servicio social
+    - cuales son las instituciones privadas que aceptan servicio social
+    - cuales son las instituciones privadas donde puedo hacer servicio social
+    - si una empresa privada acepta servicio social, puedo hacerlo ahi
+    - me pueden autorizar hacer el servicio social en una empresa privada
+    - la empresa donde trabajo acepta servicio social, puedo hacerlo ahi
+    - puedo hacer el servicio social en una empresa privada
+
+- intent: servicio/error_registro
+  examples: |
+    - aunque tengo el 70% de los creditos aprobados, no puedo registrarme en el sistema para hacer el servicio social
+    - el sistema dice que todavia no tengo los creditos necesarios para hacer el servicio social
+    - aunque tengo el 70% de los creditos aprobados, no puedo registrarme en el sistema para hacer el servicio social
+
+- intent: servicio_paso_1
+  examples: |
+    - que debo hacer para empezar el servicio social
+    - cuales son los pasos para hacer el servicio social
+    - que debo hacer para hacer el servicio social
+    - cuales son los pasos para empezar el servicio social
+    - que debo hacer para empezar el servicio social
+    - cuales son los pasos para hacer el servicio social
+    - que debo hacer para hacer el servicio social
+    - cuales son los pasos para empezar el servicio social
+    - que es lo primero que debo de hace
+    - donde puedo consultar los proyectos de servicio social
+    - donde puedo ver los proyectos de servicio social
+    - como puedo ver los proyectos de servicio social
+    - que proyectos hay para el servicio social
+    - que hago una vez cumpli con los requisitos para hacer el servicio social
+    - que hago una vez cumplo los requisitos para hacer el servicio social
+    - que hago para iniciar mi servicio social
+
+- intent: servicio_paso_2
+  examples: |
+    - encontre un proyecto que me interesa, que debo hacer
+    - que hago si encontre un proyecto que me interesa
+    - que debo hacer si encontre un proyecto que me interesa
+    - que hago si encontre un proyecto que me interesa
+    - a quien debo de contactar si encontre un proyecto que me interesa
+    - debo de preguntar algo a la oficina de servicio social si encontre un proyecto que me interesa
+    - con quien debo de hablar si encontre un proyecto que me interesa
+
+- intent: servicio_paso_3
+  examples: |
+    - que debo hacer si el responsable del proyecto me autoriza
+    - que hago si el responsable del proyecto me autoriza
+    - que debo hacer si el responsable del proyecto me autoriza
+    - que hago si el responsable del proyecto me autoriza
+    - a quien debo de contactar si el responsable del proyecto me autoriza
+    - debo de preguntar algo a la oficina de servicio social si el responsable del proyecto me autoriza
+    - con quien debo de hablar si el responsable del proyecto me autoriza
+    - ya me autorizaron el proyecto, ahora que
+    - ya me autorizaron el proyecto, que sigue
+    - ya me autorizaron el proyecto, que debo hacer
+    - ya me dijeron que si lo puedo realizar
+
+stories:
+
+- story: pregunta servicio social
+  steps:
+  - intent: servicio
+  - action: utter_servicio
+
+- story: proceso servicio social 1
+  steps:
+  - intent: servicio_paso_1
+  - action: utter_servicio_paso_1
+  - intent: servicio_paso_2
+  - action: utter_servicio_paso_2
+  - intent: servicio_paso_3
+  - action: utter_servicio_paso_3
+
+- story: proceso servicio social 2
+  steps:
+  - intent: servicio_paso_1
+  - action: utter_servicio_paso_1
+  - intent: siguiente
+  - action: utter_servicio_paso_2
+  - intent: servicio_paso_3
+  - action: utter_servicio_paso_3
+
+- story: proceso servicio social 3
+  steps:
+  - intent: servicio_paso_1
+  - action: utter_servicio_paso_1
+  - intent: servicio_paso_2
+  - action: utter_servicio_paso_2
+  - intent: siguiente
+  - action: utter_servicio_paso_3
+
+- story: proceso servicio social 4
+  steps:
+  - intent: servicio_paso_1
+  - action: utter_servicio_paso_1
+  - intent: siguiente
+  - action: utter_servicio_paso_2
+  - intent: siguiente
+  - action: utter_servicio_paso_3

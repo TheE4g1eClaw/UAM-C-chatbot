@@ -1,0 +1,344 @@
+version: "3.1"
+
+nlu:
+
+- intent: movilidad/requisitos
+  examples: |
+    - que necesito para irme de intercambio
+    - que necesito para hacer movilidad
+    - que necesito para irme de intercambio
+    - que necesito para hacer intercambio
+    - que necesito para iniciar la movilidad
+    - que necesito para cursar mis optativas de movilidad
+    - cuales son los requisitos para irme de intercambio
+
+- intent: movilidad/convocatorias
+  examples: |
+    - cuales son las convocatorias activas
+    - donde puedo consultar las convocatorias
+    - donde puedo ver las convocatorias
+    - donde puedo ver informacion sobre los procesos activos
+
+- intent : movilidad_tiempo/trimestre
+  examples: |
+    - cuando puedo iniciar la movilidad
+    - cuando se debe de iniciar la movilidad
+    - cuando me debo de ir de intercambio
+    - es necesario que la movilidad se curse en el trimestre que se muestra en el plan de estudio
+    - puedo irme de intercambio en cualquier trimestre
+    - puedo cursar la movilidad despues
+    - puedo dejar la movilidad antes
+
+- intent: movilidad_tiempo/tiempo
+  examples: |
+    - cuanto tiempo dura la movilidad
+    - que pasa si la universidad a la que quiero ir maneja semestres en lugar de trimestres
+
+- intent: movilidad/destinos
+  examples: |
+    - a donde puedo ir de intercambio
+    - cuales son los destinos de intercambio
+    - que destinos hay para intercambio
+    - con que universidades me puedo ir de movilidad
+
+- intent: movilidad/destinos_nacional
+  examples: |
+    - puedo irme de intercambio a otra universidad en Mexico
+    - puedo irme de intercambio a otra universidad en el pais
+    - puedo irme de intercambio a otra universidad en la ciudad
+    - puedo irme de intercambio a otra universidad en el estado
+    - que universidades nacionales tienen convenio con la UAM
+    - a que universidades nacionales puedo irme de intercambio
+    - con que universidades nacionales puedo irme de intercambio
+    - con que univerrsidades nacionales puedo realizar movilidad
+    - a que universidades de Mexico puedo irme de movilidad
+    - con que universidades de Mexico puedo realizar movilidad
+
+- intent: movilidad/destinos_internacional
+  examples: |
+    - puedo irme de intercambio a otra universidad en el extranjero
+    - puedo irme de intercambio a otra universidad en otro pais
+    - puedo irme de intercambio a otra universidad en otro continente
+    - puedo irme de intercambio a otra universidad en otro hemisferio
+    - que universidades internacionales tienen convenio con la UAM
+    - a que universidades internacionales puedo irme de intercambio
+    - con que universidades internacionales puedo irme de intercambio
+    - con que universidades internacionales puedo realizar movilidad
+    - a que universidades del extranjero puedo irme de movilidad
+    - con que universidades del extranjero puedo realizar movilidad
+
+- intent: movilidad/creditos
+  examples: |
+    - que pasa si los creditos de las materias que cursare en la universidad receptora no coinciden con los del plan de estudios
+    - que pasa si las materias que cursare en la universidad receptora no tienen creditos
+    - que pasa si las materias que cursare en la universidad receptora no tienen equivalencia a las de la UAM
+    - que pasa si las materias que cursare en la universidad receptora no tienen equivalencia a las de mi carrera
+    - las materias que tengo que solicitar para la movilidad tienen que tener los mismos creditos que las de la UAM
+    - las materias que tengo que solicitar para la movilidad tienen que tener los mismos creditos que las de mi carrera
+    - importan los creditos de las materias que cursare en la universidad receptora
+    - importan los creditos de las materias que cursare en la universidad de destino
+    - importan los creditos de las clases
+    - importan los creditos de las materias
+    - importan los creditos de las asignaturas
+    - los creditos importan para las clases que quiero pedir
+
+- intent: movilidad/becas_internacional
+  examples: |
+    - que apoyos ofrece la UAM para movilidad internacional
+    - que becas ofrece la UAM para movilidad internacional
+    - que opoyos ofrece la UAM para estudiar en el extranjero
+    - que becas ofrece la UAM para estudiar en el extranjero
+    - que apoyos ofrece la UAM para estudiar en el extranjero
+    - que becas ofrece la UAM para estudiar en el extranjero
+    - que apoyos ofrece la UAM para estudiar en otro pais
+    - que becas ofrece la UAM para estudiar en otro pais
+    - hay becas para movilidad internacional
+    - hay becas para estudiar en el extranjero
+    - hay becas para estudiar en otro pais
+    - hay becas para estudiar en otro continente
+    - hay becas para estudiar en otro hemisferio
+    - donde puedo consultar las becas para movilidad internacional
+    - donde puedo consultar las becas para estudiar en el extranjero
+    - donde puedo consultar las becas para estudiar en otro pais
+    - donde puedo consultar las becas para estudiar en otro continente
+    - si quiero estudiar en otro pais, puedo solicitar una beca
+    - si quiero estudiar en otro pais, puedo solicitar un apoyo
+    - si quiero estudiar en otro pais, la UAM ofrece algun apoyo
+    - si quiero estudiar en otro pais, la UAM ofrece alguna beca
+    - si quiero estudiar en otro pais, la UAM ofrece algun tipo de apoyo
+
+- intent: movilidad/becas_nacional
+  examples: |
+    - que apoyos ofrece la UAM para movilidad nacional
+    - que becas ofrece la UAM para movilidad nacional
+    - que opoyos ofrece la UAM para estudiar en Mexico
+    - que becas ofrece la UAM para estudiar en Mexico
+    - que apoyos ofrece la UAM para estudiar en otro estado
+    - que becas ofrece la UAM para estudiar en otro estado
+    - que apoyos ofrece la UAM para estudiar en otro estado
+    - que becas ofrece la UAM para estudiar en otro estado
+    - hay becas para movilidad nacional
+    - hay becas para estudiar en Mexico
+    - hay becas para estudiar en otro estado
+    - hay becas para estudiar en otro estado
+    - hay becas para estudiar en otro estado
+    - donde puedo consultar las becas para movilidad nacional
+    - donde puedo consultar las becas para estudiar en Mexico
+    - donde puedo consultar las becas para estudiar en otro estado
+    - donde puedo consultar las becas para estudiar en otro estado
+    - si quiero estudiar en otro estado, puedo solicitar una beca
+    - si quiero estudiar en otro estado, puedo solicitar un apoyo
+    - si quiero estudiar en otro estado, la UAM ofrece algun apoyo
+    - si quiero estudiar en otro estado, la UAM ofrece alguna beca
+    - si quiero estudiar en otro estado, la UAM ofrece algun tipo de apoyo
+
+- intent: movilidad/clases
+  examples: |
+    - que materias puedo cursar durante la movilidad
+    - las materias de movilidad tienen que ser exactamente las mismas que las de la UAM
+    - puedo cursasr materias de una carrera relacionada a la mia durante la movilidad
+    - puedo cursar materias de otra carrera durante la movilidad
+    - el intercambio tiene que ser de la misma carrera
+
+- intent: movilidad/cantidad_clases
+  examples: |
+    - cuantas materias debo de cursar durante la movilidad
+    - cuantas materias debo de cursar en la universidad receptora
+    - cuantas materias debo de cursar en la universidad de destino
+    - cuantas materias debo de cursar en la universidad a la que me voy
+    - cuantas materias debo de cursar en la universidad a la que me intercambio
+    - puedo cursar solo una clase durante la movilidad
+    - puedo cursar solamente dos clases durante la movilidad
+    - puedo cursar solo tres clases durante la movilidad
+    - necesito tomar las cuatro clases en un solo trimestre
+    - tengo que aprobar todas las materias en un solo trimestre
+    - si repruebo una materia, tengo que cursar las cuatro materias nuevamente
+
+- intent: movilidad/idioma
+  examples: |
+    - que idioma debo de hablar para irme de intercambio
+    - que idioma debo de hablar para hacer movilidad
+    - si la clase que quiero cursar esta en otro idioma, puedo cursarla
+
+- intent: movilidad/rfc
+  examples: |
+    - que debo hacer si no tengo RFC
+    - que pasa si no tengo RFC
+    - donde puedo sacar mi RFC
+    - como obtengo mi RFC
+    - que es el RFC
+    - tengo que conseguir mi RFC
+    - tengo que tener RFC
+    - es necesario el RFC
+    - necesito el RFC
+    - necesito tener RFC
+    - puedo dejar el RFC para despues
+    - puedo dejar el RFC para mas adelante
+
+- intent: movilidad/datos
+  examples: |
+    - donde puedo obtener los datos que se piden en la solicitud
+    - si tengo dudas sobre los datos que se piden en la solicitud, donde puedo consultar
+    - necesito ponerme en contacto con servicios escolares para obtener los datos que se piden en la solicitud
+    - como puedo calcular mi promedio
+    - como puedo obtener mi promedio
+    - como puedo saber mi promedio
+    - como puedo saber mi promedio para solicitar la movilidad
+
+- intent: movilidad/creditos_cubiertos
+  examples: |
+    - como se si tengo cubiertos los creditos
+    - como se si tengo cubiertos los creditos de mi carrera
+    - donde puedo ver la cantidad de creditos que tengo cubiertos
+    - donde puedo ver la cantidad de creditos que tengo cubiertos de mi carrera
+    - como puedo calcular la cantidad de creditos que tengo cubiertos
+    - donde consulto mi progreso de creditos
+    - donde consulto mi progreso de creditos de mi carrera
+
+- intent: movilidad/trimestre_solicitud
+  examples: |
+    - como se contabilizan los trimestres
+    - tengo que poner el trimestre en el que estoy en la solicitud
+    - en el apartado de trimestre debo de poner el trimestre en el que la movilidad esta en el plan de estudios
+    - en el apartado de trimestre debo de poner el trimestre en el que la movilidad esta en el plan de estudios de mi carrera
+    - debo de poner el trimestre que aparece en el plan de estudios
+    - como se que trimestre debo de poner en la solicitud
+    - si soy irregular debo de poner cuantos trimestres llevo cursados
+    - debo de poner que trimestre estoy cursando o que trimestre voy a cursar
+    - debo de poner el trimestre que voy a cursar en la universidad receptora
+
+- intent: movilidad/apartado_asignaturas
+  examples: |
+    - como debo llenar el apartado de asignaturas
+    - como se llena el apartado de asignaturas
+    - como se llena el apartado de asignaturas de la solicitud
+    - que materias se deben de poner en el apartado de asignaturas de la UAM
+    - que materias se deben de poner en el apartado de asignaturas de la universidad receptora
+
+- intent: movilidad/firmas
+  examples: |
+    - que firmas necesito recolectar
+    - que firmas necesito recabar
+    - quien me necesita autorizar para irme de intercambio
+    - quien me necesita autorizar para hacer movilidad
+    - que firmas necesito para hacer movilidad
+    - que firmas necesito para irme de intercambio
+    - necesito la firma del tutor academico
+    - necesito la firma del coordinador de la carrera
+
+- intent: movilidad/problemas_tutor
+  examples: |
+    - que hago si no puedo contactar a mi tutor academico
+    - que hago si mi tutor academico no me responde
+    - que hago si mi tutor academico esta de sabatico
+    - que pasa si mi tutor academico no esta disponible
+    - mi tutor esta ausente
+    - mi tutor no esta disponible
+    - mi tutor no me responde
+    - mi tutor no contesta
+    - no me puedo contactar con mi tutor academico
+
+- intent: movilidad/combo_movilidad
+  examples: |
+    - que es el combo de movilidad
+    - donde puedo consultar el combo de movilidad
+    - donde puedo conseguir el combo de movilidad
+    - que es el combo de movilidad y donde lo consigo
+    - que es el combo de movilidad y donde lo encuentro
+    - como solicito el combo de movilidad
+    - como obtengo el combo de movilidad
+
+- intent: movilidad/carta_motivos
+  examples: |
+    - que datos debe contener la carta de exposicion de motivos
+    - como redacto la carta de exposicion de motivos
+    - como escribo la carta de exposicion de motivos
+    - que debo poner en la carta de exposicion de motivos
+    - que datos lleva la carta de exposicion de motivos
+    - que formato debe tener la carta de exposicion de motivos
+    - la carta de exposicion de motivos debe de tener algun formato
+
+- intent: movilidad/promedio_bajo
+  examples: |
+    - que pasa si mi promedio es menor a 8
+    - que pasa si mi promedio es menor a 8.0
+    - mi promedio es menor a 8
+    - mi promedio es menor a 8.0
+    - no alcanzo el promedio de 8
+    - mi promedio es de 7
+    - mi promedio es de 7.5
+    - mi promedio es de 7.9
+    - mi promedio es de 6
+    - mi promedio es de 6.5
+    - que hago si no alcanzo el promedio para ninguna universidad
+
+- intent: movilidad/multiples_solicitudes
+  examples: |
+    - puedo solicitar movilidad a mas de una universidad
+    - puedo hacer solicitudes de respaldo 
+    - puedo solicitar movilidad a mas de una universidad
+    - puedo solicitar una universidad nacional y una internacional
+    - hay problema si solicito mas de una universidad
+    - cuantas solicitudes puedo hacer
+    - cuantas universidades puedo solicitar
+    - cuantas solicitudes puedo hacer por convocatoria
+
+- intent: movilidad/formacion_basica
+  examples: |
+    - tengo el 50% de creditos pero debo materias
+    - tengo los creditos pero me faltan materias
+    - tengo los creditos pero me faltan materias de formacion basica
+    - tengo los creditos necesarios pero me faltan materias de formacion basica
+    - todavia debo materias de formacion basica
+
+- intent: uea_para_movilidad
+  examples: |
+    - que uas necesita haber cursado para solicitar la movilidad
+    - que ueas necesito haber cursado para solicitar la movilidad
+    - si quiero cursar la movilidad, que ueas necesito haber cursado
+    - cuales materias no debo tener reprobadas para solicitar la movilidad
+    - cuales materias no debo tener pendientes para solicitar la movilidad
+    - hay materias que no me permitan cursar la movilidad
+    - hay materias que no me permitan solicitar la movilidad
+    - hay materias que no me permitan irme de intercambio
+    - hay materias que no me permitan hacer movilidad
+    - que materias no debo tener reprobadas para solicitar la movilidad
+    - si estudio [derecho](career), que materias no debo tener reprobadas para solicitar la movilidad
+    - que materias ya debi de haber cursado para solicitar la movilidad si estudio [derecho](career)
+    - que materias necesito haber aprobado para cursar movilidad
+    - si debo materias puedo irme de movilidad
+
+
+rules:
+
+- rule: Responder pregunta movilidad
+  steps:
+  - intent: movilidad
+  - action: utter_movilidad
+
+- rule: Responder pregunta del tiempo de movilida
+  steps:
+  - intent: movilidad_tiempo
+  - action: utter_movilidad_tiempo
+  - action: utter_advertencia
+
+stories:
+
+- story: UEAs para movilidad 1
+  steps:
+  - intent: give_info
+    entities:
+    - career: derecho
+  - slot_was_set:
+    - career: derecho
+  - intent: uea_para_movilidad
+  - action: action_uea_para_movilidad
+
+- story: UEAs para movilidad 2
+  steps:
+  - intent: uea_para_movilidad
+    entities:
+    - career: computacion
+  - slot_was_set:
+    - career: computacion
+  - action: action_uea_para_movilidad

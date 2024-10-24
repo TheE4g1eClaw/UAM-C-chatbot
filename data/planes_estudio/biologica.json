@@ -1,0 +1,633 @@
+{
+    "name": "Ingeniería Biológica",
+    "pagina": "https://dcni.cua.uam.mx/oferta/biologica",
+    "formacion_inicial": [
+        "Taller de Matemáticas",
+        "Introducción al Pensamiento Matemático",
+        "Taller de Literacidad Académica",
+        "Seminario sobre Sustentabilidad"
+    ],
+    "divisional": [],
+    "formacion_basica": [
+        "Introducción a la Ingeniería Biológica",
+        "Sistemas Biológicos",
+        "Cálculo Diferencial",
+        "Laboratorio de Ciencias I",
+        "Química",
+        "Física I",
+        "Bioquímica I",
+        "Cálculo Integral",
+        "Álgebra Lineal",
+        "Química Orgánica",
+        "Física II",
+        "Bioquímica II",
+        "Ecuaciones Diferenciales",
+        "Laboratorio de Ciencias II",
+        "Balance de Materia",
+        "Termodinámica",
+        "Estadística",
+        "Introducción a la Programación",
+        "Balance de Energía",
+        "Fisicoquímica",
+        "Taller de Métodos Numéricos",
+        "Técnicas Instrumentales Modernas",
+        "Laboratorio de Ciencias III"
+    ],
+    "formacion_profesional": [
+        "Biología Molecular",
+        "Microbiología",
+        "Flujo de Fluidos",
+        "Optitativas Interdivisionales",
+        "Ingeniería Genética y Técnicas Moleculares",
+        "Diseño y Análisis de Experimentos",
+        "Transferencia de Calor y Masa",
+        "Coloides e Interfases",
+        "Bioinformática",
+        "Laboratorio de Ingeniería I",
+        "Optativas Divisionales",
+        "Operaciones Unitarias",
+        "Estructura Molecular de Biomateriales",
+        "Optativas de Orientación",
+        "Ingeniería Económica",
+        "Ingeniería de Biorreactores I",
+        "Seminario en Ingeniería Ambiental",
+        "Seminario en Ingeniería en Alimentos",
+        "Optativas de Movilidad de Intercambio",
+        "Proyecto Terminal I",
+        "Diseño y Simulación de Bioprocesos",
+        "Ingeniería de Biorreactores II",
+        "Procesos de Separación",
+        "Laboratorio de Ingeniería II",
+        "Proyecto Terminal II"
+    ],
+    "optativas": [
+        "Temas Selectos en Ciencias I",
+        "Temas Selectos en Ciencias II",
+        "Temas Selectos en Ingeniería Biológica I",
+        "Temas Selectos en Ingeniería Biológica II",
+        "Temas Selectos en Ingeniería Biológica III",
+        "Metodologías de Evaluación Cuantitativa de Proyectos Sustentables"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción a la Ingeniería Biológica": {
+            "clave": "4604058",
+            "creditos": 10,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la ingenieria biologica"
+        },
+        "Taller de Matemáticas": {
+            "clave": "4600000",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de matematicas"
+        },
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000001",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Sistemas Biológicos": {
+            "clave": "4602006",
+            "creditos": 9,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "sistemas biologicos"
+        },
+        "Cálculo Diferencial": {
+            "clave": "4602001",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "calculo diferencial"
+        },
+        "Laboratorio de Ciencias I": {
+            "clave": "4602019",
+            "creditos": 5,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de ciencias i"
+        },
+        "Química": {
+            "clave": "4602010",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "quimica"
+        },
+        "Física I": {
+            "clave": "4602015",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fisica i"
+        },
+        "Bioquímica I": {
+            "clave": "4602007",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4602006"
+            ],
+            "nombre_normalizado": "bioquimica i"
+        },
+        "Cálculo Integral": {
+            "clave": "4602002",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4602001"
+            ],
+            "nombre_normalizado": "calculo integral"
+        },
+        "Álgebra Lineal": {
+            "clave": "4604054",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "algebra lineal"
+        },
+        "Química Orgánica": {
+            "clave": "4602011",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4602010"
+            ],
+            "nombre_normalizado": "quimica organica"
+        },
+        "Física II": {
+            "clave": "4602016",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fisica ii"
+        },
+        "Bioquímica II": {
+            "clave": "4602008",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4602007"
+            ],
+            "nombre_normalizado": "bioquimica ii"
+        },
+        "Ecuaciones Diferenciales": {
+            "clave": "4602003",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4602002"
+            ],
+            "nombre_normalizado": "ecuaciones diferenciales"
+        },
+        "Laboratorio de Ciencias II": {
+            "clave": "4602020",
+            "creditos": 5,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de ciencias ii"
+        },
+        "Balance de Materia": {
+            "clave": "4604050",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4602010"
+            ],
+            "nombre_normalizado": "balance de materia"
+        },
+        "Termodinámica": {
+            "clave": "4602012",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "termodinamica"
+        },
+        "Biología Molecular": {
+            "clave": "4602025",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4602007"
+            ],
+            "nombre_normalizado": "biologia molecular"
+        },
+        "Estadística": {
+            "clave": "4602004",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "estadistica"
+        },
+        "Introducción a la Programación": {
+            "clave": "4604055",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la programacion"
+        },
+        "Balance de Energía": {
+            "clave": "4604051",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4604050",
+                "4602003"
+            ],
+            "nombre_normalizado": "balance de energia"
+        },
+        "Fisicoquímica": {
+            "clave": "4602013",
+            "creditos": 9,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4602012"
+            ],
+            "nombre_normalizado": "fisicoquimica"
+        },
+        "Microbiología": {
+            "clave": "4602009",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4602025",
+                "4602008"
+            ],
+            "nombre_normalizado": "microbiologia"
+        },
+        "Taller de Métodos Numéricos": {
+            "clave": "4602005",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4602003",
+                "4604055"
+            ],
+            "nombre_normalizado": "taller de metodos numericos"
+        },
+        "Flujo de Fluidos": {
+            "clave": "4604057",
+            "creditos": 9,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4604050"
+            ],
+            "nombre_normalizado": "flujo de fluidos"
+        },
+        "Técnicas Instrumentales Modernas": {
+            "clave": "4602014",
+            "creditos": 9,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4602016"
+            ],
+            "nombre_normalizado": "tecnicas instrumentales modernas"
+        },
+        "Optitativas Interdivisionales": {
+            "clave": "",
+            "creditos": 24,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optitativas interdivisionales",
+            "trimestres": [
+                6,
+                9,
+                12
+            ]
+        },
+        "Ingeniería Genética y Técnicas Moleculares": {
+            "clave": "4602026",
+            "creditos": 9,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4602009"
+            ],
+            "nombre_normalizado": "ingenieria genetica y tecnicas moleculares"
+        },
+        "Diseño y Análisis de Experimentos": {
+            "clave": "4602022",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4602004"
+            ],
+            "nombre_normalizado": "diseño y analisis de experimentos"
+        },
+        "Laboratorio de Ciencias III": {
+            "clave": "4602021",
+            "creditos": 5,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de ciencias iii"
+        },
+        "Transferencia de Calor y Masa": {
+            "clave": "4604052",
+            "creditos": 9,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4604051"
+            ],
+            "nombre_normalizado": "transferencia de calor y masa"
+        },
+        "Coloides e Interfases": {
+            "clave": "4604056",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4602013"
+            ],
+            "nombre_normalizado": "coloides e interfases"
+        },
+        "Bioinformática": {
+            "clave": "4602027",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4602025"
+            ],
+            "nombre_normalizado": "bioinformatica"
+        },
+        "Laboratorio de Ingeniería I": {
+            "clave": "4602039",
+            "creditos": 5,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4602022"
+            ],
+            "nombre_normalizado": "laboratorio de ingenieria i"
+        },
+        "Optativas Divisionales": {
+            "clave": "",
+            "creditos": 16,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales",
+            "trimestres": [
+                8,
+                12
+            ]
+        },
+        "Operaciones Unitarias": {
+            "clave": "4604053",
+            "creditos": 9,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4604052",
+                "4604057"
+            ],
+            "nombre_normalizado": "operaciones unitarias"
+        },
+        "Estructura Molecular de Biomateriales": {
+            "clave": "4602029",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4604056"
+            ],
+            "nombre_normalizado": "estructura molecular de biomateriales"
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 27,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                9,
+                12
+            ]
+        },
+        "Ingeniería Económica": {
+            "clave": "4602035",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "ingenieria economica"
+        },
+        "Ingeniería de Biorreactores I": {
+            "clave": "4602033",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4604052"
+            ],
+            "nombre_normalizado": "ingenieria de biorreactores i"
+        },
+        "Seminario en Ingeniería Ambiental": {
+            "clave": "4602038",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4604051"
+            ],
+            "nombre_normalizado": "seminario en ingenieria ambiental"
+        },
+        "Seminario en Ingeniería en Alimentos": {
+            "clave": "4602037",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario en ingenieria en alimentos"
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 36,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio"
+        },
+        "Proyecto Terminal I": {
+            "clave": "4602041",
+            "creditos": 10,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4602035"
+            ],
+            "nombre_normalizado": "proyecto terminal i"
+        },
+        "Diseño y Simulación de Bioprocesos": {
+            "clave": "4602023",
+            "creditos": 9,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4602005",
+                "4602033",
+                "4602035"
+            ],
+            "nombre_normalizado": "diseño y simulacion de bioprocesos"
+        },
+        "Ingeniería de Biorreactores II": {
+            "clave": "4602034",
+            "creditos": 10,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [
+                "4602033"
+            ],
+            "nombre_normalizado": "ingenieria de biorreactores ii"
+        },
+        "Procesos de Separación": {
+            "clave": "4604059",
+            "creditos": 9,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4604053"
+            ],
+            "nombre_normalizado": "procesos de separacion"
+        },
+        "Laboratorio de Ingeniería II": {
+            "clave": "4602040",
+            "creditos": 5,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de ingenieria ii"
+        },
+        "Proyecto Terminal II": {
+            "clave": "4602042",
+            "creditos": 12,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [
+                "4602041"
+            ],
+            "nombre_normalizado": "proyecto terminal ii"
+        },
+        "Temas Selectos en Ciencias I": {
+            "clave": "4602043",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos en ciencias i"
+        },
+        "Temas Selectos en Ciencias II": {
+            "clave": "4602044",
+            "creditos": 8,
+            "trimestre": 12,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos en ciencias ii"
+        },
+        "Temas Selectos en Ingeniería Biológica I": {
+            "clave": "4602051",
+            "creditos": 9,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos en ingenieria biologica i",
+            "trimestres": [
+                9,
+                12
+            ]
+        },
+        "Temas Selectos en Ingeniería Biológica II": {
+            "clave": "4602052",
+            "creditos": 9,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos en ingenieria biologica ii",
+            "trimestres": [
+                9,
+                12
+            ]
+        },
+        "Temas Selectos en Ingeniería Biológica III": {
+            "clave": "4602053",
+            "creditos": 9,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos en ingenieria biologica iii",
+            "trimestres": [
+                9,
+                12
+            ]
+        },
+        "Metodologías de Evaluación Cuantitativa de Proyectos Sustentables": {
+            "clave": "4602058",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "metodologias de evaluacion cuantitativa de proyectos sustentables",
+            "trimestres": [
+                9,
+                12
+            ]
+        }
+    }
+}

@@ -1,0 +1,415 @@
+version: "3.1"
+
+nlu:
+
+- intent: info_uea_per_trimester
+  examples: |
+    - que materias debo cursar en el [1er]{"entity": "trimester", "value": "1"} trimestre?
+    - que ueas debo de tomar?
+    - que materias deberia de tomar este trimestre?
+    - que ueas me tocan este trimestre?
+    - que materias tengo que cursar en el [2do]{"entity": "trimester", "value": "2"} trimestre?
+    - que ueas se toman en [derecho](career) en el [3er]{"entity": "trimester", "value": "3"} trimestre?
+    - estoy en el [4to]{"entity": "trimester", "value": "4"} trimestre de [economia](career), que materias tengo que cursar?
+    - estudio la carrera de [computacion](career) y estoy en el [5to]{"entity": "trimester", "value": "5"} trimestre, que materias tengo que cursar?
+    - si estudio [ingenieria en computacion](career) en el trimestre [xi]{"entity": "trimester", "value": "11"}, que materias tengo que cursar?
+    - Hola. Estudio [computación]{"entity": "career", "value": "computacion"} y quiero saber que UEAs debo cursar en el [tercer]{"entity": "trimester", "value": "3"} trimestre
+    - Que materias debo de cursar en el [quinto]{"entity": "trimester", "value": "5"} trimestre de [administración]{"entity": "career", "value": "administracion"}?
+    - Que materias debo de cursar en el [sexto]{"entity": "trimester", "value": "6"} trimestre de [humanidades](career)?
+    - estudio [computacion] y quiero saber que materias debo cursa en el trimestre [6](trimester)
+    - estudio [computacion] y quiero saber que materias debo cursar en el [7mo]{"entity": "trimester", "value": "7"} trimestre
+    - estudio [socioterritoriales](career) y quiero saber que materias debo cursar en el [8vo]{"entity": "trimester", "value": "8"} trimestre
+    - estoy en la carrera de [biologia](career) y quiero saber que materias debo cursar en el  trimestre [9]{"entity": "trimester", "value": "9"}
+
+- intent: info_requirements_degree
+  examples: |
+    - que necesito cumplir para obtener mi titulo?
+    - que necesito para graduarme?
+    - que necesito para terminar mi carrera?
+    - que necesito para obtener mi titulo?
+    - que necesito para obtener el titulo de la carrera de [computacion](career)?
+    - que necesito para graduarme de [diseño](career)?
+    - que necesito para terminar la carrera de [derecho](career)?
+    - cuales son los requisitos para obtener mi titulo?
+    - cuales son los requisitos para graduarme?
+    - cuales son los requisitos para terminar mi carrera?
+    - estoy estudiando la carrera de [economia](career), que necesito para obtener mi titulo?
+
+- intent: serializacion_uea
+  examples: |
+    - que materias debo de aprobar para poder cursar [Programación Orientada a Objetos]{"entity": "uea", "value": "programacion orientado a objetos"}?
+    - [introducción al pensamiento matématico]{"entity": "uea", "value": "introduccion al pensamiento matematico"} tiene serializacion
+    - hay alguna materia que sea necesaria par cursar [sistemas distribuidos](uea)
+    - que materias debo de cursar antes de [Interfaces de Usuario]{"entity": "uea", "value": "interfaces de usuario"}
+    - que materias abre la uea [Computo concurrente]{"entity": "uea", "value": "computo concurrente"}
+    - que materias debo de cursar para cursar [temas selectos en computacion iii](uea)
+    - que materias debo de cursar para cursar [temas selectos en computacion ii](uea)
+    - que materias debo de cursar para cursar [Temas selectos en Computación I]{"entity": "uea", "value": "temas selectos en computacion i"}
+    - que materias debo de cursar para cursar [Seminario de Sustentabilidad]{"entity": "uea", "value": "seminario de sustentabilidad"}
+    - que materias debo aprobar para estudiar [calculo II]{"entity": "uea", "value": "calculo ii"}
+    - que materias debo aprobar para cursar [algebra superior i](uea)
+    - que materias debo aprobar para cursar [Algebra Superior ii](uea){"entity": "uea", "value": "algebra superior ii"}
+    - que materias abre [taller de algoritmos](uea)
+    - que materias abre [Taller de Algoritmos]{"entity": "uea", "value": "taller de algoritmos"}
+    - para que materias es necesario haber aprobado [Taller de algoritmos]{"entity": "uea", "value": "taller de algoritmos"}
+    - que materias debo de haber cursado para cursar [Traductores]{"entity": "uea", "value": "traductores"}
+    - en [computacioón]{"entity": "career", "value": "computacion"} que materias debo de cursar antes de [Sistemas operativos]{"entity": "uea", "value": "sistemas operativos"}
+    - que materias debo de cursar para cursara [Teoria de automatas y lenguajes]{"entity": "uea", "value": "teoria de automatas y lenguajes"}
+    - que uas debo de haber aprobado para cursar [calculo ii](uea)
+    - que uas debo de haber aprobado para cursar [Seguridad]{"entity": "uea", "value": "seguridad"}
+    - estudio [computacion](career) y quiero saber que uas debo cursar antes de [Minería de Datos]{"entity": "uea", "value": "mineria de datos"}
+    - hay alguna materia que sea necesaria par cursar [administracion y configuracion de redes de computadoras](uea)
+    - que materias debo aprobar para cursar [diseño de interfaces avanzadas](uea)
+    - que necesito para cursar la uea con clave [4604032](clave)
+    - que materias debo de cursar para cursar la materia con clave [4604037](clave)
+    - hay alguna materia que sea necesaria par cursar [4213063](clave)
+
+- intent: info_uea
+  examples: |
+    - cuando se recomienda cursar [Programación Orientada a Objetos]{"entity": "uea", "value": "programacion orientado a objetos"}?
+    - cuantos creditos aporta [introducción al pensamiento matématico]{"entity": "uea", "value": "introduccion al pensamiento matematico"}
+    - cual es la clave de [sistemas distribuidos](uea)
+    - cual es la materia con clave [4213064](clave)
+    - cuando se cursa [Interfaces de Usuario]{"entity": "uea", "value": "interfaces de usuario"}
+    - que informacion me puedes dar de [Computo concurrente]{"entity": "uea", "value": "computo concurrente"}
+    - que información tienes de [sistemas digitales](uea)
+    - que información tienes sobre la uea de [sistemas digitales](uea)
+    - que informacion tienes acerca de [Taller de Matematicas]{"entity": "uea", "value": "taller de matematicas"}
+    - que información tienes de [ilustración]{"entity": "uea", "value": "ilustracion"}
+    - que sabes sobre (cartel)[uea]
+
+- intent: optativas_carrera
+  examples: |
+    - cuales son las optativas de [computacion](career)
+    - que materias optativas hay en [tecnologias](career)
+    - que ues optativas ofrece la carrera de [comunicacion](career)
+    - que optativas hay en mi carrera
+    - que optativas de orientacion hay en [Ingenieria en Computacion]{"entity": "career", "value": "computacion"}
+    - que optativas hay en la carrera de [diseño](career)
+
+- intent: pagina_carrera
+  examples: |
+    - donde puedo encontrar informacion de la carrera de [computacion](career)
+    - donde puedo encontrar informacion de la carrera de [economia](career)
+    - donde puedo ver la plantilla del personal academico de [derecho](career)
+    - donde puedo encontrar el correo del coordinador de mi carrera
+
+- intent: plan_estudios
+  examples: |
+    - donde puedo encontrar el plan de estudios de [computacion](career)
+    - me puedes dar mas informacion sobre el plan de estudios de [derecho](career)
+    - que se estudia en la carrera de [comunicacion](career)
+    - que cubre el programa de la uea [taller de matematicas](uea)
+    - que materias se ven en la carrera de [tecnologias](career)
+    - me puedes dar mas información
+    - sobre que trata la carrera de [socioterritoriales](career)
+    - de que trata la uea [programacion orientado a objetos](uea)
+    - que se estudia en la uea (sistemas digitales)[uea]
+
+- lookup: career
+  examples: |
+    - derecho
+    - computacion
+    - economia
+    - comunicacion
+    - tecnologias
+    - administracion
+    - humanidades
+    - socioterritoriales
+    - molecular
+    - biologica
+    - matematicas
+
+- lookup: trimester
+  examples: |
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+    - "11"
+    - "12"
+
+- synonym: computacion
+  examples: |
+    - ingenieria en computacion
+    - ingenieria en computación
+    - ingenieria computacion
+    - ingenieria computación
+    - computacion
+    - computación
+
+- synonym: comunicacion
+  examples: |
+    - ciencias de la comunicacion
+    - ciencias de la comunicación
+    - comunicacion
+    - comunicación
+
+- synonym: tecnologias
+  examples: |
+    - tecnologias
+    - sistemas
+    - sistemas de informacion
+    - tecnologias y sistemas de informacion
+    - tecnologías
+    - sistemas de información
+    - tecnologías y sistemas de información
+
+- synonym: socioterritoriales
+  examples: |
+    - ciencias socioterritoriales
+    - socioterritoriales
+
+- synonym: biologia
+  examples: |
+    - biologia molecular
+    - biología molecular
+    - molecular
+
+- synonym: biologica
+  examples: |
+    - biológica
+    - ingenieria biologica
+    - ingenieria biológica
+    - biológica
+    - biologica
+
+- synonym: matematicas
+  examples: |
+    - matematicas
+    - matemáticas
+    - matematica
+    - matemática
+    - matematicas aplicadas
+    - matemáticas aplicadas
+
+- synonym: "1"
+  examples: |
+    - un
+    - uno
+    - primer
+    - primero
+    - 1er
+
+- synonym: "2"
+  examples: |
+    - dos
+    - segundo
+    - 2do
+
+- synonym: "3"
+  examples: |
+    - tres
+    - tercer
+    - tercero
+    - 3er
+
+- synonym: "4"
+  examples: |
+    - cuatro
+    - cuarto
+    - 4to
+
+- synonym: "5"
+  examples: |
+    - cinco
+    - quinto
+    - 5to
+
+- synonym: "6"
+  examples: |
+    - seis
+    - sexto
+    - 6to
+
+- synonym: "7"
+  examples: |
+    - siete
+    - septimo
+    - 7mo
+
+- synonym: "8"
+  examples: |
+    - ocho
+    - octavo
+    - 8vo
+
+- synonym: "9"
+  examples: |
+    - nueve
+    - noveno
+    - 9no
+
+- synonym: "10"
+  examples: |
+    - diez
+    - decimo
+    - 10mo
+
+- synonym: "11"
+  examples: |
+    - once
+    - onceavo
+    - 11vo
+
+- synonym: "12"
+  examples: |
+    - doce
+    - doceavo
+    - 12vo
+
+stories:
+
+- story: serializacion
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "programacion orientado a objetos"
+  - action: action_say_serializacion
+
+- story: serializacion 2
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "introduccion al pensamiento matematico"
+  - slot_was_set:
+    - career: "matematicas"
+  - action: action_say_serializacion
+
+- story: serializacion 3
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "sistemas distribuidos"
+  - action: action_say_serializacion
+  - intent: give_info
+  - slot_was_set:
+    - career: "computacion"
+  - action: action_say_serializacion
+
+- story: serializacion clave
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - clave: "4600022"
+  - action: action_say_serializacion
+  - intent: give_info
+
+- story: serializacion multiple
+  steps:
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "administracion y configuracion de redes de computadoras"
+  - action: action_say_serializacion
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "computo concurrente"
+  - action: action_say_serializacion
+  - intent: serializacion_uea
+  - slot_was_set:
+    - uea: "4213064"
+  - action: action_say_serializacion
+
+- story: Pregunta optativas
+  steps:
+  - intent: give_info
+  - slot_was_set:
+    - career: "computacion"
+  - intent: optativas_carrera
+  - action: action_say_optativas
+
+- story: Pregunta optativas 2
+  steps:
+  - intent: optativas_carrera
+  - slot_was_set:
+    - career: "tecnologias"
+  - action: action_say_optativas
+
+- story: Pregunta optativas 3
+  steps:
+  - intent: optativas_carrera
+  - action: action_say_optativas
+  - intent: optativas_carrera
+  - slot_was_set:
+    - career: "socioterritoriales"
+  - action: action_say_optativas
+
+- story: Pregunta optativas 4
+  steps:
+  - intent: optativas_carrera
+  - action: action_say_optativas
+
+- story: Pregunta info uea
+  steps:
+  - intent: give_info
+  - slot_was_set:
+    - career: "administracion"
+  - intent: info_uea
+  - slot_was_set:
+    - uea: "metodologia"
+  - action: action_say_info_uea
+
+- story: Pregunta info uea 2
+  steps:
+  - intent: info_uea
+  - slot_was_set:
+    - uea: "sistemas digitales"
+  - action: action_say_info_uea
+
+- story: Pregunta info uea 3
+  steps:
+  - intent: info_uea
+  - slot_was_set:
+    - uea: "sistemas digitales"
+  - action: action_say_info_uea
+  - intent: info_uea
+  - slot_was_set:
+    - uea: "programacion orientado a objetos"
+  - action: action_say_info_uea
+
+- story: Plan de estudios
+  steps:
+  - intent: plan_estudios
+  - action: utter_plan_estudios
+
+- story: Plan de estudios 2
+  steps:
+  - intent: plan_estudios
+  - slot_was_set:
+    - career: "derecho"
+  - action: utter_plan_estudios
+
+- story: Plan de estudios 3
+  steps:
+  - intent: plan_estudios
+  - slot_was_set:
+    - uea: "taller de matematicas"
+  - action: utter_plan_estudios
+
+- story: Pagina carrera
+  steps:
+  - intent: give_info
+  - slot_was_set:
+    - career: "computacion"
+  - intent: pagina_carrera
+  - action: action_say_pagina
+
+- story: Pagina carrera 2
+  steps:
+  - intent: pagina_carrera
+  - slot_was_set:
+    - career: "economia"
+  - action: action_say_pagina
+
+- story: Pagina carrera 3
+  steps:
+  - intent: pagina_carrera
+  - slot_was_set:
+    - career: "derecho"
+  - action: action_say_pagina

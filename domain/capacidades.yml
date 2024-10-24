@@ -1,0 +1,27 @@
+version: "3.1"
+
+intents:
+  - capacidad
+
+responses:
+  utter_capacidad/general:
+    - text: "Puedo ayudarte con información sobre el plan de estudios
+    e información relacionada a la carrera, información sobre el proceso
+    para realizar el servicio social, la titulación y los sistemas escolares de la UAM."
+  
+  utter_capacidad/plan_de_estudios:
+    - text: "Puedo indicar las UEAs que se pueden tomar por trimestre, serialización de
+    UEAs y los requisitos para completar el plan de estudio."
+
+  utter_capacidad/servicio_social:
+    - text: "Puedo proporcionarte información sobre el servicio social, los requisitos
+    para realizarlo, algunas dudas frecuentes y los pasos a seguir para completarlo."
+
+  utter_capacidad/titulacion:
+    - text: "Puedo proporcionarte información sobre los requisitos para titularse, los
+    pasos a seguir para realizar el trámite, dudas frecuente y los documentos necesarios para completar
+    el proceso."
+
+  utter_capacidad/sistemasEscolares:
+    - text: "Puedo proporcionarte información sobre los trámites escolares, los pasos a seguir
+    para realizarlos y como conseguir información sobre los procesos de los trámites."

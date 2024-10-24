@@ -1,0 +1,1166 @@
+{
+    "name": "Matemáticas Aplicadas",
+    "pagina": "https://dcni.cua.uam.mx/oferta/matematicas",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático",
+        "Taller de Literacidad Académica",
+        "Taller de Matemáticas",
+        "Seminario sobre Sustentabilidad"
+    ],
+    "divisional": [
+        "Taller de algoritmos",
+        "Álgebra Superior I",
+        "Introducción al Cálculo",
+        "Programación Estructurada",
+        "Álgebra Superior II",
+        "Cálculo I",
+        "Estructura de Datos Lineales",
+        "Cálculo II",
+        "Estructura de Datos No Lineales"
+    ],
+    "formacion_basica": [
+        "Geometría",
+        "Probabilidad I",
+        "Laboratorio de Aplicaciones I",
+        "Álgebra Lineal I",
+        "Álgebra Lineal II",
+        "Combinatoria",
+        "Cálculo III",
+        "Probabilidad II",
+        "Laboratorio de Aplicaciones II",
+        "Cálculo IV",
+        "Ecuaciones Diferenciales Ordinarias I",
+        "Análisis I",
+        "Variable Compleja",
+        "Álgebra Moderna"
+    ],
+    "formacion_profesional": [
+        "Estadística I",
+        "Programación Lineal",
+        "Métodos Numéricos I",
+        "Estadística II",
+        "Ecuaciones Diferenciales Ordinarias II",
+        "Métodos Numéricos II",
+        "Optativas de Orientación",
+        "Ecuaciones Diferenciales Parciales",
+        "Modelos I",
+        "Optimización I",
+        "Física Clásica",
+        "Proyecto Terminal I",
+        "Modelos II",
+        "Geometría Diferencial",
+        "Optimización II",
+        "Optativas de Movilidad de Intercambio",
+        "Proyecto Terminal II",
+        "Modelos III",
+        "Optativas Divisionales e Interdivisionales",
+        "Proyecto Terminal III"
+    ],
+    "optativas": [
+        "Optimización Combinatoria",
+        "Lógica Matemática",
+        "Teoría de Autómatas y Lenguajes",
+        "Teoría de Gráficas",
+        "Geometría Computacional",
+        "Álgebra Computacional",
+        "Métodos Matemáticos en Finanzas I",
+        "Métodos Matemáticos en Finanzas II",
+        "Procesos Estocásticos",
+        "Cálculo Estocástico",
+        "Simulación Probabilística",
+        "Estadística Computacional",
+        "Análisis Multivariado",
+        "Diseño de Experimentos",
+        "Modelos Lineales Generalizados",
+        "Modelos de Supervivencia Confiabilidad",
+        "Series de Tiempo",
+        "Muestreo",
+        "Ecuaciones Diferenciales Ordinarias no Lineales I",
+        "Ecuaciones Diferenciales Ordinarias no Lineales II",
+        "Análisis Matemático II",
+        "Sistemas Dinámicos",
+        "Métodos Matemáticos",
+        "Álgebra Lineal Numérica",
+        "Solución Numérica de EDP",
+        "Ecuaciones en Derivadas Parciales II",
+        "Variable Compleja II",
+        "Teoría de Control",
+        "Cálculo de Variaciones",
+        "Análisis Funcional Aplicado",
+        "Temas Selectos de Matemáticas Aplicadas I",
+        "Temas Selectos de Matemáticas Aplicadas II",
+        "Temas Selectos de Matemáticas Aplicadas III",
+        "Temas Selectos de Matemáticas Aplicadas IV",
+        "Campos Clásicos",
+        "Mecánica Analítica",
+        "Mecánica Estadística",
+        "Mecánica Cuántica",
+        "Teoría Electrogmética",
+        "Métodos Matemáticos de la Gravitación",
+        "Transiciones de Fase y Fenómenos Críticos"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000001",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Taller de Matemáticas": {
+            "clave": "460000",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de matematicas"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Taller de algoritmos": {
+            "clave": "4604030",
+            "creditos": 10,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de algoritmos"
+        },
+        "Geometría": {
+            "clave": "4601114",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "geometria"
+        },
+        "Álgebra Superior I": {
+            "clave": "4601084",
+            "creditos": 9,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "algebra superior i"
+        },
+        "Introducción al Cálculo": {
+            "clave": "4601086",
+            "creditos": 13,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "introduccion al calculo"
+        },
+        "Programación Estructurada": {
+            "clave": "4604031",
+            "creditos": 12,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4604030"
+            ],
+            "nombre_normalizado": "programacion estructurada"
+        },
+        "Probabilidad I": {
+            "clave": "4601091",
+            "creditos": 6,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4601084"
+            ],
+            "nombre_normalizado": "probabilidad i"
+        },
+        "Álgebra Superior II": {
+            "clave": "4601085",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4601084"
+            ],
+            "nombre_normalizado": "algebra superior ii"
+        },
+        "Laboratorio de Aplicaciones I": {
+            "clave": "4601096",
+            "creditos": 3,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4601086",
+                "4601114",
+                "4601084"
+            ],
+            "nombre_normalizado": "laboratorio de aplicaciones i"
+        },
+        "Cálculo I": {
+            "clave": "4601087",
+            "creditos": 13,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4601086"
+            ],
+            "nombre_normalizado": "calculo i"
+        },
+        "Estructura de Datos Lineales": {
+            "clave": "4604033",
+            "creditos": 12,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4604031"
+            ],
+            "nombre_normalizado": "estructura de datos lineales"
+        },
+        "Estadística I": {
+            "clave": "4601099",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4601091"
+            ],
+            "nombre_normalizado": "estadistica i"
+        },
+        "Álgebra Lineal I": {
+            "clave": "4601093",
+            "creditos": 9,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4601114",
+                "4601085"
+            ],
+            "nombre_normalizado": "algebra lineal i"
+        },
+        "Cálculo II": {
+            "clave": "4601088",
+            "creditos": 13,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4601087"
+            ],
+            "nombre_normalizado": "calculo ii"
+        },
+        "Estructura de Datos No Lineales": {
+            "clave": "4604034",
+            "creditos": 12,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4604033"
+            ],
+            "nombre_normalizado": "estructura de datos no lineales"
+        },
+        "Programación Lineal": {
+            "clave": "4601089",
+            "creditos": 7,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4601093"
+            ],
+            "nombre_normalizado": "programacion lineal"
+        },
+        "Álgebra Lineal II": {
+            "clave": "4600065",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4601093"
+            ],
+            "nombre_normalizado": "algebra lineal ii"
+        },
+        "Combinatoria": {
+            "clave": "4601094",
+            "creditos": 7,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4601093"
+            ],
+            "nombre_normalizado": "combinatoria"
+        },
+        "Métodos Numéricos I": {
+            "clave": "4601101",
+            "creditos": 7,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4604031",
+                "4601093"
+            ],
+            "nombre_normalizado": "metodos numericos i"
+        },
+        "Cálculo III": {
+            "clave": "4600063",
+            "creditos": 5,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4601088"
+            ],
+            "nombre_normalizado": "calculo iii"
+        },
+        "Probabilidad II": {
+            "clave": "4600093",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4600063",
+                "4601099"
+            ],
+            "nombre_normalizado": "probabilidad ii"
+        },
+        "Laboratorio de Aplicaciones II": {
+            "clave": "4601097",
+            "creditos": 3,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4600065",
+                "4600063",
+                "4601099",
+                "4601094"
+            ],
+            "nombre_normalizado": "laboratorio de aplicaciones ii"
+        },
+        "Cálculo IV": {
+            "clave": "4600064",
+            "creditos": 13,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4600063"
+            ],
+            "nombre_normalizado": "calculo iv"
+        },
+        "Ecuaciones Diferenciales Ordinarias I": {
+            "clave": "4601098",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4600063"
+            ],
+            "nombre_normalizado": "ecuaciones diferenciales ordinarias i"
+        },
+        "Análisis I": {
+            "clave": "4601095",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4600063"
+            ],
+            "nombre_normalizado": "analisis i"
+        },
+        "Estadística II": {
+            "clave": "4601100",
+            "creditos": 9,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4600093"
+            ],
+            "nombre_normalizado": "estadistica ii"
+        },
+        "Variable Compleja": {
+            "clave": "4600071",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "variable compleja"
+        },
+        "Ecuaciones Diferenciales Ordinarias II": {
+            "clave": "4601105",
+            "creditos": 9,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4600065",
+                "4601098"
+            ],
+            "nombre_normalizado": "ecuaciones diferenciales ordinarias ii"
+        },
+        "Métodos Numéricos II": {
+            "clave": "4601102",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4601101"
+            ],
+            "nombre_normalizado": "metodos numericos ii"
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Álgebra Moderna": {
+            "clave": "4600068",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4600065"
+            ],
+            "nombre_normalizado": "algebra moderna"
+        },
+        "Ecuaciones Diferenciales Parciales": {
+            "clave": "4600073",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4601098"
+            ],
+            "nombre_normalizado": "ecuaciones diferenciales parciales"
+        },
+        "Modelos I": {
+            "clave": "4601108",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4601097",
+                "4601102",
+                "4601105"
+            ],
+            "nombre_normalizado": "modelos i"
+        },
+        "Optimización I": {
+            "clave": "4601106",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4600063",
+                "4601101"
+            ],
+            "nombre_normalizado": "optimizacion i"
+        },
+        "Física Clásica": {
+            "clave": "4601104",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "fisica clasica"
+        },
+        "Proyecto Terminal I": {
+            "clave": "4601111",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4601108"
+            ],
+            "nombre_normalizado": "proyecto terminal i"
+        },
+        "Modelos II": {
+            "clave": "4601109",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4601100",
+                "4601108"
+            ],
+            "nombre_normalizado": "modelos ii"
+        },
+        "Geometría Diferencial": {
+            "clave": "4601103",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "geometria diferencial"
+        },
+        "Optimización II": {
+            "clave": "4601107",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [
+                "4601106",
+                "4604034"
+            ],
+            "nombre_normalizado": "optimizacion ii"
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio"
+        },
+        "Proyecto Terminal II": {
+            "clave": "4601112",
+            "creditos": 8,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4601109",
+                "4601111"
+            ],
+            "nombre_normalizado": "proyecto terminal ii"
+        },
+        "Modelos III": {
+            "clave": "4601110",
+            "creditos": 8,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4600073",
+                "4601109"
+            ],
+            "nombre_normalizado": "modelos iii"
+        },
+        "Optativas Divisionales e Interdivisionales": {
+            "clave": "",
+            "creditos": 2,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales e interdivisionales",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Proyecto Terminal III": {
+            "clave": "4601113",
+            "creditos": 8,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [
+                "4601110",
+                "4601112"
+            ],
+            "nombre_normalizado": "proyecto terminal iii"
+        },
+        "Optimización Combinatoria": {
+            "clave": "4600084",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "optimizacion combinatoria",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Lógica Matemática": {
+            "clave": "4600085",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "logica matematica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Teoría de Autómatas y Lenguajes": {
+            "clave": "4600086",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "teoria de automatas y lenguajes",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Teoría de Gráficas": {
+            "clave": "4600087",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "teoria de graficas",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Geometría Computacional": {
+            "clave": "4600088",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "geometria computacional",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Álgebra Computacional": {
+            "clave": "4600089",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "algebra computacional",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Métodos Matemáticos en Finanzas I": {
+            "clave": "4600091",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "metodos matematicos en finanzas i",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Métodos Matemáticos en Finanzas II": {
+            "clave": "4600092",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "metodos matematicos en finanzas ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Procesos Estocásticos": {
+            "clave": "4600094",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "procesos estocasticos",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Cálculo Estocástico": {
+            "clave": "4600095",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "calculo estocastico",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Simulación Probabilística": {
+            "clave": "4600096",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "simulacion probabilistica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Estadística Computacional": {
+            "clave": "4600097",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "estadistica computacional",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis Multivariado": {
+            "clave": "4600098",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis multivariado",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Diseño de Experimentos": {
+            "clave": "4600099",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño de experimentos",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Modelos Lineales Generalizados": {
+            "clave": "4601000",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "modelos lineales generalizados",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Modelos de Supervivencia Confiabilidad": {
+            "clave": "4601001",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "modelos de supervivencia confiabilidad",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Series de Tiempo": {
+            "clave": "4601002",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "series de tiempo",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Muestreo": {
+            "clave": "4601003",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "muestreo",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Ecuaciones Diferenciales Ordinarias no Lineales I": {
+            "clave": "4601004",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ecuaciones diferenciales ordinarias no lineales i",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Ecuaciones Diferenciales Ordinarias no Lineales II": {
+            "clave": "4601005",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ecuaciones diferenciales ordinarias no lineales ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis Matemático II": {
+            "clave": "4601006",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis matematico ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Sistemas Dinámicos": {
+            "clave": "4601007",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "sistemas dinamicos",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Métodos Matemáticos": {
+            "clave": "4601008",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "metodos matematicos",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Álgebra Lineal Numérica": {
+            "clave": "4601009",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "algebra lineal numerica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Solución Numérica de EDP": {
+            "clave": "4601010",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "solucion numerica de edp",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Ecuaciones en Derivadas Parciales II": {
+            "clave": "4601011",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ecuaciones en derivadas parciales ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Variable Compleja II": {
+            "clave": "4601012",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "variable compleja ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Teoría de Control": {
+            "clave": "4601013",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "teoria de control",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Cálculo de Variaciones": {
+            "clave": "4601014",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "calculo de variaciones",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis Funcional Aplicado": {
+            "clave": "4601015",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis funcional aplicado",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Temas Selectos de Matemáticas Aplicadas I": {
+            "clave": "4001016",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos de matematicas aplicadas i",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Temas Selectos de Matemáticas Aplicadas II": {
+            "clave": "4001017",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos de matematicas aplicadas ii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Temas Selectos de Matemáticas Aplicadas III": {
+            "clave": "4001018",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos de matematicas aplicadas iii",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Temas Selectos de Matemáticas Aplicadas IV": {
+            "clave": "4001019",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos de matematicas aplicadas iv",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Campos Clásicos": {
+            "clave": "4601022",
+            "creditos": 8,
+            "trimestre": 4600064,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "campos clasicos"
+        },
+        "Mecánica Analítica": {
+            "clave": "4601023",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "mecanica analitica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Mecánica Estadística": {
+            "clave": "4601024",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "mecanica estadistica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Mecánica Cuántica": {
+            "clave": "4601025",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "mecanica cuantica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Teoría Electrogmética": {
+            "clave": "4601026",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "teoria electrogmetica",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Métodos Matemáticos de la Gravitación": {
+            "clave": "4601027",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4600064"
+            ],
+            "nombre_normalizado": "metodos matematicos de la gravitacion",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        },
+        "Transiciones de Fase y Fenómenos Críticos": {
+            "clave": "4601028",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "transiciones de fase y fenomenos criticos",
+            "trimestres": [
+                7,
+                9,
+                11,
+                12
+            ]
+        }
+    }
+}

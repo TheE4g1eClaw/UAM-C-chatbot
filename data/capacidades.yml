@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+
+- intent: capacidad/general
+  examples: |
+    - que puedes hacer
+    - en que me puedes ayudar
+    - que puedes hacer por mi
+    - cuales son tus capacidades
+    - que sabes hacer
+    - sobre que temas puedes ayudarme
+    - que informacion puedes darme
+    - que informacion tienes
+    - que informacion sabes
+
+- intent: capacidad/plan_de_estudios
+  examples: |
+    - que informacion me puedes dar sobre el plan de estudios
+    - que sabes sobre mi carrera
+    - que me puedes decir sobre mi carrera
+
+- intent: capacidad/servicio_social
+  examples: |
+    - que informacion tienes sobre el servicio social
+    - que sabes sobre el servicio social
+    - que me puedes decir sobre el servicio social
+    - me puedes ayudar con el servicio social
+    - que informacion me puedes dar sobre el servicio social
+    - que sabes hacer sobre el servicio social
+
+- intent: capacidad/titulacion
+  examples: |
+    - que informacion tienes sobre la titulacion
+    - que sabes sobre la titulacion
+    - puedes ayudarme con la titulacion
+    - tienes informacion sobre la titulacion
+    - que informacion me puedes dar sobre la titulacion
+
+- intent: capacidad/sistemasEscolares
+  examples: |
+    - que informacion tienes sobre los tramites escolares
+    - tiens informacion sobre sistemas escolares
+    - tienes informacion sobre el servicio de sistemas escolares
+    - me puedes ayudar a conseguir informacion sobre los procesos de los tramites
+    - sobre que tramites tienes informacion
+
+stories:
+- story: capacidad
+  steps:
+  - intent: capacidad
+  - action: utter_capacidad

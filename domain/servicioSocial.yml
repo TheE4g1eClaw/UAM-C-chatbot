@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - servicio
+  - servicio_paso_1
+  - servicio_paso_2
+  - servicio_paso_3
+  - siguiente
+
+
+responses:
+  utter_servicio/requisitos:
+    - text: "Para hacer servicio social necesitas: 
+      - Haber aprobado el 70% de los créditos de tu plan de estudios (aproximadamente el 9no trimestre)."
+
+  utter_servicio/periodo:
+    - text: "El servicio social dura 480 horas. Estas se deben de cumplir en un periodo minimo de 6 meses y un maximo de dos años"
+
+  utter_servicio/instituciones:
+    - text: "Para realizar el servicio social, la Univerdad acepta proyectos del sector público, educativo y social.
+    Una vez se tenga el 70% de los créditos aprobados, se puede revisar los proyectos aprobados en http://sigess2.cua.uam.mx/."
+
+  utter_servicio/institucion_privada:
+    - text: "No se puede hacer servicio social en instituciones privadas."
+  
+  utter_servicio/error_registro:
+    - text: "El sistema puede tardar unos cuantos dias en actualizarse.
+    De lo contrario se puede enviar un correo a la encargada de servicio social de la unidad academica:
+    Lic. María del Carmen Silva Espinosa - serviciosocial@cua.uam.mx, o acudir a la oficina de servicio social en el cuarto piso de la unidad academica."
+
+  utter_servicio_paso_1:
+    - text: "Lo primero que se debe de hacer es consultar los proyectos activos para el servicio social.
+    Para esto te debes de diregir a la página http://sigess2.cua.uam.mx/alumno/al_step1.php, proporcionar la matricula y el apellido paterno.
+    Despúes se enviara al correo institucional una liga y una contraseña para consultar los proyectos activos."
+
+  utter_servicio_paso_2:
+    - text: "Una vez que se tiene acceso al sitio se puede revisar las propuestas.\n
+    Si se encuentra un proyecto de interes, se debe de contactar al responsable del proyecto confimar disponibilidad y que se cumplan los requisitos."
+
+  utter_servicio_paso_3:
+    - text: "Una vez que se tiene un proyecto confirmado, necesitas rellenar el formato de inscripción disponible en https://www.cua.uam.mx/servicios/servicio-social/proceso-alumnos/inscripcion-al-sevicio-social#. \n
+    Además el encargado del proyecto debe redactar una carta de aceptación. En la página se pueden encontrar plantillas para tanto para proyectos internos como externos."

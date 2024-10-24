@@ -1,0 +1,22 @@
+{
+    "name": "Derecho",
+    "pagina": "https://dcsh.cua.uam.mx/derecho-licenciatura/presentacion-licenciatura-derecho/",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático"
+    ],
+    "divisional": [],
+    "formacion_basica": [],
+    "formacion_profesional": [],
+    "optativas": [],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000003",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        }
+    }
+}

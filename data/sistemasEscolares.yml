@@ -1,0 +1,240 @@
+version: "3.1"
+
+nlu:
+- intent: servicio_fechas/reinscripcion
+  examples: |
+    - cuando son las fechas de reinscripcion
+    - cuando es la fecha de reinscripcion
+    - cuando me debo de reinscriobir
+    - cuando son las reinscripciones
+    - cuales son las fechas de reinscripcion
+    - cual es la fecha de reinscripcion
+    - cuando me debo de reincribir
+
+- intent: servicio_fechas/pago
+  examples: |
+    - cuando debo de pagar la reinscripcion
+    - cuando realizo el pago de cuotas para el siguiente trimestre
+    - cuando se debe pagar
+    - cuando se realiza el pago de reinscripcion
+    - cuando se realiza el pago de inscripcion
+    - cuando se realiza el pago de cuotas
+    - cuando debo de pagar
+    - cuando se realiza el pago
+
+- intent: servicio_fechas_recuperacion
+  examples: |
+    - cuando son las fechas de inscripcion recuperacion
+    - cuando es la fecha de inscripcion recuperacion
+    - cuando me debo de inscribir a recuperacion
+    - cuando son las inscripciones de recuperacion
+    - cuales son las fechas de inscripcion recuperacion
+    - cual es la fecha de inscripcion recuperacion
+
+- intent: servicio_fechas/comprobante
+  examples: |
+    - como se que materias me aceptaron
+    - como puedo saber que materias me aceptaron
+    - como puedo saber que ueas me aceptaron
+    - como se que ueas me aceptaron
+    - cuando me entregan el comprobante de reinscripcion
+    - cuando me entregan el comprobante de inscripcion
+    - cuando se confiman las ueas que cursare
+    - cuando se confiman las materias que cursare
+
+- intent: servicio_fechas/baja
+  examples: |
+    - cuando me puedo dar de baja
+    - cuando es la fecha limite para darme de baja
+    - cuando me puedo dar de baja de una materia
+    - cuando es la fecha limite para darme de baja de una materia
+    - cuando me puedo dar de baja de una uea
+    - cuando es la fecha limite para darme de baja de una uea
+    - cuando me puedo dar de baja de un curso
+    - cuando es la fecha limite para darme de baja de un curso
+
+- intent: servicio_fechas/alta
+  examples: |
+    - cuando es el proceso de altas
+    - cuando puedo darme de alta en una uea
+    - cuando puedo agregar una materia a mi carga escolar
+    - si se me paso la fecha de inscripcion, cuando puedo inscribir materias
+    - hay alguna segunda oportunidad para inscribir materias
+    - puedo inscribir materias despues del primera fecha
+    - cuando puedo completar mi carga academica
+
+- intent: servicio_fechas/calendario
+  examples: |
+    - donde puedo ver el calendario escolar
+    - donde encuentro el calendario escolar
+    - donde puedo ver las fechas importantes
+    - donde encuentro las fechas importantes
+    - donde puedo ver las fechas de reinscripcion
+    - donde encuentro las fechas de reinscripcion
+    - donde puedo ver las fechas de inscripcion
+    - donde encuentro las fechas de inscripcion
+
+- intent: proceso/reinscripcion
+  examples: |
+    - como me reinscribo
+    - como es el proceso de reinscripcion
+    - que debo hacer para reinscribirme
+    - como me inscribo a las materias del siguiente trimestre
+    - como me inscribo a las ueas del siguiente trimestre
+    - que debo de hacer para reinscribirme
+
+- intent: proceso/error_obligatorias
+  examples: |
+    - por que no me aparecen algunas ueass obligatorias que me corresponde inscribir
+    - no me aparecen las ueas obligatorias
+    - no puedo inscribir las ueas obligatorias
+    - no me aparecen las ueas que debo inscribir
+    - me falta una uea en el modulo
+    - me faltan ueas en el modulo
+    - no puedo inscribir todas las ueas obligatorias
+    - hay ueas que no me aparecen en el modulo
+    - no me aparecen materias
+
+- intent: proceso/cupo
+  examples: |
+    - como se el cupo de una uea
+    - como se cual es el cupo de una materia
+    - como puedo saber cuanto espacio hay para una clase
+    - como se que tanto espacio hay para una materia
+    - como se cuantos alumnos pueden inscribirse en una materia
+    - como se cuantos alumnos pueden aceptarse en una clase
+
+- intent: proceso/demanda
+  examples: |
+    - como se la demanda de una uea
+    - como se cual es la demanda de una materia
+    - hay manera de saber cuantos alumnos quieren inscribirse en una clase
+    - hay manera de saber que tan probable es que me acepten en una materia
+    - como se cuantos alumnos quieren inscribirse en una materia
+    - como se cuantos alumnos quieren inscribirse en una clase
+    - como puedo saber si hay probabilidad de que me acepten en una materia
+    - puedo saber si un grupo tiene mas demanda que otro
+    - puedo saber si hay un grupo que se pide mas
+    - como se si hay un grupo que se llena mas rapido
+
+- intent: proceso/alta_especial
+  examples: |
+    - como puedo solicitar una uea que no tiene cupo
+    - como puedo inscribirme a una uea que no tiene cupo
+    - como que puedo incribir a una materia que necesita autorizacion
+    - que pasa si una uea necesita autorizacion
+    - una materia tiene restricciones, que hago
+    - como me doy de alta en una materia con restricciones
+    - como me doy de alta en una materia si cupo 
+    - puedo pedir una materia que actualmente se encuentra llena
+    - como pido autorizacion para una uea
+
+- intent: proceso/recuperacion
+  examples: |
+    - como me inscribo a recuperacion
+    - como pido una evaluacion de recuperacion
+    - como me inscribo a una evaluacion de recuperacion
+    - como es el proceso de inscripcion a recuperacion
+    - como me inscribo a una materia de recuperacion
+    - como me inscribo a un examen de recuperacion
+    - cual es el proceso de inscripcion a recuperacion
+    - como me inscribo a una evaluacion de recuperacion
+
+- intent: proceso/numero_recuperacion
+  examples: |
+    - cuantas recuperaciones puedo pedir
+    - cuantas recuperaciones puedo meter
+    - cuantas recuperaciones puedo solicitar
+    - cuantas recuperaciones puedo inscribir
+    - cuantas recuperaciones puedo pedir en un trimestre
+    - cuantas recuperaciones puedo meter en un trimestre
+    - cuantas recuperaciones puedo solicitar en un trimestre
+    - cuantas recuperaciones puedo inscribir en un trimestre
+
+
+- synonym: uea
+  examples: |
+    - ueas
+    - curso
+    - cursos
+    - materia
+    - materias
+    - unidad de enseñanza aprendizaje
+    - unidades de enseñanza aprendizaje
+    - clase
+    - clases
+    - asignatura
+    - asignaturas
+
+stories:
+- story: Multiples preguntas sobre fechas 1
+  steps:
+  - intent: servicio_fechas
+  - action: utter_servicio_fechas
+  - action: utter_instructivos
+  - intent: servicio_fechas
+  - action: utter_servicio_fechas
+
+- story: Multiples preguntas sobre fechas 2
+  steps:
+  - intent: servicio_fechas
+  - action: utter_servicio_fechas
+  - action: utter_instructivos
+  - intent: servicio_fechas
+  - action: utter_servicio_fechas
+  - intent: servicio_fechas
+  - action: utter_servicio_fechas
+
+- story: Pregunta procesos
+  steps:
+    - intent: proceso
+    - action: utter_proceso
+
+- story: Preguntas procesos
+  steps:
+  - intent: proceso
+  - action: utter_proceso
+  - intent: proceso
+  - action: utter_proceso
+
+- story: Preguntas proceso regular
+  steps:
+  - intent: alumno_regular
+  - slot_was_set:
+    - status: true
+  - action: utter_alumno_regular
+  - intent: proceso
+  - action: utter_proceso
+  - intent: proceso
+  - action: utter_proceso
+
+- story: Fecha de recuperacion
+  steps:
+  - intent: servicio_fechas_recuperacion
+  - slot_was_set:
+    - status: false
+  - action: utter_servicio_fechas_recuperacion
+
+- story: Preguntas proceso irregular
+  steps:
+  - intent: alumno_irregular
+  - slot_was_set:
+    - status: false
+  - action: utter_alumno_irregular
+  - intent: proceso
+  - action: utter_proceso
+  - action: utter_advertencia_irregular
+  - intent: proceso
+  - action: utter_proceso
+
+- story: Preguntas proceso irregular 2
+  steps:
+  - intent: servicio_fechas_recuperacion
+  - slot_was_set:
+    - status: false
+  - action: utter_servicio_fechas_recuperacion
+  - intent: proceso
+  - action: utter_proceso
+  - action: utter_advertencia_irregular
+  - intent: proceso
+  - action: utter_proceso

@@ -1,0 +1,843 @@
+version: "3.1"
+
+nlu:
+- lookup: uea
+  examples: |
+    - Taller de Interpretación y Argumentación
+    - taller de interpretacion y argumentacion
+    - Didáctica y Estrategias para la Divulgación Científica
+    - didactica y estrategias para la divulgacion cientifica
+    - Análisis y Diseño de Sistemas Organizativos
+    - analisis y diseño de sistemas organizativos
+    - Optativas Divisionales e Interdivisionales
+    - optativas divisionales e interdivisionales
+    - Los medios de comunicación en la Enseñanza
+    - los medios de comunicacion en la enseñanza
+    - Métodos Numéricos I
+    - metodos numericos i
+    - Ingeniería Genética y Técnicas Moleculares
+    - ingenieria genetica y tecnicas moleculares
+    - Balance de Energía
+    - balance de energia
+    - Institucionalismo Histórico y Jurídico
+    - institucionalismo historico y juridico
+    - Control de Calidad
+    - control de calidad
+    - Programación Estructurada
+    - programacion estructurada
+    - Diseño de Materiales Interactivos y Página Web
+    - diseño de materiales interactivos y pagina web
+    - Probabilidad I
+    - probabilidad i
+    - Genética
+    - genetica
+    - Introducción a la Ingeniería Biológica
+    - introduccion a la ingenieria biologica
+    - Procesos Cognitivos, Representación y Cultura
+    - procesos cognitivos, representacion y cultura
+    - Diseño de Estrategias de Comunicación Política
+    - diseño de estrategias de comunicacion politica
+    - Estadística I
+    - estadistica i
+    - Técnicas de Biología Molecular III
+    - tecnicas de biologia molecular iii
+    - Algoritmos Distribuidos
+    - algoritmos distribuidos
+    - Taller de Análisis de Mensajes
+    - taller de analisis de mensajes
+    - Patrones de Diseño y Arquitectura de Software
+    - patrones de diseño y arquitectura de software
+    - Visión Computacional
+    - vision computacional
+    - Laboratorio de Diseño Integral de Sistemas de la Información
+    - laboratorio de diseño integral de sistemas de la informacion
+    - Laboratorio Temático IV
+    - laboratorio tematico iv
+    - Administración y Configuración de Redes de Computadoras
+    - administracion y configuracion de redes de computadoras
+    - Métodos Matemáticos en Finanzas II
+    - metodos matematicos en finanzas ii
+    - Gestión del Diseño y Fundamentación de Proyectos
+    - gestion del diseño y fundamentacion de proyectos
+    - Transiciones de Fase y Fenómenos Críticos
+    - transiciones de fase y fenomenos criticos
+    - Seminario de Integración IV
+    - seminario de integracion iv
+    - Probabilidad y Estadística
+    - probabilidad y estadistica
+    - Historia y Comunicación
+    - historia y comunicacion
+    - Metodologías de Evaluación Cuantitativa de Proyectos Sustentables
+    - metodologias de evaluacion cuantitativa de proyectos sustentables
+    - Proyecto Terminal II
+    - proyecto terminal ii
+    - Sistemas Digitales
+    - sistemas digitales
+    - Taller de Representación y Expresión Digital Tridimensional
+    - taller de representacion y expresion digital tridimensional
+    - Fundamentos de Contabilidad de Costos
+    - fundamentos de contabilidad de costos
+    - Estadística
+    - estadistica
+    - Fundamentos de Programación Estructurada
+    - fundamentos de programacion estructurada
+    - Teoría de Autómatas y Lenguajes Formales
+    - teoria de automatas y lenguajes formales
+    - Optativas de Orientación
+    - optativas de orientacion
+    - Taller de Proyectos Profesionales de la Comunicación
+    - taller de proyectos profesionales de la comunicacion
+    - Gestión Social y Participación Ciudadana
+    - gestion social y participacion ciudadana
+    - Álgebra Superior I
+    - algebra superior i
+    - Proyecto Terminal I
+    - proyecto terminal i
+    - Ecuaciones Diferenciales Ordinarias II
+    - ecuaciones diferenciales ordinarias ii
+    - Taller de Guión
+    - taller de guion
+    - Programación Web-Dinámico
+    - programacion web-dinamico
+    - Lenguaje Cinematográfico
+    - lenguaje cinematografico
+    - Metodología
+    - metodologia
+    - Análisis y Diseño de Algoritmos
+    - analisis y diseño de algoritmos
+    - Comportamiento Humano en las Organizaciones II
+    - comportamiento humano en las organizaciones ii
+    - Taller de Fotografía
+    - taller de fotografia
+    - Estructuras de Datos Lineales
+    - estructuras de datos lineales
+    - Optimización I
+    - optimizacion i
+    - Cálculo Integral
+    - calculo integral
+    - Computo Concurrente
+    - computo concurrente
+    - Computación Evolutiva
+    - computacion evolutiva
+    - Técnicas de Biología Molecular I
+    - tecnicas de biologia molecular i
+    - Introducción a la Programación
+    - introduccion a la programacion
+    - Taller de Animación Digital
+    - taller de animacion digital
+    - Farmacología II
+    - farmacologia ii
+    - Seminario de Integración III
+    - seminario de integracion iii
+    - Metodologías Cualitativas
+    - metodologias cualitativas
+    - Laboratorio de Diseño Integral III
+    - laboratorio de diseño integral iii
+    - Sistemas Dinámicos
+    - sistemas dinamicos
+    - Temas Selectos en Ciencias I
+    - temas selectos en ciencias i
+    - Temas Selectos en Bioquímica II
+    - temas selectos en bioquimica ii
+    - Bases de Datos Avanzadas
+    - bases de datos avanzadas
+    - Ecuaciones Diferenciales Parciales
+    - ecuaciones diferenciales parciales
+    - Proyecto de Ingeniería de Software I
+    - proyecto de ingenieria de software i
+    - Laboratorio de Aplicaciones II
+    - laboratorio de aplicaciones ii
+    - Técnicas en Biología Molecular IV
+    - tecnicas en biologia molecular iv
+    - Química II
+    - quimica ii
+    - Teoría de Autómatas y Lenguajes
+    - teoria de automatas y lenguajes
+    - Comercialización, Consumo y Comunicación II
+    - comercializacion, consumo y comunicacion ii
+    - Ecuaciones Diferenciales Ordinarias I
+    - ecuaciones diferenciales ordinarias i
+    - Taller de algoritmos
+    - taller de algoritmos
+    - Ingeniería de Biorreactores II
+    - ingenieria de biorreactores ii
+    - Métodos Matemáticos en Finanzas I
+    - metodos matematicos en finanzas i
+    - Procesos de Automatización
+    - procesos de automatizacion
+    - Metodologías Cuantitativas
+    - metodologias cuantitativas
+    - Estructura de Datos No Lineales
+    - estructura de datos no lineales
+    - Proyecto Terminal I​
+    - proyecto terminal i​
+    - Taller de Métodos Numéricos
+    - taller de metodos numericos
+    - Modelos de Supervivencia Confiabilidad
+    - modelos de supervivencia confiabilidad
+    - Taller de Algoritmos
+    - taller de algoritmos
+    - Ecuaciones en Derivadas Parciales II
+    - ecuaciones en derivadas parciales ii
+    - Modelos Lineales Generalizados
+    - modelos lineales generalizados
+    - Taller de Lenguajes para el Diseño
+    - taller de lenguajes para el diseño
+    - Laboratorio de Comunicación en Lenguajes Multimedia
+    - laboratorio de comunicacion en lenguajes multimedia
+    - Temas Selectos de Matemáticas Aplicadas II
+    - temas selectos de matematicas aplicadas ii
+    - Ilustración Digital
+    - ilustracion digital
+    - Gestión del Conocimiento y Aprendizaje Organizacional
+    - gestion del conocimiento y aprendizaje organizacional
+    - Series de Tiempo
+    - series de tiempo
+    - Cálculo II
+    - calculo ii
+    - Laboratorio de Comunicación Audiovisual II
+    - laboratorio de comunicacion audiovisual ii
+    - Biología Celular
+    - biologia celular
+    - Economía de la Empresa
+    - economia de la empresa
+    - Modelos II
+    - modelos ii
+    - Cómputo Científico
+    - computo cientifico
+    - Física I
+    - fisica i
+    - Métodos Numéricos II
+    - metodos numericos ii
+    - Temas Selectos en Biomedicina Molecular I
+    - temas selectos en biomedicina molecular i
+    - Introducción a la Historia del Arte Universal
+    - introduccion a la historia del arte universal
+    - Técnicas de Caracterización Molecular II
+    - tecnicas de caracterizacion molecular ii
+    - Diseño de Ambientes de Aprendizaje
+    - diseño de ambientes de aprendizaje
+    - Infografía
+    - infografia
+    - Inteligencia Artificial II (Aprendizaje)
+    - inteligencia artificial ii (aprendizaje)
+    - Seminario de Integración I
+    - seminario de integracion i
+    - Optitativas Interdivisionales
+    - optitativas interdivisionales
+    - Minería de Datos
+    - mineria de datos
+    - Microbiología
+    - microbiologia
+    - Calidad y Pruebas
+    - calidad y pruebas
+    - Arquitectura de Redes (Modelo OSI de ISO)
+    - arquitectura de redes (modelo osi de iso)
+    - Gestión de Operaciones
+    - gestion de operaciones
+    - Información, Organización y Redes Institucionales
+    - informacion, organizacion y redes institucionales
+    - Introducción a la Economía
+    - introduccion a la economia
+    - Integración de Sistemas
+    - integracion de sistemas
+    - Comunicación de la Ciencia
+    - comunicacion de la ciencia
+    - Combinatoria
+    - combinatoria
+    - Estructuras de Datos No Lineales
+    - estructuras de datos no lineales
+    - Introducción a la Historia del Arte en México
+    - introduccion a la historia del arte en mexico
+    - Géneros de Medios Informativos
+    - generos de medios informativos
+    - Procesos Estocásticos
+    - procesos estocasticos
+    - Estructura de Datos
+    - estructura de datos
+    - Aprendizaje Automático
+    - aprendizaje automatico
+    - Proyecto de Ingeniería de Software II
+    - proyecto de ingenieria de software ii
+    - Desarrollo de Software a Gran Escala
+    - desarrollo de software a gran escala
+    - Empresa, Organización Económica y Desempeño
+    - empresa, organizacion economica y desempeño
+    - Guion
+    - guion
+    - Laboratorio de Ciencias II
+    - laboratorio de ciencias ii
+    - Biología Celular II
+    - biologia celular ii
+    - Genética II
+    - genetica ii
+    - Culturas Organizacionales
+    - culturas organizacionales
+    - Principios de Animación
+    - principios de animacion
+    - Graficación por Computadora
+    - graficacion por computadora
+    - Optimización Combinatoria
+    - optimizacion combinatoria
+    - Introducción a la Historia del Diseño
+    - introduccion a la historia del diseño
+    - Técnicas de Biología Molecular II
+    - tecnicas de biologia molecular ii
+    - Ecuaciones Diferenciales Ordinarias no Lineales II
+    - ecuaciones diferenciales ordinarias no lineales ii
+    - Taller de Imagen y Comunicación Visual
+    - taller de imagen y comunicacion visual
+    - Temas Selectos en Química I
+    - temas selectos en quimica i
+    - Modelos III
+    - modelos iii
+    - Teorías de la Comunicacion III
+    - teorias de la comunicacion iii
+    - Teoría Electrogmética
+    - teoria electrogmetica
+    - Métodos Matemáticos de la Gravitación
+    - metodos matematicos de la gravitacion
+    - Laboratorio de Bioquímica
+    - laboratorio de bioquimica
+    - Administración Financiera I
+    - administracion financiera i
+    - Laboratorio de Comunicación Visual
+    - laboratorio de comunicacion visual
+    - Teorías y Métodos del Diseño
+    - teorias y metodos del diseño
+    - Temas Selectos en Ingeniería Biológica I
+    - temas selectos en ingenieria biologica i
+    - Inteligencia Artificial I
+    - inteligencia artificial i
+    - Inmunología
+    - inmunologia
+    - Modelos I
+    - modelos i
+    - Matemáticas Discretas I
+    - matematicas discretas i
+    - Mecánica Estadística
+    - mecanica estadistica
+    - Nanociencia
+    - nanociencia
+    - Laboratorio de Ciencia Básica
+    - laboratorio de ciencia basica
+    - Diseño de Experimentos
+    - diseño de experimentos
+    - Matemáticas Discretas
+    - matematicas discretas
+    - Arquitectura de Computadoras
+    - arquitectura de computadoras
+    - Diseño y Simulación de Bioprocesos
+    - diseño y simulacion de bioprocesos
+    - Variable Compleja
+    - variable compleja
+    - Geometría Diferencial
+    - geometria diferencial
+    - Análisis de Requerimientos
+    - analisis de requerimientos
+    - Enfoques Teóricos de la Comunicación Educativa
+    - enfoques teoricos de la comunicacion educativa
+    - Fisiología General
+    - fisiologia general
+    - Cultivo Celular
+    - cultivo celular
+    - Temas Selectos de Matemáticas Aplicadas III
+    - temas selectos de matematicas aplicadas iii
+    - Institucionalismo Económico
+    - institucionalismo economico
+    - Introducción al Sistema Jurídico
+    - introduccion al sistema juridico
+    - Optativas de Movilidad de Intercambio
+    - optativas de movilidad de intercambio
+    - Metodologías Ágiles de Desarrollo de Software
+    - metodologias agiles de desarrollo de software
+    - Estadística Computacional
+    - estadistica computacional
+    - El campo de la Comunicación Política: Medios, Actores Sociales y Políticos
+    - el campo de la comunicacion politica: medios, actores sociales y politicos
+    - Modelado 3D
+    - modelado 3d
+    - Seminario de sustentabilidad
+    - seminario de sustentabilidad
+    - Álgebra Lineal
+    - algebra lineal
+    - Derecho y Empresa
+    - derecho y empresa
+    - Biología Molecular
+    - biologia molecular
+    - Modelación de Decisiones
+    - modelacion de decisiones
+    - Metodología de Análisis y Diagnóstico de Instituciones
+    - metodologia de analisis y diagnostico de instituciones
+    - Temas Selectos en Computación I
+    - temas selectos en computacion i
+    - Microbiología General
+    - microbiologia general
+    - Diseño de Interfaces Avanzadas
+    - diseño de interfaces avanzadas
+    - Transferencia de Calor y Masa
+    - transferencia de calor y masa
+    - Laboratorio de Diseño Integral II
+    - laboratorio de diseño integral ii
+    - Auditoría y Rendición de Cuentas
+    - auditoria y rendicion de cuentas
+    - Mecánica Analítica
+    - mecanica analitica
+    - Comunicación en Entornos Digitales
+    - comunicacion en entornos digitales
+    - Introducción a la Biología Molecular
+    - introduccion a la biologia molecular
+    - Ingeniería de Biorreactores I
+    - ingenieria de biorreactores i
+    - Farmacología Molecular
+    - farmacologia molecular
+    - Hipertexto e Hipermedios
+    - hipertexto e hipermedios
+    - Temas Selectos de Matemáticas Aplicadas IV
+    - temas selectos de matematicas aplicadas iv
+    - Introducción a la Farmacología
+    - introduccion a la farmacologia
+    - Temas Selectos en Computación II
+    - temas selectos en computacion ii
+    - Temas Selectos en Ingeniería Biológica III
+    - temas selectos en ingenieria biologica iii
+    - Seminario de Seguridad
+    - seminario de seguridad
+    - Álgebra Superior II
+    - algebra superior ii
+    - Cálculo de Variaciones
+    - calculo de variaciones
+    - Análisis Funcional Aplicado
+    - analisis funcional aplicado
+    - Seminario de Sistemas Inteligentes II
+    - seminario de sistemas inteligentes ii
+    - Teoría de Control
+    - teoria de control
+    - Laboratorio Básico de Diseño Bi y Tridimensional
+    - laboratorio basico de diseño bi y tridimensional
+    - Producción
+    - produccion
+    - Visualización y Graficación
+    - visualizacion y graficacion
+    - Espacios de Exhibición
+    - espacios de exhibicion
+    - Taller de Matemáticas
+    - taller de matematicas
+    - Gestión de Sistemas de Información y Comunicación
+    - gestion de sistemas de informacion y comunicacion
+    - Cálculo III
+    - calculo iii
+    - Seminario de Sistemas de Información I
+    - seminario de sistemas de informacion i
+    - Lógica y Programación Lógica
+    - logica y programacion logica
+    - Pensamiento Lógico y Discurso Argumentativo
+    - pensamiento logico y discurso argumentativo
+    - Sistemas Operativos
+    - sistemas operativos
+    - Cálculo IV
+    - calculo iv
+    - Matemáticas Discretas II
+    - matematicas discretas ii
+    - Métodos de Investigación en Entornos Digitales
+    - metodos de investigacion en entornos digitales
+    - Enfoques Teóricos de la Comunicación Política
+    - enfoques teoricos de la comunicacion politica
+    - Geometría
+    - geometria
+    - Bioética
+    - bioetica
+    - Animación Digital
+    - animacion digital
+    - Balance de Materia
+    - balance de materia
+    - Temas Selectos de Matemáticas Aplicadas I
+    - temas selectos de matematicas aplicadas i
+    - Fisiología Molecular
+    - fisiologia molecular
+    - Práctica Terminal I
+    - practica terminal i
+    - Bases de Datos
+    - bases de datos
+    - Inteligencia de Enjambre
+    - inteligencia de enjambre
+    - Diseño y Análisis de Experimentos
+    - diseño y analisis de experimentos
+    - Introducción al Pensamiento Matemático
+    - introduccion al pensamiento matematico
+    - Laboratorio de Ciencias I
+    - laboratorio de ciencias i
+    - Ciencia y Tecnología en la Cultura Contemporánea
+    - ciencia y tecnologia en la cultura contemporanea
+    - Desarrollo de Aplicaciones Web
+    - desarrollo de aplicaciones web
+    - Análisis Estratégico y Diseño de Sistemas en Comunicación Organizacional
+    - analisis estrategico y diseño de sistemas en comunicacion organizacional
+    - Opinión Pública y redes Sociales
+    - opinion publica y redes sociales
+    - Laboratorio de Diseño Integral I
+    - laboratorio de diseño integral i
+    - Análisis Matemático II
+    - analisis matematico ii
+    - Laboratorio de Microscopia
+    - laboratorio de microscopia
+    - Temas Selectos en Ingeniería Biológica II
+    - temas selectos en ingenieria biologica ii
+    - Relaciones Interorganizacionales y Redes de Innovación
+    - relaciones interorganizacionales y redes de innovacion
+    - Investigación en el Campo de la Comunicación
+    - investigacion en el campo de la comunicacion
+    - Análisis de Datos
+    - analisis de datos
+    - Computación Inalámbrica y Móvil
+    - computacion inalambrica y movil
+    - Diseño de Interfaz Digital
+    - diseño de interfaz digital
+    - Taller de Procesos y Tecnologías para la Producción de Modelos, Prototipos y Originales
+    - taller de procesos y tecnologias para la produccion de modelos, prototipos y originales
+    - Estadística II
+    - estadistica ii
+    - Evaluación de Proyectos
+    - evaluacion de proyectos
+    - Enfoques Teóricos de la comunicación de las Ciencias y Divulgación Cientifica
+    - enfoques teoricos de la comunicacion de las ciencias y divulgacion cientifica
+    - Historia y Cultura de la Computación
+    - historia y cultura de la computacion
+    - Métodos Estadísticos
+    - metodos estadisticos
+    - Laboratorio de Microbiología
+    - laboratorio de microbiologia
+    - Datos a Gran Escala
+    - datos a gran escala
+    - Bioinformática
+    - bioinformatica
+    - Simulación y Modelización
+    - simulacion y modelizacion
+    - Seminario Terminal II
+    - seminario terminal ii
+    - Programación para Móviles
+    - programacion para moviles
+    - Taller de Diseño e Instalación de Redes de Cómputo
+    - taller de diseño e instalacion de redes de computo
+    - Temas Selectos en Ciencias II
+    - temas selectos en ciencias ii
+    - Química Orgánica
+    - quimica organica
+    - Seminario en Ingeniería Ambiental
+    - seminario en ingenieria ambiental
+    - Posproducción Audiovisual
+    - posproduccion audiovisual
+    - Instituciones Económicas, Regulación y Desarrollo
+    - instituciones economicas, regulacion y desarrollo
+    - Ética de la Comunicación
+    - etica de la comunicacion
+    - Laboratorio de Ingeniería II
+    - laboratorio de ingenieria ii
+    - Toma de Decisiones y Evaluación de Políticas Públicas
+    - toma de decisiones y evaluacion de politicas publicas
+    - Ilustración
+    - ilustracion
+    - Temas Selectos en Biomedicina Molecular II
+    - temas selectos en biomedicina molecular ii
+    - Bioinformática Molecular
+    - bioinformatica molecular
+    - Proyecto Terminal III
+    - proyecto terminal iii
+    - Administración de Proyectos
+    - administracion de proyectos
+    - Visualización y Dispositivos Sensoriales
+    - visualizacion y dispositivos sensoriales
+    - Ingeniería de Pruebas
+    - ingenieria de pruebas
+    - Administración Financiera II
+    - administracion financiera ii
+    - Laboratorio de Comunicación en Medios Interactivos
+    - laboratorio de comunicacion en medios interactivos
+    - Cálculo Diferencial
+    - calculo diferencial
+    - Geopolítica y Geocultura de la Comunicación
+    - geopolitica y geocultura de la comunicacion
+    - Laboratorio de Diseño Integral de lnformación en los Espacios
+    - laboratorio de diseño integral de lnformacion en los espacios
+    - Optimización II
+    - optimizacion ii
+    - Introducción al Conocimiento de la Administración
+    - introduccion al conocimiento de la administracion
+    - Optativas Divisionales
+    - optativas divisionales
+    - Proyectos y Productos para la Divulgación Científica
+    - proyectos y productos para la divulgacion cientifica
+    - Química
+    - quimica
+    - Seminario de Comunicación, Diseño y Tecnologías de la Información
+    - seminario de comunicacion, diseño y tecnologias de la informacion
+    - Taller de Procesos y Tecnologías para la Reproducción Industrial
+    - taller de procesos y tecnologias para la reproduccion industrial
+    - Álgebra Moderna
+    - algebra moderna
+    - Teorias del Aprendizaje
+    - teorias del aprendizaje
+    - Sistemas Distribuidos
+    - sistemas distribuidos
+    - Temas Selectos en Computación III
+    - temas selectos en computacion iii
+    - Álgebra Computacional
+    - algebra computacional
+    - Cartel
+    - cartel
+    - Programación de Web Estático
+    - programacion de web estatico
+    - Ecuaciones Diferenciales
+    - ecuaciones diferenciales
+    - Psicología Política
+    - psicologia politica
+    - Métodos Matemáticos
+    - metodos matematicos
+    - Creatividad, Trabajo Grupal y Soluciónde Problemas
+    - creatividad, trabajo grupal y solucionde problemas
+    - Termodinámica
+    - termodinamica
+    - Coloides e Interfases
+    - coloides e interfases
+    - Laboratorio de Aplicaciones I
+    - laboratorio de aplicaciones i
+    - Muestreo
+    - muestreo
+    - Química III
+    - quimica iii
+    - Interacción Humano-Computadora
+    - interaccion humano-computadora
+    - Flujo de Fluidos
+    - flujo de fluidos
+    - Equilibrio y Cinética Química
+    - equilibrio y cinetica quimica
+    - Laboratorio de Ingeniería I
+    - laboratorio de ingenieria i
+    - Sistemas Biológicos
+    - sistemas biologicos
+    - Mecánica Cuántica
+    - mecanica cuantica
+    - Interfaces de Usuario
+    - interfaces de usuario
+    - Análisis Multivariado
+    - analisis multivariado
+    - Institucionalismo Sociológico y Organizacional
+    - institucionalismo sociologico y organizacional
+    - Estrategias en Comunicación Educativa
+    - estrategias en comunicacion educativa
+    - Estructura Molecular de Biomateriales
+    - estructura molecular de biomateriales
+    - Ingeniería Económica
+    - ingenieria economica
+    - Diseño Editorial
+    - diseño editorial
+    - Bioquímica II
+    - bioquimica ii
+    - Señalética
+    - señaletica
+    - Laboratorio Temático II
+    - laboratorio tematico ii
+    - Taller de Expresión Gráfica y Dibujo Técnico
+    - taller de expresion grafica y dibujo tecnico
+    - Diseño y Sociedad
+    - diseño y sociedad
+    - Escenografía
+    - escenografia
+    - Punto de Venta
+    - punto de venta
+    - Física General
+    - fisica general
+    - Introducción a la Termodinámica
+    - introduccion a la termodinamica
+    - Simulación Probabilística
+    - simulacion probabilistica
+    - Seminario de Tecnologías de la Información I
+    - seminario de tecnologias de la informacion i
+    - Temas Selectos en Bioquímica I
+    - temas selectos en bioquimica i
+    - Laboratorio de Comunicación Sonora
+    - laboratorio de comunicacion sonora
+    - Teorias de las Organizaciones
+    - teorias de las organizaciones
+    - Variable Compleja II
+    - variable compleja ii
+    - Operaciones Unitarias
+    - operaciones unitarias
+    - Seminario en Ingeniería en Alimentos
+    - seminario en ingenieria en alimentos
+    - Temas Selectos en Biología Molecular I
+    - temas selectos en biologia molecular i
+    - Derecho de la Información
+    - derecho de la informacion
+    - Programación Lineal
+    - programacion lineal
+    - Taller de Representación y Expresión por Medio del Dibujo y del Trazo Geométrico
+    - taller de representacion y expresion por medio del dibujo y del trazo geometrico
+    - Ergonomía e Interfase Humana
+    - ergonomia e interfase humana
+    - Taller de Literacidad Académica
+    - taller de literacidad academica
+    - Análisis del discurso Político
+    - analisis del discurso politico
+    - Bioquímica I
+    - bioquimica i
+    - Laboratorio Temático III
+    - laboratorio tematico iii
+    - Teorías de la Comunicación I
+    - teorias de la comunicacion i
+    - Seminario de Sistemas de Información II
+    - seminario de sistemas de informacion ii
+    - Teoría de Gráficas
+    - teoria de graficas
+    - Crecimiento y Desarrollo Económico
+    - crecimiento y desarrollo economico
+    - Seminario Terminal I
+    - seminario terminal i
+    - Técnicas Instrumentales Modernas
+    - tecnicas instrumentales modernas
+    - Envase y Embalaje
+    - envase y embalaje
+    - Temas Selectos en Biología Molecular II
+    - temas selectos en biologia molecular ii
+    - Fundamentos de Ingeniería de Software
+    - fundamentos de ingenieria de software
+    - Seminario de Integración II
+    - seminario de integracion ii
+    - Introducción a las Redes de Computadoras
+    - introduccion a las redes de computadoras
+    - Comercialización, Consumo y Comunicación I
+    - comercializacion, consumo y comunicacion i
+    - Introducción al Campo Profesional de la Comunicación
+    - introduccion al campo profesional de la comunicacion
+    - Programación Orientada a Objetos
+    - programacion orientada a objetos
+    - Laboratorio Temático I
+    - laboratorio tematico i
+    - Laboratorio de Diseño Integral de Sistemas Interactivos
+    - laboratorio de diseño integral de sistemas interactivos
+    - Introducción a la Biotecnología
+    - introduccion a la biotecnologia
+    - Diseño Institucional y Desarrollo Económico de México
+    - diseño institucional y desarrollo economico de mexico
+    - Procesos de Separación
+    - procesos de separacion
+    - Economía de los Ambientes Organizacionales
+    - economia de los ambientes organizacionales
+    - Seminario sobre Sustentabilidad
+    - seminario sobre sustentabilidad
+    - Álgebra Lineal I
+    - algebra lineal i
+    - Temas Selectos de Comunicación en Organizaciones
+    - temas selectos de comunicacion en organizaciones
+    - Dirección y Cuidado Editorial
+    - direccion y cuidado editorial
+    - Seminario de Tecnologías de la Información II
+    - seminario de tecnologias de la informacion ii
+    - Fundamentos de Teoría Administrativa
+    - fundamentos de teoria administrativa
+    - Introducción al Control de Calidad
+    - introduccion al control de calidad
+    - Estructura de Datos Lineales
+    - estructura de datos lineales
+    - Solución Numérica de EDP
+    - solucion numerica de edp
+    - Microcontroladores
+    - microcontroladores
+    - Álgebra Lineal Numérica
+    - algebra lineal numerica
+    - Geometría Computacional
+    - geometria computacional
+    - Ecuaciones Diferenciales Ordinarias no Lineales I
+    - ecuaciones diferenciales ordinarias no lineales i
+    - Taller de Ergonomía Física y Cognitiva
+    - taller de ergonomia fisica y cognitiva
+    - Gobierno y Gobernabilidad de las Organizaciones
+    - gobierno y gobernabilidad de las organizaciones
+    - Práctica Terminal II
+    - practica terminal ii
+    - Evolución
+    - evolucion
+    - Integración de Producto
+    - integracion de producto
+    - Álgebra Lineal II
+    - algebra lineal ii
+    - Tecnologías de la Información y la Comunicación en la Educación
+    - tecnologias de la informacion y la comunicacion en la educacion
+    - Fundamentos de Contabilidad
+    - fundamentos de contabilidad
+    - Introducción a la Experimentación
+    - introduccion a la experimentacion
+    - Análisis e Interpretación del Discurso Científico
+    - analisis e interpretacion del discurso cientifico
+    - Probabilidad II
+    - probabilidad ii
+    - Procesamiento de Imágenes
+    - procesamiento de imagenes
+    - Cálculo I
+    - calculo i
+    - Campos Clásicos
+    - campos clasicos
+    - Temas Selectos en Química II
+    - temas selectos en quimica ii
+    - Análisis I
+    - analisis i
+    - Introducción al Cálculo
+    - introduccion al calculo
+    - Diseño Tipográfico
+    - diseño tipografico
+    - Procesos Sociopolíticos Contemporáneos
+    - procesos sociopoliticos contemporaneos
+    - Organización del Conocimiento Científico, Comunidades y Estructuras
+    - organizacion del conocimiento cientifico, comunidades y estructuras
+    - Museografía
+    - museografia
+    - Física Clásica
+    - fisica clasica
+    - Lógica Matemática
+    - logica matematica
+    - Técnicas de Caracterización Molecular I
+    - tecnicas de caracterizacion molecular i
+    - Ingeniería de Manufactura
+    - ingenieria de manufactura
+    - Taller de Procesos y Tecnologías para el Manejo de Sistemas de Manufactura Asistidos por Computadora
+    - taller de procesos y tecnologias para el manejo de sistemas de manufactura asistidos por computadora
+    - Laboratorio de Comunicación Audiovisual I
+    - laboratorio de comunicacion audiovisual i
+    - Fundamentos de la Investigación Científica
+    - fundamentos de la investigacion cientifica
+    - Comportamiento Humano en las Organizaciones I
+    - comportamiento humano en las organizaciones i
+    - Estado y Derecho
+    - estado y derecho
+    - Seminario de Sistemas Inteligentes I
+    - seminario de sistemas inteligentes i
+    - Traductores
+    - traductores
+    - Teorías de la Comunicación II
+    - teorias de la comunicacion ii
+    - Laboratorio de Ciencias III
+    - laboratorio de ciencias iii
+    - Fisicoquímica
+    - fisicoquimica
+    - Economía, Conocimiento y Sociedad
+    - economia, conocimiento y sociedad
+    - Enfoques Teóricos de la comunicación en las Organizaciones
+    - enfoques teoricos de la comunicacion en las organizaciones
+    - Seguridad
+    - seguridad
+    - Análisis y Diseño Orientado a Objetos
+    - analisis y diseño orientado a objetos
+    - Problemas Contemporáneos del Diseño en la Cultura
+    - problemas contemporaneos del diseño en la cultura
+    - Taller de Programación y Diseño Web-estático
+    - taller de programacion y diseño web-estatico
+    - Materiales y Procesos de Producción
+    - materiales y procesos de produccion
+    - Comunicación, Información y Sistemas
+    - comunicacion, informacion y sistemas
+    - Física II
+    - fisica ii
+    - Cálculo Estocástico
+    - calculo estocastico
+    - Taller de Representación y Expresión Digital Bidimensional
+    - taller de representacion y expresion digital bidimensional

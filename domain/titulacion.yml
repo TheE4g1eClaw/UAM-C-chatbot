@@ -1,0 +1,92 @@
+version: "3.1"
+
+intents: 
+  - titulacion
+  - titulacion_paso_1
+  - titulacion_paso_2
+  - titulacion_paso_3
+  - titulacion_paso_4
+  - titulacion_paso_5
+  - titulacion_paso_6
+
+responses:
+  utter_titulacion/requisitos_titulo:
+  - text: "Para tramitar tu título necesitan los siguientes documentos:\n
+    - Pago de Título Profesional: Costos: $24.00 Mexicanos $120.00 Extranjeros.\n
+    - Acta de nacimiento original.\n
+    - Certificado de bachillerato original.\n
+    - Constancia de idioma.\n
+    - CURP.\n
+    - Constancia de liberación de Servicio Social.\n
+    Además se debió de haber tramitado el certificado total de estudios."
+
+  utter_titulacion/requisitos_certificado_total:
+    - text: "Para tramitar tu certificado total de estudios necesitas:\n
+    - Cubrir el 100% de los créditos de tu plan de estudios.\n
+    - 2 fotografías a color tamaño infantil en papel mate, con retoque y fondo blanco.\n
+    - Efectuar el pago de:\n
+      $8.60 por cada certificado solicitado, más $1.00 de la revisión de estudios para alumnado mexicano,\n
+      $43.00 por cada certificado solicitado, más $5.00 de la revisión de estudios para alumnado extranjero.\n
+    El pago se efectúa en la caja de la Unidad" 
+
+  utter_titulacion/tiempo_certificado_total:
+    - text: "El certificado total de estudios se te entregará en 10 días hábiles."
+
+  utter_titulacion/servicio_social:
+    - text: "Para tramitar el certificado total de estudios no es necesario haber liberado el Servicio Social, sólo requieres haber cubierto el 100% de créditos que exige tu plan de estudios.\n
+    Una vez se haya liberado el Servicio Social y se tenga el certificado total de estudios se puede tramitar el título profesional."
+
+  utter_titulacion/idioma:
+    - text: "Para tramitar el certificado total de estudios no es necesario contar con un certificado de idioma, sólo requieres haber cubierto el 100% de créditos que exige tu plan de estudios.\n
+    Para tramitar el título profesional se necesita una constancia de idioma de acuerdo a la carrera que se estudie. Los requisitos se pueden consultar en la página: https://www.cua.uam.mx/servicios/sistemas-escolares/guias-para-la-titulacion, en la sección \"Requisitos de idioma\"\n
+    La constancia es expedida por la Coordinación de Lenguas. Para mayor información se puede consultar en la página: https://www.cua.uam.mx/oferta-educativa/lenguas/formas-de-acreditacion/constancias-de-acreditacion"
+
+  utter_titulacion/modulo_egresados:
+    - text: "Al tramitar el certificado total de estudios se cambia el estado académico a egresado lo cuál habilita el Módulo de Egresados para el tramite de titulacion.\n
+    El módulo se accede a traves de la página: https://siae.uam.mx:8443/sae/egr/AERCWBEGM001.
+    La contraseña de acceso es la misma que se utiliza para el Módulo de Información Escolar.\n"
+  
+  utter_titulacion/titulo_tiempo:
+    - text: "El tiempo de entrega del título profesional es de 9 meses despúes de que se aprueba el expediente."
+
+  utter_titulacion/presencial:
+    - text: "Para recoger el título profesional se debe de acudir personalmente a la UAM.\n
+    Esto se debe a que se debe de firmar la entrega del título."
+
+  utter_titulacion/fotografias:
+    - text: "Para recibir el título se deben de entregar 3 fotografías que deben de cumplir con los siguientes requisitos:\n
+    - 4x5 centimetros\n
+    - A blanco y negro\n
+    - En papel mate\n
+    - Con retoque\n
+    En las fotos debes aparecer:
+    - Con ropa formal\n
+    - Con fondo blanco\n
+    - Debes aparecer a partir de los hombros\n
+    - Con orejas descubiertas\n
+    - Sin maquillaje, aretes, anteojos o insignias\n
+    - Sin barba o bigote\n"
+
+  utter_titulacion_paso_1:
+    - text: "El primer paso es tramiar el certificado total de estudios para obtener el estado académico de egresado y obtener acceso a el Módulo de Egresados.\n"
+
+  utter_titulacion_paso_2:
+    - text: "Una vez que se tiene acceso al Módulo de Egresados se puede tramitar el formato de pago ($24.00 Mexicanos y $120.00 Extranjeros.).\n"
+
+  utter_titulacion_paso_3:
+    - text: "Una vez realizado el pago, en el módulo de egresados es necesario corraborar y actualizar los datos personales.\n
+    Para esto, en el módulo de egresados se debe de seleccionar la opción \"Solicitud de título\""
+
+  utter_titulacion_paso_4:
+    - text: "Ahora se deben de digitalizar los documentos, subirlos a la plataforma y enviar el expediente"
+
+  utter_titulacion_paso_5:
+    - text: "Una vez que se haya enviado el expediente, aparecera el apartado de Seguimiento del trámite. En un inicio aparecerá como \"Enviado\"\n
+    Despúes de aproximadamente 15 días habiles cambiara a \"Valido\" o \"Rechazado\".\n
+    En caso de ser aprobado se puede tramitar el certificado de título en tramite. De lo contrario se debe de corregir el expediente y volver a enviarlo."
+
+  utter_titulacion_paso_6:
+    - text: "Una vez que el expediente es aprobado y pasaron aproximadamente 9 meses se publica en la página de Facebook CSE Cuajimalpa la información de la entrega de los títulos.\n
+    También se puede hacer una consulta al correo electrónico: titulos@cua.uam.mx. Una vez se confirme la disponibilidad del título se debe de agendar una cita.\n
+    Se debe presentarse con las fotografías el día, hora lugar señalados."
+

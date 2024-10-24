@@ -1,0 +1,73 @@
+version: "3.1"
+
+intents:
+  - servicio_fechas
+  - servicio_fechas_recuperacion
+  - proceso
+
+responses:
+  utter_instructivos:
+    - text: "Si tienes más dudas puedes consultar los instrctivos en la página de servicios escolares: https://www.cua.uam.mx/servicios/sistemas-escolares/guias-y-solicitudes\n
+    Estos instructivos se actualizan cada trimestre con las fechas y procedimientos necesarios para reinscribirte."
+
+  utter_advertencia_irregular:
+    - text: "Para asignar cupos a una UEA, se da prioridad de acuerdo al avance al plan de estudios, rendimiento acádemico del trimestre anterior y al estado del alumno (regular o irregular)."
+
+  utter_servicio_fechas/reinscripcion:
+    - text: "Se realizará el primer día de la semana de reinscripción según el calendario escolar vigente.
+    http://www.uam.mx/calendario/index.html"
+
+  utter_servicio_fechas/pago:
+    - text: "De la séptima a la onceava semana del trimestre lectivo. La fecha exacta se indica en la guía de Inscripción.\n"
+  
+  utter_servicio_fechas_recuperacion:
+    - text: "La fecha se indica en la guía de Inscripción a Evaluaciones de Recuperación en un horario de 12:00 a 23:59.\n
+    Es importante revisar la guía de inscripción a evaluaciones de recuperación debido a que se debe hacer el pago en la unidad con anterioridad."
+
+  utter_servicio_fechas/comprobante:
+    - text: "El comprobante de reinscripción indica las UEAs aprobadas. Se puede consultar desde el día indicado en la guía (aproximadamente 3 días despues de realizar la primera solicitud).\n
+    Este se consulta a través del Módulo de Información Escolar"
+
+  utter_servicio_fechas/baja:
+    - text: "La baja de UEAs se puede solicitar durante los dos primeros días de la primera semana y durante toda la quinta semana de clases."
+
+  utter_servicio_fechas/alta:
+    - text: "Si se necesita inscribir una U1EA después del proceso de reinscripción, puede haber una segunda oportunidad. Además durante el tercer día de la primera semana de clases se puede solicitar la inscripción de UEAs."
+
+  utter_servicio_fechas/calendario:
+    - text: "El calendario escolar se puede consultar en la página de la UAM: http://www.uam.mx/calendario/index.html"
+
+  utter_proceso/reinscripcion:
+    - text: "La reinscripción se realiza desde el Módulo de Información Escolar el día señalado en la guía.\n
+      En la opción Solicitud de Reinscripción te aparecerán las UEA obligatorias y optativas que se podran cursar en el trimestre."
+
+  utter_proceso/error_obligatorias:
+    - text: "Debes verificar si:\n
+    - No cubres el prerrequisito que exige tu plan de estudios (seriación, autorización , créditos).\n
+    - Agotaste las 2 oportunidades que tenías en evaluación globalpara cursarla.\n
+    - No esta programada en el trimestre.\n
+    - No cuentes con la autorización para inscribirla.\n
+    - Ya acreditaste dicha UEA.
+    De lo contrario debes contactarte a la Coordinación de Sistemas Escolares."
+
+  utter_proceso/cupo:
+    - text: "En el Módulo de Información Escolar en la opción del menú HORARIO/UEA, al ingresar la clave de la UEA te aparecerán todos los grupos abiertos con el cupo y alumnado inscrito.\n
+    De igual manera durante el proceso de selección de UEAs durante la reinscripción se muestra el cupo disponible."
+
+  utter_proceso/demanda:
+    - text: "Durante el proceso de reinscripción cada grupo tiene un botón de demanda. Si se selecciono el grupo, se mostrara la posición en la lista de espera.\n
+    Si la posición es menor que el cupo, lo más probable es que se autorice la UEA."
+
+  utter_proceso/alta_especial:
+    - text: "Se necesita contactar al Coordinador de la Licenciatura de la UEA que se desea tomar."
+
+  utter_proceso/recuperacion:
+    - text: "- Se debe de acudir a la unidad en el período que indica la fecha que se indica en la guía.\n
+    - En Servicios Escolares se debe de solictar el formato de recuperacion y se debe rellena.\n
+    - Se debe pagar el formato en la caja de la unidad\n
+    - Se debe de entregar el formato en la ventanilla de Servicios Escolares.\n
+    - En una fecha posterio se debe de hacer el registro en línea\n
+    - Finalmente se debe de comprobar la inscripción en el Módulo de Información Escolar."
+
+  utter_proceso/numero_recuperacion:
+    - text: "Se pueden solicitar hasta dos examenes de recuperación por trimestre."

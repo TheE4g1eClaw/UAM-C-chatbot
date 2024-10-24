@@ -1,0 +1,218 @@
+version: "3.1"
+
+nlu:
+- intent: titulacion/requisitos_titulo
+  examples: |
+    - que necesito para tramitar mi titulo
+    - si ya termine mis todas mi materias que necesito para mi titulo
+    - que se necesita para la titulacion
+    - que documentos necesito para mi titulo
+    - que documentos necesito para tramitar mi titulo
+    - que piden para tramitar mi titulo
+    - que piden para la titulacion
+    - que necesito para la titulacion
+    - cuales son los documentos que necesito para mi titulo
+    - cuales son los documentos que necesito para tramitar mi titulo
+    - cuales son los documentos se necesitan para la titulacion
+    - que requisitos se necesitan cumplir par iniciar el tramite de titulacion
+    - que requisitos se necesitan cumplir par iniciar el tramite de titulo
+    - que requisitos se necesitan cumplir par iniciar el tramite de titulacion
+    - que requisitos se necesitan cumplir par iniciar el tramite de titulo
+    - que hago al terminar de cursar todas las materias
+
+
+- intent: titulacion/requisitos_certificado_total
+  examples: |
+    - que necesito para obtener mi certificado total de estudios
+    - cuales son los requisitos para obtener mi certificado total de estudios
+    - que necesito para obtener mi certificado total
+    - que necesito para el primer certificado
+    - cuales son los requisitos para el certificado total
+    - que piden para tramitar el certificado total de estudios
+    - que piden para tramitar el certificado total
+    - si quiero mi certificado total que necesito
+    - si quiero mi certificado total que piden
+    - si ya aprobe todas las materias, hay algo que pueda empezar a hacer
+    - que necesito para tramitar el certificado total de estudios
+    - cuales son los requisitos para tramitar el certificado total de estudios
+    - que necesito para tramitar el certificado total
+    - como puedo tramitar un certificado de que ya aprobe todas las materias
+    - como puedo tramitar un certificado de que ya no debo materias
+
+- intent: titulacion/tiempo_certificado_total
+  examples: |
+    - en cuanto tiempo me entregan el certificado total de estudios
+    - en cuanto tiempo me entregan el certificado total
+    - en cuanto tiempo me entregan el certificado
+    - despues de tramitar mi certificado cuanto tiempo tarda en llegar
+    - cuanto tiempo me tardan en entregar el certificado total
+    - cuanto tiempo tardan en entregar el certificado total de estudios
+
+- intent: titulacion/servicio_social
+  examples: |
+    - es necesario hacer servicio social para tramitar mi titulo
+    - es necesario hacer servicio social para tramitar mi certificado total
+    - debi de terminar mi servicio social para tramitar mi titulo
+    - debi de terminar mi servicio social para tramitar mi certificado total
+    - cuando debi de terminar mi servicio social
+    - si ya casi termino mi servicio social puedo iniciar el proceso de titulacion
+
+- intent: titulacion/idioma
+  examples: |
+    - que constancia de idioma necesito para mi titulo
+    - que nivel de ingles necesito par titularme
+    - que nivel de ingles necesito para mi titulo
+    - que tipo de certificado de ingles necesito para mi titulo
+    - que tipo de certificado de ingles titularme
+    - que tipo de certificado de ingles necesito para mi titulo
+    - necesito tener un certificado de ingles para mi titulo
+    - necesito tener un certificado de ingles para iniciar mi tramite de titulacion
+    - es necesario acreditar el idioma para tramitar el certificado total de estudios
+
+- intent: titulacion/modulo_egresados
+  examples: |
+    - como entro al modulo de egresados
+    - como entro al modulo de egresados de la UAM
+    - cuando puedo entrar al modulo de egresados
+    - cual es la contraseña del modulo de egresados
+    - cual es la contraseña para entrar al modulo de egresados
+    - para que necesito tramitar el certificado total de estudios
+    - para que necesito tramitar el certificado total
+    - que pasa cuando mi estado escolar cambia a egresado
+
+- intent: titulacion/titulo_tiempo
+  examples: |
+    - cuanto tiempo tardan en entregarme el titulo
+    - cuanto tiempo dura el proceso de tramite del titulo
+
+- intent: titulacion/presencial
+  examples: |
+    - debo de ir a la UAM a recoger mi titulo
+    - puede alguien mas recoger mi titulo
+    - me pueden enviar mi titulo
+    - puedo recoger mi titulo en otra ciudad
+    - puedo descargar mi titulo
+    - alguien puede recoger mi titulo con una carta poder
+
+- intent: titulacion/fotografias
+  examples: |
+    - que tipo de fotografias necesito para mi titulo
+    - como deben de ser las fotografias para mi titulo
+    - que tamaño deben de tener las fotografias para mi titulo
+    - las fotografias para el titulo deben de ser a color
+    - debo de vestir formal para las fotografias del titulo
+    - que fondo deben de tener las fotografias para mi titulo
+    - que tipo de papel deben de ser las fotografias para mi titulo
+
+
+- intent: titulacion_paso_1
+  examples: |
+    - que es lo primero que debo de hacer para tramitar mi titulo
+    - que debo de hacer para tramitar mi titulo
+    - que hago una vez que tengo todos los documentos para mi titulo
+    - que debo de hacer ya que cumplo todos los requisitos para la titulacion
+    - como es el proceso de titulacion
+    - cual es el primer paso para tramitar mi titulo
+
+- intent: titulacion_paso_2
+  examples: |
+    - que es lo siguiente que debo de hacer para tramitar mi titulo
+    - que debo de hacer despues de tramitar mi certificado total de estudios
+    - ya tengo acceso al modulo de egresados, que debo de hacer
+    - que sigue despues de tener el certificado total de estudios
+    - que hago una vez que tengo el certificado total de estudios
+
+- intent: titulacion_paso_3
+  examples: |
+    - que hago una vez que pague el tramite de titulacion
+    - que sigue despues del pago del tramite de titulacion
+    - ya hice el pago del tramite de titulacion
+    - ya hice el pago del titulo
+
+- intent: titulacion_paso_4
+  examples: |
+    - que hago una vez que actualice mis datos personales
+    - que sigue despues de actualizar mis datos personales
+    - ya actualice mis datos personales
+    - ya actualice mis datos en el modulo de egresados
+    - que hago una vez que actualice mis datos en el modulo de egresados
+    - que sigue despues de actualizar mis datos en el modulo de egresados
+    - ya actualice mis datos en el modulo de egresados, que debo hacer
+    - ya actualice mis datos en el modulo de egresados, que sigue
+
+- intent: titulacion_paso_5
+  examples: |
+    - que hago una vez que subi mis documentos
+    - que sigue despues de subir mis documentos
+    - ya subi mis documentos
+    - ya subi mis documentos al modulo de egresados
+    - que hago una vez que subi mis documentos al modulo de egresados
+    - que sigue despues de subir mis documentos al modulo de egresados
+    - ya subi mis documentos al modulo de egresados, que debo hacer
+    - ya subi mis documentos al modulo de egresados, que sigue
+    - ya envie el expediente
+    - hay algo que deba hacer despues de enviar el expediente
+    - como se si se aprobaron mis documentos
+    - como se si se aprobo mi expediente
+    - como se si se aprobo mi tramite de titulacion
+
+- intent: titulacion_paso_6
+  examples: |
+    - que hago una vez que mi expediente fue aprobado
+    - que sigue despues de que mi expediente fue aprobado
+    - ya aprobaron mi expediente
+    - como recojo mi titulo
+    - ya paso el tiempo de entrega de mi titulo
+    - ya pasaron los 9 meses
+    - donde puedo saber si ya esta listo mi titulo
+    - donde recojo mi titulo
+    - como recojo mi titulo
+
+stories:
+- story: Pregunta sobre titulacion
+  steps:
+  - intent: titulacion
+  - action: utter_titulacion
+
+- story: Proceso titulacion
+  steps:
+  - intent: titulacion_paso_1
+  - action: utter_titulacion_paso_1
+  - intent: titulacion_paso_2
+  - action: utter_titulacion_paso_2
+  - intent: titulacion_paso_3
+  - action: utter_titulacion_paso_3
+  - intent: titulacion_paso_4
+  - action: utter_titulacion_paso_4
+  - intent: titulacion_paso_5
+  - action: utter_titulacion_paso_5
+  - intent: titulacion_paso_6
+  - action: utter_titulacion_paso_6
+
+- story: Proceso titulacion 2
+  steps:
+  - intent: titulacion_paso_1
+  - action: utter_titulacion_paso_1
+  - intent: siguiente
+  - action: utter_titulacion_paso_2
+  - intent: siguiente
+  - action: utter_titulacion_paso_3
+  - intent: siguiente
+  - action: utter_titulacion_paso_4
+  - intent: siguiente
+  - action: utter_titulacion_paso_5
+  - intent: siguiente
+  - action: utter_titulacion_paso_6
+
+- story: Proceso titulacion 3
+  steps:
+  - intent: titulacion_paso_1
+  - action: utter_titulacion_paso_1
+  - intent: siguiente
+  - action: utter_titulacion_paso_2
+  - intent: siguiente
+  - action: utter_titulacion_paso_3
+  - intent: titulacion_paso_5
+  - action: utter_titulacion_paso_5
+  - intent: siguiente
+  - action: utter_titulacion_paso_6

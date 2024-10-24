@@ -1,0 +1,81 @@
+version: "3.1"
+
+entities:
+  - career
+  - trimester
+  - uea
+  - clave
+
+slots:
+  career:
+    type: categorical
+    values:
+      - computacion
+      - diseño
+      - derecho
+      - economia
+      - comunicacion
+      - tecnologias
+      - administracion
+      - humanidades
+      - socioterritoriales
+      - biologia
+      - biologica
+      - matematicas
+    mappings:
+    - type: custom
+      intent: serializacion_uea
+      action: action_set_slot
+    - type: from_entity
+      not_intent:
+        - serializacion_uea
+        - info_uea
+      entity: career
+
+  trimester:
+    type: categorical
+    influence_conversation: false
+    values:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+    mappings:
+    - type: from_entity
+      entity: trimester
+
+  status:
+    type: bool
+    influence_conversation: true
+    mappings:
+    - type: from_intent
+      intent:
+        - alumno_regular
+        - give_info+alumno_regular
+      value: true
+    - type: from_intent
+      intent:
+        - alumno_irregular
+        - give_info+alumno_irregular
+        - servicio_fechas_recuperacion
+      value: false
+
+  uea:
+    type: text
+    mappings:
+    - type: custom
+      action: action_set_slot
+
+  clave:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: clave

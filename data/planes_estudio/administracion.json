@@ -1,0 +1,589 @@
+{
+    "name": "Administración",
+    "pagina": "https://dcsh.cua.uam.mx/administracion-licenciatura/presentacion-administracion/",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático",
+        "Taller de Literacidad Académica",
+        "Introducción al Conocimiento de la Administración",
+        "Seminario sobre Sustentabilidad"
+    ],
+    "divisional": [
+        "Taller de Interpretación y Argumentación",
+        "Procesos Sociopolíticos Contemporáneos",
+        "Metodología"
+    ],
+    "formacion_basica": [
+        "Matemáticas Discretas",
+        "Fundamentos de Teoría Administrativa",
+        "Probabilidad y Estadística",
+        "Comportamiento Humano en las Organizaciones I",
+        "Introducción a la Economía",
+        "Fundamentos de Contabilidad",
+        "Introducción al Sistema Jurídico",
+        "Modelación de Decisiones",
+        "Comportamiento Humano en las Organizaciones II",
+        "Economía de la Empresa",
+        "Fundamentos de Contabilidad de Costos",
+        "Seminario de Integración I",
+        "Gestión de Operaciones",
+        "Comercialización, Consumo y Comunicación I",
+        "Crecimiento y Desarrollo Económico",
+        "Administración Financiera I",
+        "Seminario de Integración II",
+        "Estado y Derecho",
+        "Comercialización, Consumo y Comunicación II",
+        "Institucionalismo Económico",
+        "Administración Financiera II",
+        "Seminario de Integración III"
+    ],
+    "formacion_profesional": [
+        "Derecho y Empresa",
+        "Gestión de Sistemas de Información y Comunicación",
+        "Institucionalismo Sociológico y Organizacional",
+        "Evaluación de Proyectos",
+        "Seminario de Integración IV",
+        "Análisis y Diseño de Sistemas Organizativos",
+        "Gobierno y Gobernabilidad de las Organizaciones",
+        "Institucionalismo Histórico y Jurídico",
+        "Metodología de Análisis y Diagnóstico de Instituciones",
+        "Seminario Terminal I",
+        "Seminario Terminal II",
+        "Práctica Terminal I",
+        "Práctica Terminal II",
+        "Optativas de Orientación",
+        "Optativas Divisionales e Interdivisionales",
+        "Optativas de Movilidad de Intercambio"
+    ],
+    "optativas": [
+        "Instituciones Económicas, Regulación y Desarrollo",
+        "Empresa, Organización Económica y Desempeño",
+        "Diseño Institucional y Desarrollo Económico de México",
+        "Gestión del Conocimiento y Aprendizaje Organizacional",
+        "Creatividad, Trabajo Grupal y Soluciónde Problemas",
+        "Relaciones Interorganizacionales y Redes de Innovación",
+        "Toma de Decisiones y Evaluación de Políticas Públicas",
+        "Auditoría y Rendición de Cuentas",
+        "Gestión Social y Participación Ciudadana"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000003",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Introducción al Conocimiento de la Administración": {
+            "clave": "4210000",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al conocimiento de la administracion"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Taller de Interpretación y Argumentación": {
+            "clave": "4210001",
+            "creditos": 9,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4000008"
+            ],
+            "nombre_normalizado": "taller de interpretacion y argumentacion"
+        },
+        "Procesos Sociopolíticos Contemporáneos": {
+            "clave": "4215112",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "procesos sociopoliticos contemporaneos"
+        },
+        "Metodología": {
+            "clave": "4211054",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "metodologia"
+        },
+        "Matemáticas Discretas": {
+            "clave": "4210010",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4000003"
+            ],
+            "nombre_normalizado": "matematicas discretas"
+        },
+        "Fundamentos de Teoría Administrativa": {
+            "clave": "4210011",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fundamentos de teoria administrativa"
+        },
+        "Probabilidad y Estadística": {
+            "clave": "4213052",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4210010"
+            ],
+            "nombre_normalizado": "probabilidad y estadistica"
+        },
+        "Comportamiento Humano en las Organizaciones I": {
+            "clave": "4210013",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "comportamiento humano en las organizaciones i"
+        },
+        "Introducción a la Economía": {
+            "clave": "4213050",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la economia"
+        },
+        "Fundamentos de Contabilidad": {
+            "clave": "4210015",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fundamentos de contabilidad"
+        },
+        "Introducción al Sistema Jurídico": {
+            "clave": "4210003",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al sistema juridico"
+        },
+        "Modelación de Decisiones": {
+            "clave": "4213055",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4213052"
+            ],
+            "nombre_normalizado": "modelacion de decisiones"
+        },
+        "Comportamiento Humano en las Organizaciones II": {
+            "clave": "4210018",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "comportamiento humano en las organizaciones ii"
+        },
+        "Economía de la Empresa": {
+            "clave": "4213053",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4213050"
+            ],
+            "nombre_normalizado": "economia de la empresa"
+        },
+        "Fundamentos de Contabilidad de Costos": {
+            "clave": "4210020",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4210015"
+            ],
+            "nombre_normalizado": "fundamentos de contabilidad de costos"
+        },
+        "Seminario de Integración I": {
+            "clave": "4213054",
+            "creditos": 6,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de integracion i"
+        },
+        "Gestión de Operaciones": {
+            "clave": "4210021",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4213055"
+            ],
+            "nombre_normalizado": "gestion de operaciones"
+        },
+        "Comercialización, Consumo y Comunicación I": {
+            "clave": "4210019",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "comercializacion, consumo y comunicacion i"
+        },
+        "Crecimiento y Desarrollo Económico": {
+            "clave": "4213058",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4213053"
+            ],
+            "nombre_normalizado": "crecimiento y desarrollo economico"
+        },
+        "Administración Financiera I": {
+            "clave": "4210023",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4210020"
+            ],
+            "nombre_normalizado": "administracion financiera i"
+        },
+        "Seminario de Integración II": {
+            "clave": "4213056",
+            "creditos": 6,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de integracion ii"
+        },
+        "Estado y Derecho": {
+            "clave": "4213051",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "estado y derecho"
+        },
+        "Comercialización, Consumo y Comunicación II": {
+            "clave": "4210022",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4210019"
+            ],
+            "nombre_normalizado": "comercializacion, consumo y comunicacion ii"
+        },
+        "Institucionalismo Económico": {
+            "clave": "4213057",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "institucionalismo economico"
+        },
+        "Administración Financiera II": {
+            "clave": "4210027",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": false,
+            "serializacion": [
+                "4210023"
+            ],
+            "nombre_normalizado": "administracion financiera ii"
+        },
+        "Seminario de Integración III": {
+            "clave": "4213060",
+            "creditos": 6,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de integracion iii"
+        },
+        "Derecho y Empresa": {
+            "clave": "4213059",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "derecho y empresa"
+        },
+        "Gestión de Sistemas de Información y Comunicación": {
+            "clave": "4213059",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "gestion de sistemas de informacion y comunicacion"
+        },
+        "Institucionalismo Sociológico y Organizacional": {
+            "clave": "4213063",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "institucionalismo sociologico y organizacional"
+        },
+        "Evaluación de Proyectos": {
+            "clave": "4213062",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "evaluacion de proyectos"
+        },
+        "Seminario de Integración IV": {
+            "clave": "4213064",
+            "creditos": 6,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de integracion iv"
+        },
+        "Análisis y Diseño de Sistemas Organizativos": {
+            "clave": "4213075",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "analisis y diseño de sistemas organizativos"
+        },
+        "Gobierno y Gobernabilidad de las Organizaciones": {
+            "clave": "4213071",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "gobierno y gobernabilidad de las organizaciones"
+        },
+        "Institucionalismo Histórico y Jurídico": {
+            "clave": "4213061",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "institucionalismo historico y juridico"
+        },
+        "Metodología de Análisis y Diagnóstico de Instituciones": {
+            "clave": "4210029",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4213062"
+            ],
+            "nombre_normalizado": "metodologia de analisis y diagnostico de instituciones"
+        },
+        "Seminario Terminal I": {
+            "clave": "4213076",
+            "creditos": 8,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario terminal i"
+        },
+        "Seminario Terminal II": {
+            "clave": "4213077",
+            "creditos": 8,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [
+                "4213076"
+            ],
+            "nombre_normalizado": "seminario terminal ii"
+        },
+        "Práctica Terminal I": {
+            "clave": "4213066",
+            "creditos": 6,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "practica terminal i"
+        },
+        "Práctica Terminal II": {
+            "clave": "4213067",
+            "creditos": 6,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [
+                "4213066"
+            ],
+            "nombre_normalizado": "practica terminal ii"
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Optativas Divisionales e Interdivisionales": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales e interdivisionales",
+            "trimestres": [
+                8,
+                10,
+                11
+            ]
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio"
+        },
+        "Instituciones Económicas, Regulación y Desarrollo": {
+            "clave": "4213072",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "instituciones economicas, regulacion y desarrollo",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Empresa, Organización Económica y Desempeño": {
+            "clave": "4213073",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4213072"
+            ],
+            "nombre_normalizado": "empresa, organizacion economica y desempeño",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Diseño Institucional y Desarrollo Económico de México": {
+            "clave": "4210043",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4213072"
+            ],
+            "nombre_normalizado": "diseño institucional y desarrollo economico de mexico",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Gestión del Conocimiento y Aprendizaje Organizacional": {
+            "clave": "4210044",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "gestion del conocimiento y aprendizaje organizacional",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Creatividad, Trabajo Grupal y Soluciónde Problemas": {
+            "clave": "4210045",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4210044"
+            ],
+            "nombre_normalizado": "creatividad, trabajo grupal y solucionde problemas",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Relaciones Interorganizacionales y Redes de Innovación": {
+            "clave": "4210046",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4210044 "
+            ],
+            "nombre_normalizado": "relaciones interorganizacionales y redes de innovacion",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Toma de Decisiones y Evaluación de Políticas Públicas": {
+            "clave": "4213068",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "toma de decisiones y evaluacion de politicas publicas",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Auditoría y Rendición de Cuentas": {
+            "clave": "4213069",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4213068"
+            ],
+            "nombre_normalizado": "auditoria y rendicion de cuentas",
+            "trimestres": [
+                11,
+                12
+            ]
+        },
+        "Gestión Social y Participación Ciudadana": {
+            "clave": "4210049",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4213068"
+            ],
+            "nombre_normalizado": "gestion social y participacion ciudadana",
+            "trimestres": [
+                11,
+                12
+            ]
+        }
+    }
+}

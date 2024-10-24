@@ -1,0 +1,165 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hola
+    - buenos dias
+    - buenas tardes
+    - buenas noches
+    - hello
+
+- intent: goodbye
+  examples: |
+    - bye
+    - adios
+    - chao
+    - hasta luego
+    - hasta la vista
+    - que te vaya bien
+    - hasta pronto
+
+- intent: affirm
+  examples: |
+    - si
+    - correcto
+    - claro
+    - por supuesto
+    - obvio
+    - por supuesto que si
+    - afirmativo
+    - exacto
+    - yes
+    - yup
+    - yeah
+    - yep
+    - de acuerdo
+    - hecho
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - nope
+    - nunca
+    - jamas
+    - negativo
+    - incorrecto
+    - falso
+
+- intent: mood_help
+  examples: |
+    - necesito ayuda
+    - quiero ayuda
+    - necesito asistencia
+    - necesito informacion
+    - necesito ayuda con algo
+    - necesito ayuda con mi carrera
+
+- intent: mood_ok
+  examples: |
+    - estoy bien
+    - estoy ok
+    - estoy bien gracias
+    - no necesito ayuda
+    - no necesito nada
+
+- intent: bot_challenge
+  examples: |
+    - eres un bot?
+    - eres un robot?
+    - eres humano?
+    - eres una persona?
+    - eres real?
+
+- intent: siguiente
+  examples: |
+    - siguiente
+    - que sigue
+    - siguiente paso
+    - que hago despues
+    - ya hiciste eso
+    - y despues
+
+- intent: give_info
+  examples: |
+    - estudio la carrera de [ingenieria en computacion](career)
+    - estudio [diseño](career)
+    - estoy estudiando [derecho](career)
+    - me encuentro en la carrera de [economía](career)
+    - estudio en la licenciatura de [humanidades](career)
+    - estoy en el [primer]{"entity": "trimester", "value": "1"} trimestre
+    - me encuentro en el trimestre [ii]{"entity": "trimester", "value": "2"}
+    - estoy en el trimestre [3]{"entity": "trimester", "value": "3"}
+    - me encuentro en el trimestre [iv]{"entity": "trimester", "value": "4"}
+    - estoy en el [quinto]{"entity": "trimester", "value": "5"} trimestre
+    - me encuentro en el [6to]{"entity": "trimester", "value": "6"} trimestre
+    - estudio el [onceavo]{"entity": "trimester", "value": "11"} trimestre
+    - llevo [dos]{"entity": "trimester", "value": "2"} trimestres en la carrera
+    - estoy en el [7mo]{"entity": "trimester", "value": "7"} trimestre
+    - estoy estudiando el [1er]{"entity": "trimester", "value": "1"} trimestre
+    - estudio el [1er]{"entity": "trimester", "value": "1"} trimestre de [ingenieria en computacion](career)
+    - estoy en el trimestre [9]{"entity": "trimester", "value": "9"} de [diseño](career)
+    - estudio [socioterritoriales](career) y estoy en el [3er]{"entity": "trimester", "value": "3"} trimestre
+    - estoy en el [segundo]{"entity": "trimester", "value": "2"} trimestre de [biologia molecular](career)
+    - estoy en el [tercer]{"entity": "trimester", "value": "3"}
+    - estudio el [cuarto]{"entity": "trimester", "value": "4"} trimestre de mi carrera
+    - estoy en el [5to]{"entity": "trimester", "value": "5"}
+    - estudio el [6to]{"entity": "trimester", "value": "6"}
+    - estoy en el [7mo]{"entity": "trimester", "value": "7"}
+    - me encuentro en el [8vo]{"entity": "trimester", "value": "8"}
+    - estudio el [3er]{"entity": "trimester", "value": "3"} trimestre de [matematicas](career)
+    - estudio la carrera de [computacion](career) y estoy en el [onceavo]{"entity": "trimester", "value": "11"} trimestre
+    - hola. estudio [diseño](career) y estoy en el [1er]{"entity": "trimester", "value": "1"} trimestre
+    - hola. estudio [derecho](career)
+    - buenos dias. estudio [economia](career)
+    - buenas tardes. estudio [comunicacion](career)
+
+- intent: alumno_regular
+  examples: |
+    - soy alumno regular
+    - soy regular
+    - soy un alumno regular
+    - no debo materias
+    - estoy al corriente con mis ueas
+
+- intent: alumno_irregular
+  examples: |
+    - soy alumno irregular
+    - soy irregular
+    - soy un alumno irregular
+    - debo materias
+    - tengo materias pendientes
+    - voy atrasado
+
+- intent: give_info+alumno_regular
+  examples: |
+    - estudio [diseño](career) y soy alumno regular
+    - estudio [derecho](career) y soy regular
+    - estudio [economia](career) y no debo materias
+    - estoy en la carrera de [ingenieria biologica](career) en el [2do]{"entity": "trimester", "value": "2"} trimestre y no debo materias
+    - no debo materias, estudio la carrera de [comunicacion](career) y estoy en el [3er]{"entity": "trimester", "value": "3"} trimestre
+    - soy alumno regular, estudio [tecnologias](career) y estoy en el [4to]{"entity": "trimester", "value": "4"} trimestre
+    - me encuentro en el [5to]{"entity": "trimester", "value": "5"} trimestre de [administracion](career) y soy regular
+    - estudio [humanidades](career) y no debo materias, estoy en el [6to]{"entity": "trimester", "value": "6"} trimestre
+    - soy alumno regular, estudio [socioterritoriales](career) y estoy en el [7mo]{"entity": "trimester", "value": "7"} trimestre
+
+- intent: give_info+alumno_irregular
+  examples: |
+    - estudio [diseño](career) y soy alumno irregular
+    - estudio [derecho](career) y soy irregular
+    - estudio [economia](career) y debo materias
+    - estudio [ingenieria biologica](career) y debo materias, estoy en el [2do]{"entity": "trimester", "value": "2"} trimestre
+    - estudio [comunicacion](career) y debo materias, estoy en el [3er]{"entity": "trimester", "value": "3"} trimestre
+    - estudio [tecnologias](career) y debo materias, estoy en el [4to]{"entity": "trimester", "value": "4"} trimestre
+    - estudio [administracion](career) y debo materias, estoy en el [5to]{"entity": "trimester", "value": "5"} trimestre
+    - estudio [humanidades](career) y debo materias, estoy en el [6to]{"entity": "trimester", "value": "6"} trimestre
+    - estudio [socioterritoriales](career) y debo materias, estoy en el [7mo]{"entity": "trimester", "value": "7"} trimestre
+
+- intent: confirm_career
+  examples: |
+    - que carrera estudio?
+    - que carrera estoy estudiando?
+    - en que carrera estoy?
+    - en que carrarea me encuentro?

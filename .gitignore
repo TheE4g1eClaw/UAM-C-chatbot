@@ -1,0 +1,5 @@
+# Ignorar los modelos entrenados
+models/
+
+# Ignorar cache de rasa
+.rasa/

@@ -1,0 +1,71 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_help
+  - mood_ok
+  - bot_challenge
+  - give_info
+  - confirm_career
+  - info_requirements_degree
+  - info_ueas_per_level
+  - info_uea_per_trimester
+  - alumno_regular
+  - alumno_irregular
+  - give_info+alumno_regular
+  - give_info+alumno_irregular
+  - serializacion_uea
+  - optativas_carrera
+  - info_uea
+  - pagina_carrera
+  - plan_estudios
+
+responses:
+  utter_greet:
+  - text: "Hola,  ¿en qué te puedo ayudar?"
+
+  utter_info:
+  - text: "Aqui hay información que te puede ayudar:\nhttps://www.cua.uam.mx/"
+
+  utter_did_that_help:
+  - text: "¿Fue de utilidad?"
+
+  utter_happy:
+  - text: "Bien, ¡qué tengas un buen día!"
+
+  utter_goodbye:
+  - text: "Adiós"
+
+  utter_iamabot:
+  - text: "Soy un bot"
+
+  utter_alumno_regular:
+  - text: "¡Qué bien! ¿En qué puedo ayudarte?"
+
+  utter_alumno_irregular:
+  - text: "¿En qué puedo ayudarte?"
+
+  utter_default:
+  - text: "Lo siento, no entendí. ¿Puedes repetirlo?"
+
+  utter_plan_estudios:
+  - text: "El plan de estudios de todas las carreras y el programa de estudios de cada UEA se puede encontrar en la página: https://www.uam.mx/licenciaturas/licenciaturas_por_unidad.html"
+
+actions:
+  - action_say_career
+  - action_say_ueas_per_level
+  - action_say_requirements
+  - action_say_uea_per_trimester
+  - action_uea_para_movilidad
+  - action_say_serializacion
+  - action_set_uea
+  - action_say_optativas
+  - action_say_info_uea
+  - action_say_pagina
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,730 @@
+{
+    "name": "Ciencias de la Comunicación",
+    "pagina": "http://dccd.cua.uam.mx/Licenciatura_en_Ciencias_de_la_Comunicacion",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático",
+        "Seminario sobre Sustentabilidad",
+        "Taller de Literacidad Académica",
+        "Introducción al Campo Profesional de la Comunicación"
+    ],
+    "divisional": [],
+    "formacion_basica": [
+        "Historia y Comunicación",
+        "Pensamiento Lógico y Discurso Argumentativo",
+        "Géneros de Medios Informativos",
+        "Taller de Fotografía",
+        "Teorías de la Comunicación I",
+        "Guion",
+        "Laboratorio de Comunicación Visual",
+        "Seminario de Comunicación, Diseño y Tecnologías de la Información",
+        "Fundamentos de la Investigación Científica",
+        "Procesos Cognitivos, Representación y Cultura",
+        "Teorías de la Comunicación II",
+        "Laboratorio de Comunicación Sonora",
+        "Metodologías Cuantitativas",
+        "Metodologías Cuantitativas",
+        "Teorías de la Comunicacion III",
+        "Taller de Análisis de Mensajes",
+        "Laboratorio de Comunicación Audiovisual I",
+        "Metodologías Cualitativas",
+        "Fundamentos de Programación Estructurada",
+        "Ética de la Comunicación",
+        "Laboratorio de Comunicación Audiovisual II"
+    ],
+    "formacion_profesional": [
+        "Información, Organización y Redes Institucionales",
+        "Derecho de la Información",
+        "Métodos de Investigación en Entornos Digitales",
+        "Laboratorio de Comunicación en Lenguajes Multimedia",
+        "Economía, Conocimiento y Sociedad",
+        "Investigación en el Campo de la Comunicación",
+        "Geopolítica y Geocultura de la Comunicación",
+        "Laboratorio de Comunicación en Medios Interactivos",
+        "Taller de Proyectos Profesionales de la Comunicación",
+        "Comunicación en Entornos Digitales",
+        "Optativas de Orientación",
+        "Optativas Divisionales e Interdivisionales",
+        "Optativas de Movilidad de Intercambio",
+        "Proyecto Terminal I",
+        "Proyecto Terminal II"
+    ],
+    "optativas": [
+        "Enfoques Teóricos de la comunicación en las Organizaciones",
+        "Teorias de las Organizaciones",
+        "Culturas Organizacionales",
+        "Economía de los Ambientes Organizacionales",
+        "Análisis Estratégico y Diseño de Sistemas en Comunicación Organizacional",
+        "Temas Selectos de Comunicación en Organizaciones",
+        "Enfoques Teóricos de la Comunicación Educativa",
+        "Teorias del Aprendizaje",
+        "Tecnologías de la Información y la Comunicación en la Educación",
+        "Diseño de Ambientes de Aprendizaje",
+        "Los medios de comunicación en la Enseñanza",
+        "Estrategias en Comunicación Educativa",
+        "Enfoques Teóricos de la comunicación de las Ciencias y Divulgación Cientifica",
+        "Ciencia y Tecnología en la Cultura Contemporánea",
+        "Organización del Conocimiento Científico, Comunidades y Estructuras",
+        "Análisis e Interpretación del Discurso Científico",
+        "Didáctica y Estrategias para la Divulgación Científica",
+        "Proyectos y Productos para la Divulgación Científica",
+        "Enfoques Teóricos de la Comunicación Política",
+        "Psicología Política",
+        "El campo de la Comunicación Política: Medios, Actores Sociales y Políticos",
+        "Opinión Pública y redes Sociales",
+        "Análisis del discurso Político",
+        "Diseño de Estrategias de Comunicación Política"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000005",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Introducción al Campo Profesional de la Comunicación": {
+            "clave": "4501000",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al campo profesional de la comunicacion"
+        },
+        "Historia y Comunicación": {
+            "clave": "4501001",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "historia y comunicacion"
+        },
+        "Pensamiento Lógico y Discurso Argumentativo": {
+            "clave": "4501002",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "pensamiento logico y discurso argumentativo"
+        },
+        "Géneros de Medios Informativos": {
+            "clave": "4502090",
+            "creditos": 9,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "generos de medios informativos"
+        },
+        "Taller de Fotografía": {
+            "clave": "4502091",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de fotografia"
+        },
+        "Teorías de la Comunicación I": {
+            "clave": "4501005",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "teorias de la comunicacion i"
+        },
+        "Guion": {
+            "clave": "4502092",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "guion"
+        },
+        "Laboratorio de Comunicación Visual": {
+            "clave": "4502093",
+            "creditos": 9,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de comunicacion visual"
+        },
+        "Seminario de Comunicación, Diseño y Tecnologías de la Información": {
+            "clave": "4502001",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de comunicacion, diseño y tecnologias de la informacion"
+        },
+        "Fundamentos de la Investigación Científica": {
+            "clave": "4501006",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fundamentos de la investigacion cientifica"
+        },
+        "Procesos Cognitivos, Representación y Cultura": {
+            "clave": "4501015",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "procesos cognitivos, representacion y cultura"
+        },
+        "Teorías de la Comunicación II": {
+            "clave": "4501009",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "4501005"
+            ],
+            "nombre_normalizado": "teorias de la comunicacion ii"
+        },
+        "Laboratorio de Comunicación Sonora": {
+            "clave": "4502094",
+            "creditos": 12,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de comunicacion sonora"
+        },
+        "Metodologías Cuantitativas": {
+            "clave": "4212015",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "metodologias cuantitativas"
+        },
+        "Teorías de la Comunicacion III": {
+            "clave": "4502095",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4501009"
+            ],
+            "nombre_normalizado": "teorias de la comunicacion iii"
+        },
+        "Taller de Análisis de Mensajes": {
+            "clave": "4502096",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de analisis de mensajes"
+        },
+        "Laboratorio de Comunicación Audiovisual I": {
+            "clave": "4502097",
+            "creditos": 12,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "4502091"
+            ],
+            "nombre_normalizado": "laboratorio de comunicacion audiovisual i"
+        },
+        "Metodologías Cualitativas": {
+            "clave": "4212017",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "metodologias cualitativas"
+        },
+        "Fundamentos de Programación Estructurada": {
+            "clave": "4501007",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fundamentos de programacion estructurada"
+        },
+        "Ética de la Comunicación": {
+            "clave": "4501023",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "etica de la comunicacion"
+        },
+        "Laboratorio de Comunicación Audiovisual II": {
+            "clave": "4502098",
+            "creditos": 12,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "4502094",
+                "4502097"
+            ],
+            "nombre_normalizado": "laboratorio de comunicacion audiovisual ii"
+        },
+        "Información, Organización y Redes Institucionales": {
+            "clave": "4501018",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "informacion, organizacion y redes institucionales"
+        },
+        "Derecho de la Información": {
+            "clave": "4501019",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "derecho de la informacion"
+        },
+        "Métodos de Investigación en Entornos Digitales": {
+            "clave": "4502099",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "metodos de investigacion en entornos digitales"
+        },
+        "Laboratorio de Comunicación en Lenguajes Multimedia": {
+            "clave": "4502100",
+            "creditos": 12,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de comunicacion en lenguajes multimedia"
+        },
+        "Economía, Conocimiento y Sociedad": {
+            "clave": "4502101",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "economia, conocimiento y sociedad"
+        },
+        "Investigación en el Campo de la Comunicación": {
+            "clave": "4502102",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "investigacion en el campo de la comunicacion"
+        },
+        "Geopolítica y Geocultura de la Comunicación": {
+            "clave": "4501024",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "geopolitica y geocultura de la comunicacion"
+        },
+        "Laboratorio de Comunicación en Medios Interactivos": {
+            "clave": "4502103",
+            "creditos": 12,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "4502100"
+            ],
+            "nombre_normalizado": "laboratorio de comunicacion en medios interactivos"
+        },
+        "Taller de Proyectos Profesionales de la Comunicación": {
+            "clave": "94502104",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de proyectos profesionales de la comunicacion"
+        },
+        "Comunicación en Entornos Digitales": {
+            "clave": "4502105",
+            "creditos": 8,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "comunicacion en entornos digitales"
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Optativas Divisionales e Interdivisionales": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales e interdivisionales",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio"
+        },
+        "Proyecto Terminal I": {
+            "clave": "4501026",
+            "creditos": 12,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "4212015",
+                "4212017"
+            ],
+            "nombre_normalizado": "proyecto terminal i"
+        },
+        "Proyecto Terminal II": {
+            "clave": "4501027",
+            "creditos": 12,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [
+                "4501026"
+            ],
+            "nombre_normalizado": "proyecto terminal ii"
+        },
+        "Enfoques Teóricos de la comunicación en las Organizaciones": {
+            "clave": "4502117",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "enfoques teoricos de la comunicacion en las organizaciones",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Teorias de las Organizaciones": {
+            "clave": "4501030",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "teorias de las organizaciones",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Culturas Organizacionales": {
+            "clave": "4501031",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "culturas organizacionales",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Economía de los Ambientes Organizacionales": {
+            "clave": "4501032",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "economia de los ambientes organizacionales",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis Estratégico y Diseño de Sistemas en Comunicación Organizacional": {
+            "clave": "4501033",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis estrategico y diseño de sistemas en comunicacion organizacional",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Temas Selectos de Comunicación en Organizaciones": {
+            "clave": "4501035",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "temas selectos de comunicacion en organizaciones",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Enfoques Teóricos de la Comunicación Educativa": {
+            "clave": "4502106",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "enfoques teoricos de la comunicacion educativa",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Teorias del Aprendizaje": {
+            "clave": "4502107",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "teorias del aprendizaje",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Tecnologías de la Información y la Comunicación en la Educación": {
+            "clave": "4502108",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "tecnologias de la informacion y la comunicacion en la educacion",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Diseño de Ambientes de Aprendizaje": {
+            "clave": "4502109",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño de ambientes de aprendizaje",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Los medios de comunicación en la Enseñanza": {
+            "clave": "4502110",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "los medios de comunicacion en la enseñanza",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Estrategias en Comunicación Educativa": {
+            "clave": "4502111",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "estrategias en comunicacion educativa",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Enfoques Teóricos de la comunicación de las Ciencias y Divulgación Cientifica": {
+            "clave": "4502118",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "enfoques teoricos de la comunicacion de las ciencias y divulgacion cientifica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Ciencia y Tecnología en la Cultura Contemporánea": {
+            "clave": "4501043",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ciencia y tecnologia en la cultura contemporanea",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Organización del Conocimiento Científico, Comunidades y Estructuras": {
+            "clave": "4501044",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "organizacion del conocimiento cientifico, comunidades y estructuras",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis e Interpretación del Discurso Científico": {
+            "clave": "4501045",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis e interpretacion del discurso cientifico",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Didáctica y Estrategias para la Divulgación Científica": {
+            "clave": "4501046",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "didactica y estrategias para la divulgacion cientifica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Proyectos y Productos para la Divulgación Científica": {
+            "clave": "4501047",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "proyectos y productos para la divulgacion cientifica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Enfoques Teóricos de la Comunicación Política": {
+            "clave": "4502112",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "enfoques teoricos de la comunicacion politica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Psicología Política": {
+            "clave": "4502113",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "psicologia politica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "El campo de la Comunicación Política: Medios, Actores Sociales y Políticos": {
+            "clave": "4502114",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "el campo de la comunicacion politica: medios, actores sociales y politicos",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Opinión Pública y redes Sociales": {
+            "clave": "4502115",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "opinion publica y redes sociales",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Análisis del discurso Político": {
+            "clave": "4502116",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "analisis del discurso politico",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        },
+        "Diseño de Estrategias de Comunicación Política": {
+            "clave": "4501054",
+            "creditos": 8,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño de estrategias de comunicacion politica",
+            "trimestres": [
+                9,
+                11,
+                12
+            ]
+        }
+    }
+}

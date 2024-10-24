@@ -1,0 +1,808 @@
+{
+    "name": "Diseño",
+    "pagina": "http://dccd.cua.uam.mx/Licenciatura_en_Diseno",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático",
+        "Seminario sobre Sustentabilidad",
+        "Taller de Literacidad Académica",
+        "Taller de Lenguajes para el Diseño"
+    ],
+    "divisional": [],
+    "formacion_basica": [
+        "Laboratorio Básico de Diseño Bi y Tridimensional",
+        "Fundamentos de Programación Estructurada",
+        "Introducción a la Historia del Arte Universal",
+        "Taller de Representación y Expresión por Medio del Dibujo y del Trazo Geométrico",
+        "Taller de Imagen y Comunicación Visual",
+        "Seminario de Comunicación, Diseño y Tecnologías de la Información",
+        "Introducción a la Historia del Arte en México",
+        "Laboratorio de Diseño Integral I",
+        "Introducción a la Historia del Diseño",
+        "Taller de Expresión Gráfica y Dibujo Técnico",
+        "Taller de Ergonomía Física y Cognitiva",
+        "Laboratorio de Diseño Integral II",
+        "Diseño y Sociedad",
+        "Taller de Representación y Expresión Digital Bidimensional",
+        "Taller de Procesos y Tecnologías para la Producción de Modelos, Prototipos y Originales",
+        "Laboratorio de Diseño Integral III"
+    ],
+    "formacion_profesional": [
+        "Teorías y Métodos del Diseño",
+        "Taller de Representación y Expresión Digital Tridimensional",
+        "Taller de Representación y Expresión Digital Tridimensional",
+        "Taller de Procesos y Tecnologías para la Reproducción Industrial",
+        "Laboratorio de Diseño Integral de Sistemas de la Información",
+        "Problemas Contemporáneos del Diseño en la Cultura",
+        "Taller de Animación Digital",
+        "Taller de Procesos y Tecnologías para el Manejo de Sistemas de Manufactura Asistidos por Computadora",
+        "Laboratorio de Diseño Integral de lnformación en los Espacios",
+        "Comunicación, Información y Sistemas",
+        "Gestión del Diseño y Fundamentación de Proyectos",
+        "Taller de Programación y Diseño Web-estático",
+        "Laboratorio de Diseño Integral de Sistemas Interactivos",
+        "Optativas de Orientación",
+        "Optativas Divisionales e Interdivisionales",
+        "Optativas de Movilidad de Intercambio",
+        "Proyecto Terminal I",
+        "Proyecto Terminal II",
+        "Proyecto Terminal III"
+    ],
+    "optativas": [
+        "Diseño de Materiales Interactivos y Página Web",
+        "Diseño de Interfaz Digital",
+        "Modelado 3D",
+        "Hipertexto e Hipermedios",
+        "Infografía",
+        "Dirección y Cuidado Editorial",
+        "Lenguaje Cinematográfico",
+        "Taller de Guión",
+        "Principios de Animación",
+        "Animación Digital",
+        "Producción",
+        "Posproducción Audiovisual",
+        "Escenografía",
+        "Museografía",
+        "Espacios de Exhibición",
+        "Señalética",
+        "Integración de Producto",
+        "Ingeniería de Manufactura",
+        "Materiales y Procesos de Producción",
+        "Envase y Embalaje",
+        "Control de Calidad",
+        "Punto de Venta",
+        "Ergonomía e Interfase Humana",
+        "Procesos de Automatización",
+        "Simulación y Modelización",
+        "Diseño Tipográfico",
+        "Diseño Editorial",
+        "Ilustración",
+        "Ilustración Digital",
+        "Cartel"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000005",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Taller de Lenguajes para el Diseño": {
+            "clave": "450255",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de lenguajes para el diseño"
+        },
+        "Laboratorio Básico de Diseño Bi y Tridimensional": {
+            "clave": "450005",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio basico de diseño bi y tridimensional"
+        },
+        "Fundamentos de Programación Estructurada": {
+            "clave": "450107",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fundamentos de programacion estructurada"
+        },
+        "Introducción a la Historia del Arte Universal": {
+            "clave": "450256",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la historia del arte universal"
+        },
+        "Taller de Representación y Expresión por Medio del Dibujo y del Trazo Geométrico": {
+            "clave": "450257",
+            "creditos": 8,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de representacion y expresion por medio del dibujo y del trazo geometrico"
+        },
+        "Taller de Imagen y Comunicación Visual": {
+            "clave": "450103",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de imagen y comunicacion visual"
+        },
+        "Seminario de Comunicación, Diseño y Tecnologías de la Información": {
+            "clave": "450201",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario de comunicacion, diseño y tecnologias de la informacion"
+        },
+        "Introducción a la Historia del Arte en México": {
+            "clave": "450258",
+            "creditos": 8,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la historia del arte en mexico"
+        },
+        "Laboratorio de Diseño Integral I": {
+            "clave": "450259",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4000005"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral i"
+        },
+        "Introducción a la Historia del Diseño": {
+            "clave": "450260",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la historia del diseño"
+        },
+        "Taller de Expresión Gráfica y Dibujo Técnico": {
+            "clave": "450261",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de expresion grafica y dibujo tecnico"
+        },
+        "Taller de Ergonomía Física y Cognitiva": {
+            "clave": "450262",
+            "creditos": 8,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de ergonomia fisica y cognitiva"
+        },
+        "Laboratorio de Diseño Integral II": {
+            "clave": "450263",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [
+                "450259"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral ii"
+        },
+        "Diseño y Sociedad": {
+            "clave": "450264",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "diseño y sociedad"
+        },
+        "Taller de Representación y Expresión Digital Bidimensional": {
+            "clave": "450265",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de representacion y expresion digital bidimensional"
+        },
+        "Taller de Procesos y Tecnologías para la Producción de Modelos, Prototipos y Originales": {
+            "clave": "450266",
+            "creditos": 8,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de procesos y tecnologias para la produccion de modelos, prototipos y originales"
+        },
+        "Laboratorio de Diseño Integral III": {
+            "clave": "450267",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [
+                "450263"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral iii"
+        },
+        "Teorías y Métodos del Diseño": {
+            "clave": "450268",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "teorias y metodos del diseño"
+        },
+        "Taller de Representación y Expresión Digital Tridimensional": {
+            "clave": "450269",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de representacion y expresion digital tridimensional"
+        },
+        "Taller de Procesos y Tecnologías para la Reproducción Industrial": {
+            "clave": "450270",
+            "creditos": 8,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de procesos y tecnologias para la reproduccion industrial"
+        },
+        "Laboratorio de Diseño Integral de Sistemas de la Información": {
+            "clave": "450271",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [
+                "450267"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral de sistemas de la informacion"
+        },
+        "Problemas Contemporáneos del Diseño en la Cultura": {
+            "clave": "450272",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "problemas contemporaneos del diseño en la cultura"
+        },
+        "Taller de Animación Digital": {
+            "clave": "450273",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de animacion digital"
+        },
+        "Taller de Procesos y Tecnologías para el Manejo de Sistemas de Manufactura Asistidos por Computadora": {
+            "clave": "450274",
+            "creditos": 8,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de procesos y tecnologias para el manejo de sistemas de manufactura asistidos por computadora"
+        },
+        "Laboratorio de Diseño Integral de lnformación en los Espacios": {
+            "clave": "450275",
+            "creditos": 10,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "450267"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral de lnformacion en los espacios"
+        },
+        "Comunicación, Información y Sistemas": {
+            "clave": "450114",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "comunicacion, informacion y sistemas"
+        },
+        "Gestión del Diseño y Fundamentación de Proyectos": {
+            "clave": "450276",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "gestion del diseño y fundamentacion de proyectos"
+        },
+        "Taller de Programación y Diseño Web-estático": {
+            "clave": "450277",
+            "creditos": 8,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de programacion y diseño web-estatico"
+        },
+        "Laboratorio de Diseño Integral de Sistemas Interactivos": {
+            "clave": "450278",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [
+                "450267"
+            ],
+            "nombre_normalizado": "laboratorio de diseño integral de sistemas interactivos"
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Optativas Divisionales e Interdivisionales": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales e interdivisionales",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 0,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio",
+            "trimestres": [
+                9
+            ]
+        },
+        "Proyecto Terminal I": {
+            "clave": "450033",
+            "creditos": 15,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [
+                "450278"
+            ],
+            "nombre_normalizado": "proyecto terminal i"
+        },
+        "Proyecto Terminal II": {
+            "clave": "450034",
+            "creditos": 15,
+            "trimestre": 11,
+            "obligatoria": true,
+            "serializacion": [
+                "450033"
+            ],
+            "nombre_normalizado": "proyecto terminal ii"
+        },
+        "Proyecto Terminal III": {
+            "clave": "450035",
+            "creditos": 15,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "proyecto terminal iii"
+        },
+        "Diseño de Materiales Interactivos y Página Web": {
+            "clave": "450040",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño de materiales interactivos y pagina web",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Diseño de Interfaz Digital": {
+            "clave": "450041",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño de interfaz digital",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Modelado 3D": {
+            "clave": "450042",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "modelado 3d",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Hipertexto e Hipermedios": {
+            "clave": "450043",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "hipertexto e hipermedios",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Infografía": {
+            "clave": "450044",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "infografia",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Dirección y Cuidado Editorial": {
+            "clave": "450045",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "direccion y cuidado editorial",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Lenguaje Cinematográfico": {
+            "clave": "450046",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "lenguaje cinematografico",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Taller de Guión": {
+            "clave": "450047",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "taller de guion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Principios de Animación": {
+            "clave": "450048",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "principios de animacion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Animación Digital": {
+            "clave": "450049",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "animacion digital",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Producción": {
+            "clave": "450050",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "produccion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Posproducción Audiovisual": {
+            "clave": "450051",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "posproduccion audiovisual",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Escenografía": {
+            "clave": "450052",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "escenografia",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Museografía": {
+            "clave": "450053",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "museografia",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Espacios de Exhibición": {
+            "clave": "450054",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "espacios de exhibicion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Señalética": {
+            "clave": "450055",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "señaletica",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Integración de Producto": {
+            "clave": "450056",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "integracion de producto",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Ingeniería de Manufactura": {
+            "clave": "450057",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ingenieria de manufactura",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Materiales y Procesos de Producción": {
+            "clave": "450058",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "materiales y procesos de produccion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Envase y Embalaje": {
+            "clave": "450059",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "envase y embalaje",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Control de Calidad": {
+            "clave": "450060",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "control de calidad",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Punto de Venta": {
+            "clave": "450061",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "punto de venta",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Ergonomía e Interfase Humana": {
+            "clave": "450062",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ergonomia e interfase humana",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Procesos de Automatización": {
+            "clave": "450063",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "procesos de automatizacion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Simulación y Modelización": {
+            "clave": "450064",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "simulacion y modelizacion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Diseño Tipográfico": {
+            "clave": "450065",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño tipografico",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Diseño Editorial": {
+            "clave": "450066",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "diseño editorial",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Ilustración": {
+            "clave": "450068",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ilustracion",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Ilustración Digital": {
+            "clave": "450069",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "ilustracion digital",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        },
+        "Cartel": {
+            "clave": "450071",
+            "creditos": 6,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [],
+            "nombre_normalizado": "cartel",
+            "trimestres": [
+                10,
+                11,
+                12
+            ]
+        }
+    }
+}

@@ -1,0 +1,793 @@
+{
+    "name": "Biología Molecular",
+    "pagina": "https://dcni.cua.uam.mx/oferta/biologia",
+    "formacion_inicial": [
+        "Introducción al Pensamiento Matemático",
+        "Taller de Literacidad Académica",
+        "Seminario sobre Sustentabilidad",
+        "Taller de Matemáticas",
+        "Biología Celular"
+    ],
+    "divisional": [],
+    "formacion_basica": [
+        "Bioquímica I",
+        "Introducción a la Experimentación",
+        "Química",
+        "Cálculo Diferencial",
+        "Bioquímica II",
+        "Física General",
+        "Química II",
+        "Cálculo Integral",
+        "Introducción a la Biología Molecular",
+        "Introducción a la Termodinámica",
+        "Química III",
+        "Laboratorio de Ciencia Básica",
+        "Laboratorio de Bioquímica",
+        "Biología Celular II",
+        "Microbiología General",
+        "Equilibrio y Cinética Química",
+        "Métodos Estadísticos",
+        "Fisiología General",
+        "Técnicas de Caracterización Molecular I",
+        "Genética",
+        "Introducción a la Farmacología",
+        "Cómputo Científico",
+        "Técnicas de Biología Molecular I",
+        "Fisiología Molecular",
+        "Optativas Divisionales e Interdivisionales"
+    ],
+    "formacion_profesional": [
+        "Bioinformática Molecular",
+        "Inmunología",
+        "Técnicas de Biología Molecular II",
+        "Farmacología Molecular",
+        "Evolución",
+        "Bioética",
+        "Técnicas de Biología Molecular III",
+        "Nanociencia",
+        "Proyecto Terminal I",
+        "Proyecto Terminal II",
+        "Optativas de Orientación",
+        "Optativas de Movilidad de Intercambio"
+    ],
+    "optativas": [
+        "Técnicas de Caracterización Molecular II",
+        "Cultivo Celular",
+        "Laboratorio de Microbiología",
+        "Laboratorio de Microscopia",
+        "Técnicas en Biología Molecular IV",
+        "Temas Selectos en Química I",
+        "Temas Selectos en Química II",
+        "Temas Selectos en Bioquímica I",
+        "Temas Selectos en Bioquímica II",
+        "Temas Selectos en Biología Molecular I",
+        "Temas Selectos en Biología Molecular II",
+        "Genética II",
+        "Introducción a la Biotecnología",
+        "Temas Selectos en Biomedicina Molecular I",
+        "Temas Selectos en Biomedicina Molecular II",
+        "Farmacología II",
+        "Análisis de Datos",
+        "Introducción al Control de Calidad",
+        "Comunicación de la Ciencia",
+        "Proyecto Terminal III"
+    ],
+    "requisitos": [],
+    "ueas": {
+        "Introducción al Pensamiento Matemático": {
+            "clave": "4000001",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion al pensamiento matematico"
+        },
+        "Taller de Literacidad Académica": {
+            "clave": "4000008",
+            "creditos": 9,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de literacidad academica"
+        },
+        "Seminario sobre Sustentabilidad": {
+            "clave": "4000007",
+            "creditos": 6,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "seminario sobre sustentabilidad"
+        },
+        "Taller de Matemáticas": {
+            "clave": "4600000",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "taller de matematicas"
+        },
+        "Biología Celular": {
+            "clave": "4603087",
+            "creditos": 8,
+            "trimestre": 1,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "biologia celular"
+        },
+        "Bioquímica I": {
+            "clave": "4602007",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "bioquimica i"
+        },
+        "Introducción a la Experimentación": {
+            "clave": "4603074",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la experimentacion"
+        },
+        "Química": {
+            "clave": "602010",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "quimica"
+        },
+        "Cálculo Diferencial": {
+            "clave": "4602001",
+            "creditos": 10,
+            "trimestre": 2,
+            "obligatoria": true,
+            "serializacion": [
+                "4600000"
+            ],
+            "nombre_normalizado": "calculo diferencial"
+        },
+        "Bioquímica II": {
+            "clave": "4602008",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "bioquimica ii"
+        },
+        "Física General": {
+            "clave": "4603001",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fisica general"
+        },
+        "Química II": {
+            "clave": "4603048",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "quimica ii"
+        },
+        "Cálculo Integral": {
+            "clave": "4603047",
+            "creditos": 10,
+            "trimestre": 3,
+            "obligatoria": true,
+            "serializacion": [
+                "4602001"
+            ],
+            "nombre_normalizado": "calculo integral"
+        },
+        "Introducción a la Biología Molecular": {
+            "clave": "4603006",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la biologia molecular"
+        },
+        "Introducción a la Termodinámica": {
+            "clave": "4603003",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la termodinamica"
+        },
+        "Química III": {
+            "clave": "4603049",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "quimica iii"
+        },
+        "Laboratorio de Ciencia Básica": {
+            "clave": "4603075",
+            "creditos": 10,
+            "trimestre": 4,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de ciencia basica"
+        },
+        "Laboratorio de Bioquímica": {
+            "clave": "4603076",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "laboratorio de bioquimica"
+        },
+        "Biología Celular II": {
+            "clave": "4603088",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "biologia celular ii"
+        },
+        "Microbiología General": {
+            "clave": "4603009",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "microbiologia general"
+        },
+        "Equilibrio y Cinética Química": {
+            "clave": "4603010",
+            "creditos": 10,
+            "trimestre": 5,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "equilibrio y cinetica quimica"
+        },
+        "Métodos Estadísticos": {
+            "clave": "4603008",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "metodos estadisticos"
+        },
+        "Fisiología General": {
+            "clave": "4603011",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "fisiologia general"
+        },
+        "Técnicas de Caracterización Molecular I": {
+            "clave": "4603077",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "tecnicas de caracterizacion molecular i"
+        },
+        "Genética": {
+            "clave": "4603013",
+            "creditos": 10,
+            "trimestre": 6,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "genetica"
+        },
+        "Introducción a la Farmacología": {
+            "clave": "4603016",
+            "creditos": 10,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "introduccion a la farmacologia"
+        },
+        "Cómputo Científico": {
+            "clave": "4603014",
+            "creditos": 10,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "computo cientifico"
+        },
+        "Técnicas de Biología Molecular I": {
+            "clave": "4603078",
+            "creditos": 10,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "tecnicas de biologia molecular i"
+        },
+        "Fisiología Molecular": {
+            "clave": "4603019",
+            "creditos": 10,
+            "trimestre": 7,
+            "obligatoria": true,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "fisiologia molecular"
+        },
+        "Bioinformática Molecular": {
+            "clave": "4603018",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "bioinformatica molecular"
+        },
+        "Inmunología": {
+            "clave": "4603021",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "inmunologia"
+        },
+        "Técnicas de Biología Molecular II": {
+            "clave": "4603079",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "tecnicas de biologia molecular ii"
+        },
+        "Farmacología Molecular": {
+            "clave": "4603022",
+            "creditos": 10,
+            "trimestre": 8,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "farmacologia molecular"
+        },
+        "Evolución": {
+            "clave": "4603015",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "evolucion"
+        },
+        "Bioética": {
+            "clave": "4603081",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "bioetica"
+        },
+        "Técnicas de Biología Molecular III": {
+            "clave": "4603080",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "tecnicas de biologia molecular iii"
+        },
+        "Nanociencia": {
+            "clave": "4603029",
+            "creditos": 10,
+            "trimestre": 9,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "nanociencia"
+        },
+        "Proyecto Terminal I": {
+            "clave": "4603082",
+            "creditos": 10,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000",
+                "4603047"
+            ],
+            "nombre_normalizado": "proyecto terminal i"
+        },
+        "Proyecto Terminal II": {
+            "clave": "4603083",
+            "creditos": 10,
+            "trimestre": 10,
+            "obligatoria": true,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000",
+                "4603047"
+            ],
+            "nombre_normalizado": "proyecto terminal ii"
+        },
+        "Optativas Divisionales e Interdivisionales": {
+            "clave": "",
+            "creditos": 20,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas divisionales e interdivisionales",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Optativas de Orientación": {
+            "clave": "",
+            "creditos": 40,
+            "trimestre": 0,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de orientacion",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Optativas de Movilidad de Intercambio": {
+            "clave": "",
+            "creditos": 36,
+            "trimestre": 12,
+            "obligatoria": true,
+            "serializacion": [],
+            "nombre_normalizado": "optativas de movilidad de intercambio"
+        },
+        "Técnicas de Caracterización Molecular II": {
+            "clave": "4603052",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "tecnicas de caracterizacion molecular ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Cultivo Celular": {
+            "clave": "4603053",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "cultivo celular",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Laboratorio de Microbiología": {
+            "clave": "4603054",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "laboratorio de microbiologia",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Laboratorio de Microscopia": {
+            "clave": "4603055",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "laboratorio de microscopia",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Técnicas en Biología Molecular IV": {
+            "clave": "4603056",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "tecnicas en biologia molecular iv",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Química I": {
+            "clave": "4603057",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en quimica i",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Química II": {
+            "clave": "4603058",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en quimica ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Bioquímica I": {
+            "clave": "4603059",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en bioquimica i",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Bioquímica II": {
+            "clave": "4603060",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en bioquimica ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Biología Molecular I": {
+            "clave": "4603061",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en biologia molecular i",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Biología Molecular II": {
+            "clave": "4603062",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en biologia molecular ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Genética II": {
+            "clave": "4603063",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "genetica ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Introducción a la Biotecnología": {
+            "clave": "4603064",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "introduccion a la biotecnologia",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Biomedicina Molecular I": {
+            "clave": "4603065",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en biomedicina molecular i",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Temas Selectos en Biomedicina Molecular II": {
+            "clave": "4603066",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "temas selectos en biomedicina molecular ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Farmacología II": {
+            "clave": "4603067",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "farmacologia ii",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Análisis de Datos": {
+            "clave": "4603068",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "analisis de datos",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Introducción al Control de Calidad": {
+            "clave": "4603069",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "introduccion al control de calidad",
+            "trimestres": [
+                10,
+                11
+            ]
+        },
+        "Comunicación de la Ciencia": {
+            "clave": "4603070",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000"
+            ],
+            "nombre_normalizado": "comunicacion de la ciencia",
+            "trimestres": [
+                10
+            ]
+        },
+        "Proyecto Terminal III": {
+            "clave": "4603086",
+            "creditos": 10,
+            "trimestre": 0,
+            "obligatoria": false,
+            "serializacion": [
+                "4000007",
+                "4000001",
+                "4000008",
+                "4600000",
+                "4603047"
+            ],
+            "nombre_normalizado": "proyecto terminal iii",
+            "trimestres": [
+                10,
+                11
+            ]
+        }
+    }
+}
