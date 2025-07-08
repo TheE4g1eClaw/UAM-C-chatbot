@@ -7,25 +7,6 @@
 
 # This is a simple example for a custom action which utters "Hello World!"
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
-
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -37,6 +18,7 @@ from json import load
 import os
 
 ruta = "./data/planes_estudio/"
+JSON_EXT = ".json"
 carreras = [os.path.splitext(x)[0] for x in os.listdir(ruta)]
 
 class ActionSayCareer(Action):
@@ -49,9 +31,9 @@ class ActionSayCareer(Action):
 
         career = tracker.get_slot("career")
         if not career:
-            dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias.")
         elif career in carreras:
-            plan = load(open(ruta + career + ".json", encoding="utf-8"))
+            plan = load(open(ruta + career + JSON_EXT, encoding="utf-8"))
+            dispatcher.utter_message(f"Estudias la carrera de {plan['name']}.")
             dispatcher.utter_message(f"Estudias la carrera de {plan['name']}.")
         else:
             dispatcher.utter_message(f"Indicaste que estudias la carrera de {career}, pero no tengo información sobre ella.")
@@ -79,11 +61,11 @@ class ActionSayUEAPerLevel(Action):
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
         elif not level:
             dispatcher.utter_message("Lo siento, no tengo información sobre en que nivel estás")
-        else:
-            plan = load(open(ruta + career + ".json", encoding="utf-8"))
+            plan = load(open(ruta + career + JSON_EXT, encoding="utf-8"))
             mensaje = f"En el nivel de {self.niveles[level]} tienes las siguientes UEA's:\n"
             for uea in plan[level]:
                 mensaje += f"- {uea}\n"
+            dispatcher.utter_message(mensaje)
             dispatcher.utter_message(mensaje)
         return []
     
@@ -98,11 +80,11 @@ class ActionSayRequirements(Action):
         career = tracker.get_slot("career")
         if not career:
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
-        else:
-            plan = load(open("data/planes_estudio/" + career + ".json", encoding="utf-8"))
+            plan = load(open("data/planes_estudio/" + career + JSON_EXT, encoding="utf-8"))
             mensaje = f"Para poder cursar la carrera de {career} necesitas los siguientes requisitos:\n"
             for req in plan["requisitos"]:
                 mensaje += f"- {req}\n"
+            dispatcher.utter_message(mensaje)
             dispatcher.utter_message(mensaje)
         return []
     
@@ -121,8 +103,7 @@ class ActionSayUEAPerTrimester(Action):
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
         elif not trimester:
             dispatcher.utter_message("Lo siento, no tengo información sobre en que trimestre estás")
-        else:
-            plan = load(open("data/planes_estudio/" + career + ".json", encoding="utf-8"))
+            plan = load(open("data/planes_estudio/" + career + JSON_EXT, encoding="utf-8"))
             mensaje = f"En el trimestre {trimester} tienes las siguientes UEA's:\n"
             trimester = int(trimester)
             for uea in plan["ueas"]:
@@ -133,6 +114,7 @@ class ActionSayUEAPerTrimester(Action):
                 if plan["ueas"][uea]["trimestre"] == 0:
                     if trimester in plan["ueas"][uea]["trimestres"] and plan["ueas"][uea]["obligatoria"] == True:
                         mensaje += f"- {uea}\n"
+            dispatcher.utter_message(mensaje)
             dispatcher.utter_message(mensaje)
         return []
     
@@ -151,13 +133,13 @@ class ActionUEAParaMovilidad(Action):
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
         elif not career in ["administracion", "dercho", "diseño", "comunicacion", "computacion"]:
             dispatcher.utter_message("No hay materias necesarias para iniciar la movilidad")
-        else:
-            plan = load(open("data/planes_estudio/" + career + ".json", encoding="utf-8"))
+            plan = load(open("data/planes_estudio/" + career + JSON_EXT, encoding="utf-8"))
             mensaje = "Para poder iniciar la movilidad necesitas cursar las siguientes UEA's:\n"
             niveles = ["formacion_inicial", "divisional", "formacion_basica"]
             for nivel in niveles:
                 for uea in plan[nivel]:
                     mensaje += f"- {uea}\n"
+            dispatcher.utter_message(mensaje)
             dispatcher.utter_message(mensaje)
             
 class ActionSayOptativas(Action):
@@ -171,11 +153,11 @@ class ActionSayOptativas(Action):
         
         if not career:
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
-        else:
-            plan = load(open(ruta + career + ".json", encoding="utf-8"))
+            plan = load(open(ruta + career + JSON_EXT, encoding="utf-8"))
             mensaje = f"Las UEA's optativas de orientación que ofrece la carrera de {career} que puedes cursar son:\n"
             for uea in plan["optativas"]:
                 mensaje += f"- {uea}\n"
+            dispatcher.utter_message(mensaje)
             dispatcher.utter_message(mensaje)
             
         return []
@@ -198,8 +180,7 @@ class ActionSaySerializacion(Action):
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
         elif not uea and not clave:
             dispatcher.utter_message("Lo siento, no tengo información sobre que UEA deseas serializar")
-        else:
-            plan = load(open("data/planes_estudio/" + career + ".json", encoding="utf-8"))
+            plan = load(open("data/planes_estudio/" + career + JSON_EXT, encoding="utf-8"))
             existe = False
             
             if clave:
@@ -212,6 +193,7 @@ class ActionSaySerializacion(Action):
                     if normalizado in normalizar_nombre(ueaAux):
                         uea = ueaAux
                         existe = True
+                        break
                         break
                     
             eventos = [SlotSet("uea", None), SlotSet("clave", None)]
@@ -308,9 +290,9 @@ class ActionSayPagina(Action):
             dispatcher.utter_message("Lo siento, no tengo información sobre que carrera estudias")
         elif not career in carreras:
             dispatcher.utter_message("Lo siento, no tengo información sobre la carrera " + career)
-        else:
-            plan = load(open("data/planes_estudio/" + career + ".json", encoding="utf-8"))
+            plan = load(open("data/planes_estudio/" + career + JSON_EXT, encoding="utf-8"))
             dispatcher.utter_message(f"La página de la carrera de {plan['name']} es {plan['pagina']}")
+        return []
         return []
                 
 class ActionSetSlot(Action):
